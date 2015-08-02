@@ -20,6 +20,6 @@
     "eslint":         "1.0.0"
   },
   "scripts": {
-    "test": "eslint index.js"
+    "test": "eslint *.js"
   }
 }

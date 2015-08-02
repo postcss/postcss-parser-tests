@@ -2,11 +2,12 @@ var gutil = require('gulp-util');
 var load  = require('load-resources');
 
 var error = function (url, message) {
-    gutil.log(gutil.colors.red('Fail on ' + url));
-    done(new gutil.PluginError('integration', {
+    var err = new gutil.PluginError('integration', {
         showStack: false,
         message:   message
-    }));
+    });
+    err.url = url;
+    return err;
 };
 
 var sites = [
@@ -33,15 +34,15 @@ module.exports = function (parser, extra, done) {
     });
 
     load(urls, '.css', function (css, url, last) {
+        var result;
         try {
-            let result = parser(css).toResult({ map: { annotation: false } });
+            result = parser(css).toResult({ map: { annotation: false } });
         } catch (e) {
-            return error(url, 'Parsing error: ' + e.message + e.stack);
+            return done(error(url, 'Parsing error: ' + e.message + e.stack));
         }
 
         if ( result.css !== css ) {
-            error(url, 'Output is not equal input');
-            return;
+            return done(error(url, 'Output is not equal input'));
         }
 
         let domain = url.match(/https?:\/\/[^\/]+/)[0];
