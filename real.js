@@ -17,6 +17,11 @@ var sites = [
 ];
 
 module.exports = function (parser, extra, done) {
+    if ( !done ) {
+        done  = extra;
+        extra = undefined;
+    }
+
     var lastDomain = false;
     var caseIndex  = -1;
 
