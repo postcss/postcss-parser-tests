@@ -1,5 +1,6 @@
 var gutil = require('gulp-util');
 var load  = require('load-resources');
+var path  = require('path');
 
 var error = function (url, message) {
     var err = new gutil.PluginError('integration', {
@@ -45,7 +46,7 @@ module.exports = function (parser, extra, done) {
             return done(error(url, 'Output is not equal input'));
         }
 
-        let domain = url.match(/https?:\/\/[^\/]+/)[0];
+        var domain = url.match(/https?:\/\/[^\/]+/)[0];
         if ( domain !== lastDomain ) {
             lastDomain = domain;
             caseIndex += 1;
@@ -55,4 +56,4 @@ module.exports = function (parser, extra, done) {
 
         if ( last ) done();
     });
-});
+};

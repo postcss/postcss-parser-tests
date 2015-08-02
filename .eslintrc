@@ -36,7 +36,6 @@
     "no-sparse-arrays":            [2],
     "no-throw-literal":            [2],
     "no-return-assign":            [2],
-    "object-shorthand":            [2],
     "no-const-assign":             [2],
     "no-class-assign":             [2],
     "no-extra-parens":             [2],
@@ -116,7 +115,6 @@
     "eqeqeq":                      [2],
     "no-new":                      [2],
     "quotes":                      [2, "single"],
-    "no-var":                      [2],
     "indent":                      [2, 4],
     "semi":                        [2, "always"],
     "yoda":                        [2, "never"]
