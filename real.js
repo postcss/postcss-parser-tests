@@ -18,10 +18,10 @@ var sites = [
     ['Habrahabr', 'http://habrahabr.ru/']
 ];
 
-module.exports = function (parser, extra, done) {
-    if ( !done ) {
-        done  = extra;
-        extra = undefined;
+module.exports = function (done, extra, callback) {
+    if ( !callback ) {
+        callback = extra;
+        extra    = undefined;
     }
 
     var lastDomain = false;
@@ -37,7 +37,7 @@ module.exports = function (parser, extra, done) {
     load(urls, '.css', function (css, url, last) {
         var result;
         try {
-            result = parser(css).toResult({ map: { annotation: false } });
+            result = callback(css);
         } catch (e) {
             return done(error(url, 'Parsing error: ' + e.message + e.stack));
         }
