@@ -1,3 +1,5 @@
 module.exports = {
-    real: require('./real')
+    jsonify: require('./jsonify'),
+    each:    require('./cases'),
+    real:    require('./real')
 };
