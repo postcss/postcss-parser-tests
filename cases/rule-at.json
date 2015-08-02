@@ -24,7 +24,6 @@
                             "column": 5
                         },
                         "input": {
-                            "safe": false,
                             "file": "rule-at.css",
                             "from": "rule-at.css"
                         },
@@ -48,7 +47,6 @@
                             "column": 5
                         },
                         "input": {
-                            "safe": false,
                             "file": "rule-at.css",
                             "from": "rule-at.css"
                         },
@@ -76,7 +74,6 @@
                             "column": 5
                         },
                         "input": {
-                            "safe": false,
                             "file": "rule-at.css",
                             "from": "rule-at.css"
                         },
@@ -99,7 +96,6 @@
                                     "column": 9
                                 },
                                 "input": {
-                                    "safe": false,
                                     "file": "rule-at.css",
                                     "from": "rule-at.css"
                                 },
@@ -121,7 +117,6 @@
                     "column": 1
                 },
                 "input": {
-                    "safe": false,
                     "file": "rule-at.css",
                     "from": "rule-at.css"
                 },
@@ -136,7 +131,6 @@
     "type": "root",
     "source": {
         "input": {
-            "safe": false,
             "file": "rule-at.css",
             "from": "rule-at.css"
         }

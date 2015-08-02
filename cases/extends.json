@@ -16,7 +16,6 @@
                     "column": 1
                 },
                 "input": {
-                    "safe": false,
                     "file": "extends.css",
                     "from": "extends.css"
                 },
@@ -48,7 +47,6 @@
                             "column": 5
                         },
                         "input": {
-                            "safe": false,
                             "file": "extends.css",
                             "from": "extends.css"
                         },
@@ -80,7 +78,6 @@
                                     "column": 9
                                 },
                                 "input": {
-                                    "safe": false,
                                     "file": "extends.css",
                                     "from": "extends.css"
                                 },
@@ -100,7 +97,6 @@
                             "column": 5
                         },
                         "input": {
-                            "safe": false,
                             "file": "extends.css",
                             "from": "extends.css"
                         },
@@ -119,7 +115,6 @@
                     "column": 1
                 },
                 "input": {
-                    "safe": false,
                     "file": "extends.css",
                     "from": "extends.css"
                 },
@@ -134,7 +129,6 @@
     "type": "root",
     "source": {
         "input": {
-            "safe": false,
             "file": "extends.css",
             "from": "extends.css"
         }

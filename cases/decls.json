@@ -24,7 +24,6 @@
                             "column": 5
                         },
                         "input": {
-                            "safe": false,
                             "file": "decls.css",
                             "from": "decls.css"
                         },
@@ -48,7 +47,6 @@
                             "column": 5
                         },
                         "input": {
-                            "safe": false,
                             "file": "decls.css",
                             "from": "decls.css"
                         },
@@ -68,7 +66,6 @@
                     "column": 1
                 },
                 "input": {
-                    "safe": false,
                     "file": "decls.css",
                     "from": "decls.css"
                 },
@@ -83,7 +80,6 @@
     "type": "root",
     "source": {
         "input": {
-            "safe": false,
             "file": "decls.css",
             "from": "decls.css"
         }
