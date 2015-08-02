@@ -4,16 +4,16 @@
      title="Philosopher’s stone, logo of PostCSS"
      src="http://postcss.github.io/postcss/logo.svg">
 
-Base tests for every [PostCSS] CSS parser. It contains:
+This project contains base tests for every [PostCSS] CSS parser, including:
 
-* 24 CSS files to test extreme cases of CSS spec.
+* 24 CSS files to test extreme cases of the CSS specification.
 * Integration tests by popular website styles to test CSS from the wild.
 
-This tests also will be useful any CSS parser, not only from PostCSS ecosystem.
+These tests are useful for any CSS parser, not just parsers within the PostCSS ecosystem.
 
 ## Cases
 
-You can iterate through all cases by `cases.each` method:
+You can iterate through all test cases using the `cases.each` method:
 
 ```js
 var cases = require('postcss-parser-tests');
@@ -27,16 +27,15 @@ cases.each( (name, css, ideal) => {
 });
 ```
 
-It returns case name, CSS string and PostCSS AST JSON.
+This returns the case name, CSS string, and PostCSS AST JSON.
 
-If you create non-PostCSS parser, just compare that input CSS is equal output
-CSS after parsing.
+If you create a non-PostCSS parser, just compare if the input CSS is equal to the output CSS after parsing.
 
-You can got path to some speific test case by `cases.path(name)` method.
+You can also get the path to some specific test cases using the `cases.path(name)` method.
 
 ## Integration
 
-Integration tests are packed into Gulp task:
+Integration tests are packed into a Gulp task:
 
 ```js
 gulp.task('integration', function (done) {
@@ -48,10 +47,10 @@ gulp.task('integration', function (done) {
 });
 ```
 
-Your callback must parse CSS and stringify it back. Plugin will compare input
+Your callback must parse CSS and stringify it back. The plugin will then compare the input
 and output CSS.
 
-You can add extra sites in optional second argument:
+You can add extra sites using an optional second argument:
 
 ```js
 cases.real(done, [['Browserhacks', 'http://browserhacks.com/']],
