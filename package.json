@@ -16,8 +16,10 @@
   },
   "dependencies": {
     "load-resources": "0.1.0",
-    "gulp-util":      "3.0.6",
-    "eslint":         "1.0.0"
+    "gulp-util":      "3.0.6"
+  },
+  "devDependencies": {
+    "eslint": "1.0.0"
   },
   "scripts": {
     "test": "eslint *.js"
