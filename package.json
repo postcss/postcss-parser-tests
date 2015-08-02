@@ -1,0 +1,25 @@
+{
+  "name": "postcss-parser-tests",
+  "version": "0.0.0",
+  "description": "Base tests for every PostCSS CSS parser",
+  "keywords": [
+    "postcss",
+    "parser",
+    "css",
+    "tests"
+  ],
+  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url":  "https://github.com/postcss/postcss-parser-tests.git"
+  },
+  "dependencies": {
+    "load-resources": "0.1.0",
+    "gulp-util":      "3.0.6",
+    "eslint":         "1.0.0"
+  },
+  "scripts": {
+    "test": "eslint index.js"
+  }
+}
