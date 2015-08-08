@@ -24,8 +24,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "prop-hacks.css",
-                            "from": "prop-hacks.css"
+                            "file": "prop-hacks.css"
                         },
                         "end": {
                             "line": 2,
@@ -47,8 +46,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "prop-hacks.css",
-                            "from": "prop-hacks.css"
+                            "file": "prop-hacks.css"
                         },
                         "end": {
                             "line": 3,
@@ -70,8 +68,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "prop-hacks.css",
-                            "from": "prop-hacks.css"
+                            "file": "prop-hacks.css"
                         },
                         "end": {
                             "line": 4,
@@ -89,8 +86,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "prop-hacks.css",
-                    "from": "prop-hacks.css"
+                    "file": "prop-hacks.css"
                 },
                 "end": {
                     "line": 5,
@@ -103,8 +99,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "prop-hacks.css",
-            "from": "prop-hacks.css"
+            "file": "prop-hacks.css"
         }
     }
 }

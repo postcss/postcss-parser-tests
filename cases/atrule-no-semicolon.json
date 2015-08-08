@@ -18,8 +18,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "atrule-no-semicolon.css",
-                    "from": "atrule-no-semicolon.css"
+                    "file": "atrule-no-semicolon.css"
                 },
                 "end": {
                     "line": 2,
@@ -32,8 +31,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "atrule-no-semicolon.css",
-            "from": "atrule-no-semicolon.css"
+            "file": "atrule-no-semicolon.css"
         }
     }
 }

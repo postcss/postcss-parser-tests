@@ -24,8 +24,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "semicolons.css",
-                            "from": "semicolons.css"
+                            "file": "semicolons.css"
                         },
                         "end": {
                             "line": 2,
@@ -43,8 +42,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "semicolons.css",
-                    "from": "semicolons.css"
+                    "file": "semicolons.css"
                 },
                 "end": {
                     "line": 4,
@@ -57,8 +55,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "semicolons.css",
-            "from": "semicolons.css"
+            "file": "semicolons.css"
         }
     }
 }

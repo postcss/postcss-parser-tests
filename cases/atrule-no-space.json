@@ -18,8 +18,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "atrule-no-space.css",
-                    "from": "atrule-no-space.css"
+                    "file": "atrule-no-space.css"
                 },
                 "end": {
                     "line": 1,
@@ -32,8 +31,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "atrule-no-space.css",
-            "from": "atrule-no-space.css"
+            "file": "atrule-no-space.css"
         }
     }
 }

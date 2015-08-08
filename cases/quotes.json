@@ -24,8 +24,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "quotes.css",
-                            "from": "quotes.css"
+                            "file": "quotes.css"
                         },
                         "end": {
                             "line": 2,
@@ -47,8 +46,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "quotes.css",
-                            "from": "quotes.css"
+                            "file": "quotes.css"
                         },
                         "end": {
                             "line": 3,
@@ -66,8 +64,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "quotes.css",
-                    "from": "quotes.css"
+                    "file": "quotes.css"
                 },
                 "end": {
                     "line": 4,
@@ -80,8 +77,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "quotes.css",
-            "from": "quotes.css"
+            "file": "quotes.css"
         }
     }
 }

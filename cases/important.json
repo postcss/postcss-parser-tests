@@ -25,8 +25,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 2,
@@ -50,8 +49,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 3,
@@ -70,8 +68,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "important.css",
-                    "from": "important.css"
+                    "file": "important.css"
                 },
                 "end": {
                     "line": 4,
@@ -100,8 +97,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 7,
@@ -123,8 +119,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 8,
@@ -147,8 +142,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 9,
@@ -172,8 +166,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 10,
@@ -197,8 +190,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 11,
@@ -225,8 +217,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "important.css",
-                            "from": "important.css"
+                            "file": "important.css"
                         },
                         "end": {
                             "line": 12,
@@ -244,8 +235,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "important.css",
-                    "from": "important.css"
+                    "file": "important.css"
                 },
                 "end": {
                     "line": 13,
@@ -258,8 +248,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "important.css",
-            "from": "important.css"
+            "file": "important.css"
         }
     }
 }

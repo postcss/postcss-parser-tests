@@ -24,8 +24,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "ie-progid.css",
-                            "from": "ie-progid.css"
+                            "file": "ie-progid.css"
                         },
                         "end": {
                             "line": 2,
@@ -43,8 +42,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "ie-progid.css",
-                    "from": "ie-progid.css"
+                    "file": "ie-progid.css"
                 },
                 "end": {
                     "line": 3,
@@ -57,8 +55,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "ie-progid.css",
-            "from": "ie-progid.css"
+            "file": "ie-progid.css"
         }
     }
 }

@@ -24,8 +24,7 @@
                             "column": 2
                         },
                         "input": {
-                            "file": "tab.css",
-                            "from": "tab.css"
+                            "file": "tab.css"
                         },
                         "end": {
                             "line": 2,
@@ -43,8 +42,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "tab.css",
-                    "from": "tab.css"
+                    "file": "tab.css"
                 },
                 "end": {
                     "line": 3,
@@ -57,8 +55,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "tab.css",
-            "from": "tab.css"
+            "file": "tab.css"
         }
     }
 }

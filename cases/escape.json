@@ -24,8 +24,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "escape.css",
-                            "from": "escape.css"
+                            "file": "escape.css"
                         },
                         "end": {
                             "line": 2,
@@ -47,8 +46,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "escape.css",
-                            "from": "escape.css"
+                            "file": "escape.css"
                         },
                         "end": {
                             "line": 3,
@@ -70,8 +68,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "escape.css",
-                            "from": "escape.css"
+                            "file": "escape.css"
                         },
                         "end": {
                             "line": 4,
@@ -89,8 +86,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 5,
@@ -113,8 +109,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 7,
@@ -141,8 +136,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 8,
@@ -165,8 +159,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 9,
@@ -189,8 +182,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 10,
@@ -213,8 +205,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 11,
@@ -237,8 +228,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 12,
@@ -261,8 +251,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 13,
@@ -285,8 +274,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 15,
@@ -315,8 +303,7 @@
                             "column": 5
                         },
                         "input": {
-                            "file": "escape.css",
-                            "from": "escape.css"
+                            "file": "escape.css"
                         },
                         "end": {
                             "line": 18,
@@ -334,8 +321,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "escape.css",
-                    "from": "escape.css"
+                    "file": "escape.css"
                 },
                 "end": {
                     "line": 19,
@@ -348,8 +334,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "escape.css",
-            "from": "escape.css"
+            "file": "escape.css"
         }
     }
 }

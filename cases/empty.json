@@ -18,8 +18,7 @@
                     "column": 1
                 },
                 "input": {
-                    "file": "empty.css",
-                    "from": "empty.css"
+                    "file": "empty.css"
                 },
                 "end": {
                     "line": 1,
@@ -32,8 +31,7 @@
     "type": "root",
     "source": {
         "input": {
-            "file": "empty.css",
-            "from": "empty.css"
+            "file": "empty.css"
         }
     }
 }
