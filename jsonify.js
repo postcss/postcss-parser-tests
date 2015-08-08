@@ -9,5 +9,5 @@ function clean(node) {
 
 module.exports = function jsonify(node) {
     var cleaned = clean(node.toJSON());
-    return JSON.stringify(cleaned, null, 4);
+    return JSON.stringify(cleaned, null, 2);
 };
