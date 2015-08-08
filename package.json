@@ -19,7 +19,7 @@
     "gulp-util":      "3.0.6"
   },
   "devDependencies": {
-    "eslint": "1.0.0"
+    "eslint": "1.1.0"
   },
   "scripts": {
     "test": "eslint *.js"
