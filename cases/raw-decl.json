@@ -1,65 +1,65 @@
 {
-    "raw": {
-        "semicolon": false,
-        "after": "\n"
-    },
-    "nodes": [
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": " "
+      },
+      "nodes": [
         {
-            "raw": {
-                "before": "",
-                "between": " ",
-                "semicolon": true,
-                "after": " "
+          "raw": {
+            "before": " ",
+            "between": ": ",
+            "value": {
+              "value": "a b",
+              "raw": "a/* ; */ b"
+            }
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 1,
+              "column": 5
             },
-            "nodes": [
-                {
-                    "raw": {
-                        "before": " ",
-                        "between": ": ",
-                        "value": {
-                            "value": "a b",
-                            "raw": "a/* ; */ b"
-                        }
-                    },
-                    "type": "decl",
-                    "source": {
-                        "start": {
-                            "line": 1,
-                            "column": 5
-                        },
-                        "input": {
-                            "file": "raw-decl.css"
-                        },
-                        "end": {
-                            "line": 1,
-                            "column": 22
-                        }
-                    },
-                    "prop": "color",
-                    "value": "a b"
-                }
-            ],
-            "type": "rule",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "raw-decl.css"
-                },
-                "end": {
-                    "line": 1,
-                    "column": 24
-                }
+            "input": {
+              "file": "raw-decl.css"
             },
-            "selector": "a"
+            "end": {
+              "line": 1,
+              "column": 22
+            }
+          },
+          "prop": "color",
+          "value": "a b"
         }
-    ],
-    "type": "root",
-    "source": {
+      ],
+      "type": "rule",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "raw-decl.css"
+          "file": "raw-decl.css"
+        },
+        "end": {
+          "line": 1,
+          "column": 24
         }
+      },
+      "selector": "a"
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "raw-decl.css"
+    }
+  }
 }

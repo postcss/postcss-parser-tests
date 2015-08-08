@@ -1,39 +1,39 @@
 {
-    "raw": {
-        "semicolon": false,
-        "after": "\n"
-    },
-    "nodes": [
-        {
-            "raw": {
-                "before": "",
-                "between": "",
-                "afterName": "",
-                "after": " "
-            },
-            "type": "atrule",
-            "name": "page",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "atrule-no-params.css"
-                },
-                "end": {
-                    "line": 1,
-                    "column": 8
-                }
-            },
-            "params": "",
-            "nodes": []
-        }
-    ],
-    "type": "root",
-    "source": {
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": "",
+        "afterName": "",
+        "after": " "
+      },
+      "type": "atrule",
+      "name": "page",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "atrule-no-params.css"
+          "file": "atrule-no-params.css"
+        },
+        "end": {
+          "line": 1,
+          "column": 8
         }
+      },
+      "params": "",
+      "nodes": []
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "atrule-no-params.css"
+    }
+  }
 }

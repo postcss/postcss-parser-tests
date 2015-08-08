@@ -1,37 +1,37 @@
 {
-    "raw": {
-        "semicolon": false,
-        "after": "\n\n"
-    },
-    "nodes": [
-        {
-            "raw": {
-                "before": "\n",
-                "between": "",
-                "afterName": " "
-            },
-            "type": "atrule",
-            "name": "charset",
-            "source": {
-                "start": {
-                    "line": 2,
-                    "column": 1
-                },
-                "input": {
-                    "file": "atrule-no-semicolon.css"
-                },
-                "end": {
-                    "line": 2,
-                    "column": 16
-                }
-            },
-            "params": "\"UTF-8\""
-        }
-    ],
-    "type": "root",
-    "source": {
+  "raw": {
+    "semicolon": false,
+    "after": "\n\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "\n",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "charset",
+      "source": {
+        "start": {
+          "line": 2,
+          "column": 1
+        },
         "input": {
-            "file": "atrule-no-semicolon.css"
+          "file": "atrule-no-semicolon.css"
+        },
+        "end": {
+          "line": 2,
+          "column": 16
         }
+      },
+      "params": "\"UTF-8\""
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "atrule-no-semicolon.css"
+    }
+  }
 }

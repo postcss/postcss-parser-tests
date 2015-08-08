@@ -1,61 +1,61 @@
 {
-    "raw": {
-        "semicolon": false,
-        "after": "\n"
-    },
-    "nodes": [
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
+        "after": "\n    ; ;\n"
+      },
+      "nodes": [
         {
-            "raw": {
-                "before": "",
-                "between": " ",
-                "semicolon": true,
-                "after": "\n    ; ;\n"
+          "raw": {
+            "before": ";;\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
             },
-            "nodes": [
-                {
-                    "raw": {
-                        "before": ";;\n    ",
-                        "between": ": "
-                    },
-                    "type": "decl",
-                    "source": {
-                        "start": {
-                            "line": 2,
-                            "column": 5
-                        },
-                        "input": {
-                            "file": "semicolons.css"
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 17
-                        }
-                    },
-                    "prop": "color",
-                    "value": "black"
-                }
-            ],
-            "type": "rule",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "semicolons.css"
-                },
-                "end": {
-                    "line": 4,
-                    "column": 1
-                }
+            "input": {
+              "file": "semicolons.css"
             },
-            "selector": "a"
+            "end": {
+              "line": 2,
+              "column": 17
+            }
+          },
+          "prop": "color",
+          "value": "black"
         }
-    ],
-    "type": "root",
-    "source": {
+      ],
+      "type": "rule",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "semicolons.css"
+          "file": "semicolons.css"
+        },
+        "end": {
+          "line": 4,
+          "column": 1
         }
+      },
+      "selector": "a"
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "semicolons.css"
+    }
+  }
 }

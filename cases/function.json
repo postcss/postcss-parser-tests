@@ -1,61 +1,61 @@
 {
-    "raw": {
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": " ",
         "semicolon": false,
         "after": "\n"
-    },
-    "nodes": [
+      },
+      "nodes": [
         {
-            "raw": {
-                "before": "",
-                "between": " ",
-                "semicolon": false,
-                "after": "\n"
+          "raw": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
             },
-            "nodes": [
-                {
-                    "raw": {
-                        "before": "\n    ",
-                        "between": ": "
-                    },
-                    "type": "decl",
-                    "source": {
-                        "start": {
-                            "line": 2,
-                            "column": 5
-                        },
-                        "input": {
-                            "file": "function.css"
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 105
-                        }
-                    },
-                    "prop": "background-image",
-                    "value": "url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)"
-                }
-            ],
-            "type": "rule",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "function.css"
-                },
-                "end": {
-                    "line": 3,
-                    "column": 1
-                }
+            "input": {
+              "file": "function.css"
             },
-            "selector": "a"
+            "end": {
+              "line": 2,
+              "column": 105
+            }
+          },
+          "prop": "background-image",
+          "value": "url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)"
         }
-    ],
-    "type": "root",
-    "source": {
+      ],
+      "type": "rule",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "function.css"
+          "file": "function.css"
+        },
+        "end": {
+          "line": 3,
+          "column": 1
         }
+      },
+      "selector": "a"
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "function.css"
+    }
+  }
 }

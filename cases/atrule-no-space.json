@@ -1,37 +1,37 @@
 {
-    "raw": {
-        "semicolon": false,
-        "after": "\n"
-    },
-    "nodes": [
-        {
-            "raw": {
-                "before": "",
-                "between": "",
-                "afterName": ""
-            },
-            "type": "atrule",
-            "name": "import",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "atrule-no-space.css"
-                },
-                "end": {
-                    "line": 1,
-                    "column": 17
-                }
-            },
-            "params": "\"test.css\""
-        }
-    ],
-    "type": "root",
-    "source": {
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": "",
+        "afterName": ""
+      },
+      "type": "atrule",
+      "name": "import",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "atrule-no-space.css"
+          "file": "atrule-no-space.css"
+        },
+        "end": {
+          "line": 1,
+          "column": 17
         }
+      },
+      "params": "\"test.css\""
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "atrule-no-space.css"
+    }
+  }
 }

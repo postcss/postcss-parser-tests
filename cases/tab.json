@@ -1,61 +1,61 @@
 {
-    "raw": {
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": " ",
         "semicolon": false,
         "after": "\n"
-    },
-    "nodes": [
+      },
+      "nodes": [
         {
-            "raw": {
-                "before": "",
-                "between": " ",
-                "semicolon": false,
-                "after": "\n"
+          "raw": {
+            "before": "\n\t",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 2
             },
-            "nodes": [
-                {
-                    "raw": {
-                        "before": "\n\t",
-                        "between": ": "
-                    },
-                    "type": "decl",
-                    "source": {
-                        "start": {
-                            "line": 2,
-                            "column": 2
-                        },
-                        "input": {
-                            "file": "tab.css"
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 13
-                        }
-                    },
-                    "prop": "color",
-                    "value": "black"
-                }
-            ],
-            "type": "rule",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "tab.css"
-                },
-                "end": {
-                    "line": 3,
-                    "column": 1
-                }
+            "input": {
+              "file": "tab.css"
             },
-            "selector": "a"
+            "end": {
+              "line": 2,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "black"
         }
-    ],
-    "type": "root",
-    "source": {
+      ],
+      "type": "rule",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "tab.css"
+          "file": "tab.css"
+        },
+        "end": {
+          "line": 3,
+          "column": 1
         }
+      },
+      "selector": "a"
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "tab.css"
+    }
+  }
 }

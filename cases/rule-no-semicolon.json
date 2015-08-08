@@ -1,61 +1,61 @@
 {
-    "raw": {
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": "",
         "semicolon": false,
-        "after": "\n"
-    },
-    "nodes": [
+        "after": ""
+      },
+      "nodes": [
         {
-            "raw": {
-                "before": "",
-                "between": "",
-                "semicolon": false,
-                "after": ""
+          "raw": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 1,
+              "column": 3
             },
-            "nodes": [
-                {
-                    "raw": {
-                        "before": "",
-                        "between": ":"
-                    },
-                    "type": "decl",
-                    "source": {
-                        "start": {
-                            "line": 1,
-                            "column": 3
-                        },
-                        "input": {
-                            "file": "rule-no-semicolon.css"
-                        },
-                        "end": {
-                            "line": 1,
-                            "column": 13
-                        }
-                    },
-                    "prop": "color",
-                    "value": "black"
-                }
-            ],
-            "type": "rule",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "rule-no-semicolon.css"
-                },
-                "end": {
-                    "line": 1,
-                    "column": 14
-                }
+            "input": {
+              "file": "rule-no-semicolon.css"
             },
-            "selector": "a"
+            "end": {
+              "line": 1,
+              "column": 13
+            }
+          },
+          "prop": "color",
+          "value": "black"
         }
-    ],
-    "type": "root",
-    "source": {
+      ],
+      "type": "rule",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "rule-no-semicolon.css"
+          "file": "rule-no-semicolon.css"
+        },
+        "end": {
+          "line": 1,
+          "column": 14
         }
+      },
+      "selector": "a"
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "rule-no-semicolon.css"
+    }
+  }
 }

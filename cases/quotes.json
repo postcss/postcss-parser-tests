@@ -1,83 +1,83 @@
 {
-    "raw": {
-        "semicolon": false,
+  "raw": {
+    "semicolon": false,
+    "after": "\n"
+  },
+  "nodes": [
+    {
+      "raw": {
+        "before": "",
+        "between": " ",
+        "semicolon": true,
         "after": "\n"
-    },
-    "nodes": [
+      },
+      "nodes": [
         {
-            "raw": {
-                "before": "",
-                "between": " ",
-                "semicolon": true,
-                "after": "\n"
+          "raw": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 2,
+              "column": 5
             },
-            "nodes": [
-                {
-                    "raw": {
-                        "before": "\n    ",
-                        "between": ": "
-                    },
-                    "type": "decl",
-                    "source": {
-                        "start": {
-                            "line": 2,
-                            "column": 5
-                        },
-                        "input": {
-                            "file": "quotes.css"
-                        },
-                        "end": {
-                            "line": 2,
-                            "column": 26
-                        }
-                    },
-                    "prop": "content",
-                    "value": "\";'@ /**/\\\"\""
-                },
-                {
-                    "raw": {
-                        "before": "\n    ",
-                        "between": ": "
-                    },
-                    "type": "decl",
-                    "source": {
-                        "start": {
-                            "line": 3,
-                            "column": 5
-                        },
-                        "input": {
-                            "file": "quotes.css"
-                        },
-                        "end": {
-                            "line": 3,
-                            "column": 21
-                        }
-                    },
-                    "prop": "content",
-                    "value": "'\\'\"\\\\'"
-                }
-            ],
-            "type": "rule",
-            "source": {
-                "start": {
-                    "line": 1,
-                    "column": 1
-                },
-                "input": {
-                    "file": "quotes.css"
-                },
-                "end": {
-                    "line": 4,
-                    "column": 1
-                }
+            "input": {
+              "file": "quotes.css"
             },
-            "selector": "a::before"
+            "end": {
+              "line": 2,
+              "column": 26
+            }
+          },
+          "prop": "content",
+          "value": "\";'@ /**/\\\"\""
+        },
+        {
+          "raw": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 5
+            },
+            "input": {
+              "file": "quotes.css"
+            },
+            "end": {
+              "line": 3,
+              "column": 21
+            }
+          },
+          "prop": "content",
+          "value": "'\\'\"\\\\'"
         }
-    ],
-    "type": "root",
-    "source": {
+      ],
+      "type": "rule",
+      "source": {
+        "start": {
+          "line": 1,
+          "column": 1
+        },
         "input": {
-            "file": "quotes.css"
+          "file": "quotes.css"
+        },
+        "end": {
+          "line": 4,
+          "column": 1
         }
+      },
+      "selector": "a::before"
     }
+  ],
+  "type": "root",
+  "source": {
+    "input": {
+      "file": "quotes.css"
+    }
+  }
 }
