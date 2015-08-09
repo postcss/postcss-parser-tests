@@ -44,12 +44,14 @@ module.exports = function (done, extra, callback) {
             result = callback(css).css;
         } catch (e) {
             finish = true;
-            return done(error(url, 'Parsing error: ' + (e.stack || e.message)));
+            done(error(url, 'Parsing error: ' + (e.stack || e.message)));
+            return;
         }
 
         if ( result !== css ) {
             finish = true;
-            return done(error(url, 'Output is not equal input'));
+            done(error(url, 'Output is not equal input'));
+            return;
         }
 
         var domain = url.match(/https?:\/\/[^\/]+/)[0];
