@@ -19,11 +19,11 @@
     "gulp-util":      "3.0.6"
   },
   "devDependencies": {
-    "postcss": "postcss/postcss#valac",
-    "eslint":  "1.1.0",
-    "gulp":    "3.9.0"
+    "gulp-eslint": "1.0.0",
+    "postcss":     "postcss/postcss#valac",
+    "gulp":        "3.9.0"
   },
   "scripts": {
-    "test": "eslint *.js"
+    "test": "gulp"
   }
 }

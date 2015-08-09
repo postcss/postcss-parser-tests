@@ -14,3 +14,13 @@ gulp.task('cases', function () {
         fs.writeFileSync(file, jsonify(root));
     });
 });
+
+gulp.task('lint', function () {
+    var eslint = require('gulp-eslint');
+    return gulp.src(['*.js'])
+        .pipe(eslint())
+        .pipe(eslint.format())
+        .pipe(eslint.failAfterError());
+});
+
+gulp.task('default', ['lint']);
