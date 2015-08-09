@@ -35,15 +35,20 @@ module.exports = function (done, extra, callback) {
         return i[1];
     });
 
+    var finish = false;
     load(urls, '.css', function (css, url, last) {
+        if ( finish ) return;
+
         var result;
         try {
             result = callback(css).css;
         } catch (e) {
+            finish = true;
             return done(error(url, 'Parsing error: ' + (e.stack || e.message)));
         }
 
         if ( result !== css ) {
+            finish = true;
             return done(error(url, 'Output is not equal input'));
         }
 
