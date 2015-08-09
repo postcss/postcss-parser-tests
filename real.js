@@ -3,7 +3,6 @@ var load  = require('load-resources');
 var path  = require('path');
 
 var createError = function (url, message, error) {
-    message = 'URL: ' + url + '\n    ' + message;
     if ( error ) {
         if ( error.name === 'CssSyntaxError' ) {
             message += error.message;
