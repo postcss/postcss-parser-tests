@@ -37,12 +37,12 @@ module.exports = function (done, extra, callback) {
     load(urls, '.css', function (css, url, last) {
         var result;
         try {
-            result = callback(css);
+            result = callback(css).css;
         } catch (e) {
             return done(error(url, 'Parsing error: ' + e.message + e.stack));
         }
 
-        if ( result.css !== css ) {
+        if ( result !== css ) {
             return done(error(url, 'Output is not equal input'));
         }
 
