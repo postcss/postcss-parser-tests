@@ -11,7 +11,7 @@ gulp.task('cases', function () {
         var css  = fs.readFileSync(path.join(cases, name));
         var root = postcss.parse(css, { from: '/' + name });
         var file = path.join(cases, name.replace(/\.css$/, '.json'));
-        fs.writeFileSync(file, jsonify(root));
+        fs.writeFileSync(file, jsonify(root) + '\n');
     });
 });
 
