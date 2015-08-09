@@ -23,4 +23,11 @@ gulp.task('lint', function () {
         .pipe(eslint.failAfterError());
 });
 
-gulp.task('default', ['lint']);
+gulp.task('integration', function (done) {
+    var real = require('./real');
+    real(done, [['Browserhacks', 'http://browserhacks.com/']], function (css) {
+        return { css: css };
+    });
+});
+
+gulp.task('default', ['lint', 'integration']);
