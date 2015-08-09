@@ -3,6 +3,7 @@ var load  = require('load-resources');
 var path  = require('path');
 
 var error = function (url, message) {
+    message = 'URL: ' + url + '\n' + message;
     var err = new gutil.PluginError('integration', {
         showStack: false,
         message:   message
@@ -39,7 +40,7 @@ module.exports = function (done, extra, callback) {
         try {
             result = callback(css).css;
         } catch (e) {
-            return done(error(url, 'Parsing error: ' + e.message + e.stack));
+            return done(error(url, 'Parsing error: ' + (e.stack || e.message)));
         }
 
         if ( result !== css ) {
