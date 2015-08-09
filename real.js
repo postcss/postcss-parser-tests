@@ -2,8 +2,15 @@ var gutil = require('gulp-util');
 var load  = require('load-resources');
 var path  = require('path');
 
-var error = function (url, message) {
-    message = 'URL: ' + url + '\n' + message;
+var createError = function (url, message, error) {
+    message = 'URL: ' + url + '\n    ' + message;
+    if ( error ) {
+        if ( error.name === 'CssSyntaxError' ) {
+            message += error.message;
+        } else {
+            message += error.stack;
+        }
+    }
     var err = new gutil.PluginError('integration', {
         showStack: false,
         message:   message
@@ -44,13 +51,13 @@ module.exports = function (done, extra, callback) {
             result = callback(css).css;
         } catch (e) {
             finish = true;
-            done(error(url, 'Parsing error: ' + (e.stack || e.message)));
+            done(createError(url, 'Parsing error: ', e));
             return;
         }
 
         if ( result !== css ) {
             finish = true;
-            done(error(url, 'Output is not equal input'));
+            done(createError(url, 'Output is not equal input'));
             return;
         }
 
