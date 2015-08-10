@@ -1,8 +1,10 @@
 var path = require('path');
 
 function clean(node) {
-    delete node.source.input.css;
-    node.source.input.file = path.basename(node.source.input.file);
+    if ( node.source ) {
+        delete node.source.input.css;
+        node.source.input.file = path.basename(node.source.input.file);
+    }
     if ( node.nodes ) node.nodes = node.nodes.map(clean);
     return node;
 }
