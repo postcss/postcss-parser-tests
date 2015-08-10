@@ -72,6 +72,28 @@
             },
             "end": {
               "line": 4,
+              "column": 25
+            }
+          },
+          "prop": "background",
+          "value": "url(a/*)"
+        },
+        {
+          "raw": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "input": {
+              "file": "escape.css"
+            },
+            "end": {
+              "line": 5,
               "column": 20
             }
           },
@@ -89,7 +111,7 @@
           "file": "escape.css"
         },
         "end": {
-          "line": 5,
+          "line": 6,
           "column": 1
         }
       },
@@ -105,14 +127,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 7,
+          "line": 8,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 7,
+          "line": 8,
           "column": 19
         }
       },
@@ -132,14 +154,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 8,
+          "line": 9,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 8,
+          "line": 9,
           "column": 18
         }
       },
@@ -155,14 +177,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 9,
+          "line": 10,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 9,
+          "line": 10,
           "column": 37
         }
       },
@@ -178,14 +200,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 10,
+          "line": 11,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 10,
+          "line": 11,
           "column": 12
         }
       },
@@ -201,14 +223,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 11,
+          "line": 12,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 11,
+          "line": 12,
           "column": 12
         }
       },
@@ -224,14 +246,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 12,
+          "line": 13,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 12
         }
       },
@@ -247,14 +269,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 30
         }
       },
@@ -270,14 +292,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 15,
+          "line": 16,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 15,
+          "line": 16,
           "column": 10
         }
       },
@@ -299,14 +321,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 18,
+              "line": 19,
               "column": 5
             },
             "input": {
               "file": "escape.css"
             },
             "end": {
-              "line": 18,
+              "line": 19,
               "column": 14
             }
           },
@@ -317,14 +339,14 @@
       "type": "rule",
       "source": {
         "start": {
-          "line": 17,
+          "line": 18,
           "column": 1
         },
         "input": {
           "file": "escape.css"
         },
         "end": {
-          "line": 19,
+          "line": 20,
           "column": 1
         }
       },
