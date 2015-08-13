@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": " ",
         "semicolon": true,
@@ -13,12 +13,12 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": " ",
             "between": ": ",
             "value": {
               "value": "a b",
-              "raw": "a/* ; */ b"
+              "raws": "a/* ; */ b"
             }
           },
           "type": "decl",

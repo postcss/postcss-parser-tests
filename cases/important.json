@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": " ",
         "semicolon": true,
@@ -13,7 +13,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": ",
             "important": "!important"
@@ -37,7 +37,7 @@
           "value": "1px"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": ",
             "important": "  !important "
@@ -78,7 +78,7 @@
       "selector": "a"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "semicolon": true,
@@ -86,7 +86,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -108,7 +108,7 @@
           "value": "important"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -130,7 +130,7 @@
           "value": "red important"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": ",
             "important": "      !      important"
@@ -154,7 +154,7 @@
           "value": "10px"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": ",
             "important": "     !  /* test */   important"
@@ -178,7 +178,7 @@
           "value": "20px"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": ",
             "important": " ! /*! test */ important"
@@ -202,12 +202,12 @@
           "value": "100px"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": ",
             "value": {
               "value": "100px  important",
-              "raw": "100px /*! test */ important"
+              "raws": "100px /*! test */ important"
             }
           },
           "type": "decl",

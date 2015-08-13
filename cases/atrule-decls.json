@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": " ",
         "afterName": " ",
@@ -30,7 +30,7 @@
       "params": ":left",
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "afterName": "",
@@ -79,7 +79,7 @@
       "params": "(min-width: 0)",
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "afterName": "",
@@ -128,7 +128,7 @@
       "params": "",
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -152,7 +152,7 @@
       ]
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "afterName": "",
@@ -177,7 +177,7 @@
       "params": "",
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -201,7 +201,7 @@
       ]
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "afterName": "",
@@ -226,7 +226,7 @@
       "params": "",
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },

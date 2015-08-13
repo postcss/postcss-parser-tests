@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": " ",
         "semicolon": true,
@@ -13,7 +13,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -35,7 +35,7 @@
           "value": "url(\"a).png\")"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -57,7 +57,7 @@
           "value": "url(a;a)"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -79,7 +79,7 @@
           "value": "url(a/*)"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -118,7 +118,7 @@
       "selector": "a"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "after": " "
@@ -141,12 +141,12 @@
       "selector": ":not([foo=\")\"])"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "selector": {
           "value": ":not(div)",
-          "raw": ":not(div/*)*/)"
+          "raws": ":not(div/*)*/)"
         },
         "after": " "
       },
@@ -168,7 +168,7 @@
       "selector": ":not(div)"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "after": " "
@@ -191,7 +191,7 @@
       "selector": ":not(:nth-child(2n of [foo=\")\"]))"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "after": " "
@@ -214,7 +214,7 @@
       "selector": "[foo=\\\"]"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "after": " "
@@ -237,7 +237,7 @@
       "selector": "[foo=\\{]"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "after": " "
@@ -260,7 +260,7 @@
       "selector": "[foo=\\(]"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "after": " "
@@ -283,7 +283,7 @@
       "selector": "[foo=yes\\:\\(it\\'s\\ work\\)]"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "after": " "
@@ -306,7 +306,7 @@
       "selector": "\\@noat"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": "",
         "semicolon": true,
@@ -314,7 +314,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },

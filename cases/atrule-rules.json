@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": " ",
         "afterName": " ",
@@ -30,7 +30,7 @@
       "params": "(animation-name: test)",
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": " ",
             "afterName": " ",
@@ -55,7 +55,7 @@
           "params": "anim",
           "nodes": [
             {
-              "raw": {
+              "raws": {
                 "before": "\n        ",
                 "between": " ",
                 "semicolon": true,
@@ -63,7 +63,7 @@
               },
               "nodes": [
                 {
-                  "raw": {
+                  "raws": {
                     "before": "\n            ",
                     "between": ": "
                   },
@@ -102,7 +102,7 @@
               "selector": "from"
             },
             {
-              "raw": {
+              "raws": {
                 "before": "\n        ",
                 "between": " ",
                 "semicolon": false,
@@ -110,7 +110,7 @@
               },
               "nodes": [
                 {
-                  "raw": {
+                  "raws": {
                     "before": "\n            ",
                     "between": ": "
                   },

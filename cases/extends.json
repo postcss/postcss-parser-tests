@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": ": "
       },
@@ -27,7 +27,7 @@
       "value": "1"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "semicolon": false,
@@ -35,7 +35,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -57,7 +57,7 @@
           "value": "2"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": " ",
             "semicolon": true,
@@ -65,7 +65,7 @@
           },
           "nodes": [
             {
-              "raw": {
+              "raws": {
                 "before": "\n        ",
                 "between": ": "
               },

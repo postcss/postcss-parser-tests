@@ -1,16 +1,16 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "selector": {
           "value": "a b",
-          "raw": "a/* { } */ b"
+          "raws": "a/* { } */ b"
         },
         "after": ""
       },

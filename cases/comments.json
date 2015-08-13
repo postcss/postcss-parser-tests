@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "left": " ",
         "right": " "
@@ -27,7 +27,7 @@
       "text": "a { color: black }"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "left": "",
         "right": ""
@@ -49,7 +49,7 @@
       "text": ""
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "left": " ",
         "right": ""
@@ -71,7 +71,7 @@
       "text": ""
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "between": " ",
         "semicolon": false,
@@ -79,7 +79,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "left": " ",
             "right": " "
@@ -101,7 +101,7 @@
           "text": "inside"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -123,7 +123,7 @@
           "value": "black"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "left": " ",
             "right": " "
@@ -145,7 +145,7 @@
           "text": "between"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -167,7 +167,7 @@
           "value": "3px / 7px"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "left": " ",
             "right": " "
@@ -206,7 +206,7 @@
       "selector": "div"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n",
         "left": " ",
         "right": " "
@@ -228,7 +228,7 @@
       "text": "b"
     },
     {
-      "raw": {
+      "raws": {
         "before": "\n\n",
         "between": " ",
         "semicolon": true,
@@ -236,7 +236,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -258,7 +258,7 @@
           "value": "black"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "left": " ",
             "right": " "

@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": false,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": " ",
         "semicolon": true,
@@ -13,7 +13,7 @@
       },
       "nodes": [
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },
@@ -35,7 +35,7 @@
           "value": "black"
         },
         {
-          "raw": {
+          "raws": {
             "before": "\n    ",
             "between": ": "
           },

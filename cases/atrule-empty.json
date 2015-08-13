@@ -1,11 +1,11 @@
 {
-  "raw": {
+  "raws": {
     "semicolon": true,
     "after": "\n"
   },
   "nodes": [
     {
-      "raw": {
+      "raws": {
         "before": "",
         "between": "",
         "afterName": " "
