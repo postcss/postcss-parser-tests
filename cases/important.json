@@ -207,7 +207,7 @@
             "between": ": ",
             "value": {
               "value": "100px  important",
-              "raws": "100px /*! test */ important"
+              "raw": "100px /*! test */ important"
             }
           },
           "type": "decl",

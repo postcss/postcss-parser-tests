@@ -10,7 +10,7 @@
         "between": " ",
         "selector": {
           "value": "a b",
-          "raws": "a/* { } */ b"
+          "raw": "a/* { } */ b"
         },
         "after": ""
       },

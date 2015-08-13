@@ -146,7 +146,7 @@
         "between": " ",
         "selector": {
           "value": ":not(div)",
-          "raws": ":not(div/*)*/)"
+          "raw": ":not(div/*)*/)"
         },
         "after": " "
       },
