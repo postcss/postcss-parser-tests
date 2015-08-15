@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -11,6 +12,7 @@
         "semicolon": true,
         "after": "\n    ; ;\n"
       },
+      "type": "rule",
       "nodes": [
         {
           "raws": {
@@ -35,7 +37,6 @@
           "value": "black"
         }
       ],
-      "type": "rule",
       "source": {
         "start": {
           "line": 1,
@@ -52,7 +53,6 @@
       "selector": "a"
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "semicolons.css"

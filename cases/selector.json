@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -14,8 +15,8 @@
         },
         "after": ""
       },
-      "nodes": [],
       "type": "rule",
+      "nodes": [],
       "source": {
         "start": {
           "line": 2,
@@ -32,7 +33,6 @@
       "selector": "a b"
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "selector.css"

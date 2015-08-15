@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -11,6 +12,7 @@
         "semicolon": false,
         "after": "\n"
       },
+      "type": "rule",
       "nodes": [
         {
           "raws": {
@@ -106,7 +108,6 @@
           ]
         }
       ],
-      "type": "rule",
       "source": {
         "start": {
           "line": 1,
@@ -123,7 +124,6 @@
       "selector": "a"
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "rule-at.css"

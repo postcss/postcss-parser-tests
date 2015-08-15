@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -28,7 +29,6 @@
       "params": "\"test.css\""
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "atrule-no-space.css"

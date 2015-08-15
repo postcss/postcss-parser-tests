@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -11,6 +12,7 @@
         "semicolon": true,
         "after": "\n"
       },
+      "type": "rule",
       "nodes": [
         {
           "raws": {
@@ -57,7 +59,6 @@
           "value": "'\\'\"\\\\'"
         }
       ],
-      "type": "rule",
       "source": {
         "start": {
           "line": 1,
@@ -74,7 +75,6 @@
       "selector": "a::before"
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "quotes.css"

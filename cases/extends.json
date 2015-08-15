@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -33,6 +34,7 @@
         "semicolon": false,
         "after": "\n"
       },
+      "type": "rule",
       "nodes": [
         {
           "raws": {
@@ -63,6 +65,7 @@
             "semicolon": true,
             "after": "\n    "
           },
+          "type": "rule",
           "nodes": [
             {
               "raws": {
@@ -87,7 +90,6 @@
               "value": "3"
             }
           ],
-          "type": "rule",
           "source": {
             "start": {
               "line": 5,
@@ -104,7 +106,6 @@
           "selector": "b"
         }
       ],
-      "type": "rule",
       "source": {
         "start": {
           "line": 3,
@@ -121,7 +122,6 @@
       "selector": "a"
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "extends.css"

@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -10,8 +11,8 @@
         "between": "",
         "after": ""
       },
-      "nodes": [],
       "type": "rule",
+      "nodes": [],
       "source": {
         "start": {
           "line": 1,
@@ -28,7 +29,6 @@
       "selector": ""
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "empty.css"

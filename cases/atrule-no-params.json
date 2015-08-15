@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -30,7 +31,6 @@
       "nodes": []
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "atrule-no-params.css"

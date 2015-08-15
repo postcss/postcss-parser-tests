@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -11,6 +12,7 @@
         "semicolon": true,
         "after": "\n"
       },
+      "type": "rule",
       "nodes": [
         {
           "raws": {
@@ -61,7 +63,6 @@
           "value": "black"
         }
       ],
-      "type": "rule",
       "source": {
         "start": {
           "line": 1,
@@ -84,6 +85,7 @@
         "semicolon": true,
         "after": "\n"
       },
+      "type": "rule",
       "nodes": [
         {
           "raws": {
@@ -228,7 +230,6 @@
           "value": "100px  important"
         }
       ],
-      "type": "rule",
       "source": {
         "start": {
           "line": 6,
@@ -245,7 +246,6 @@
       "selector": "p"
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "important.css"

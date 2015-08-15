@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -250,7 +251,6 @@
       ]
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "atrule-decls.css"

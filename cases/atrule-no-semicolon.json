@@ -3,6 +3,7 @@
     "semicolon": false,
     "after": "\n\n"
   },
+  "type": "root",
   "nodes": [
     {
       "raws": {
@@ -28,7 +29,6 @@
       "params": "\"UTF-8\""
     }
   ],
-  "type": "root",
   "source": {
     "input": {
       "file": "atrule-no-semicolon.css"
