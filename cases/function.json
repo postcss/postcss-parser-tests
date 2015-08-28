@@ -9,7 +9,7 @@
       "raws": {
         "before": "",
         "between": " ",
-        "semicolon": false,
+        "semicolon": true,
         "after": "\n"
       },
       "type": "rule",
@@ -30,11 +30,55 @@
             },
             "end": {
               "line": 2,
-              "column": 105
+              "column": 106
             }
           },
           "prop": "background-image",
           "value": "url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7)"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 3,
+              "column": 5
+            },
+            "input": {
+              "file": "function.css"
+            },
+            "end": {
+              "line": 3,
+              "column": 45
+            }
+          },
+          "prop": "background-image",
+          "value": "url(\"./image (1).jpg\")"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 4,
+              "column": 5
+            },
+            "input": {
+              "file": "function.css"
+            },
+            "end": {
+              "line": 4,
+              "column": 47
+            }
+          },
+          "prop": "background-image",
+          "value": "url( './image (1).jpg' )"
         }
       ],
       "source": {
@@ -46,7 +90,7 @@
           "file": "function.css"
         },
         "end": {
-          "line": 3,
+          "line": 5,
           "column": 1
         }
       },
