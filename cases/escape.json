@@ -357,6 +357,10 @@
   "source": {
     "input": {
       "file": "escape.css"
+    },
+    "start": {
+      "line": 0,
+      "column": 0
     }
   }
 }

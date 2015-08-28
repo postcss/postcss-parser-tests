@@ -127,6 +127,10 @@
   "source": {
     "input": {
       "file": "rule-at.css"
+    },
+    "start": {
+      "line": 0,
+      "column": 0
     }
   }
 }

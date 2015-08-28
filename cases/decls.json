@@ -78,6 +78,10 @@
   "source": {
     "input": {
       "file": "decls.css"
+    },
+    "start": {
+      "line": 0,
+      "column": 0
     }
   }
 }

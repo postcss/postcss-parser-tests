@@ -60,6 +60,10 @@
   "source": {
     "input": {
       "file": "raw-decl.css"
+    },
+    "start": {
+      "line": 0,
+      "column": 0
     }
   }
 }

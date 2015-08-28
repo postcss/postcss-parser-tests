@@ -32,6 +32,10 @@
   "source": {
     "input": {
       "file": "colon-selector.css"
+    },
+    "start": {
+      "line": 0,
+      "column": 0
     }
   }
 }

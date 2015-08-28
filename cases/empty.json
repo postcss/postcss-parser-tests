@@ -32,6 +32,10 @@
   "source": {
     "input": {
       "file": "empty.css"
+    },
+    "start": {
+      "line": 0,
+      "column": 0
     }
   }
 }

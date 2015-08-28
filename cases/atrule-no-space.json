@@ -32,6 +32,10 @@
   "source": {
     "input": {
       "file": "atrule-no-space.css"
+    },
+    "start": {
+      "line": 0,
+      "column": 0
     }
   }
 }
