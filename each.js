@@ -5,7 +5,7 @@ function read(file) {
     return fs.readFileSync(path.join(__dirname, 'cases', file));
 }
 
-let extra = require('./extra-cases');
+var extra = require('./extra-cases');
 
 module.exports = function (callback) {
     fs.readdirSync(path.join(__dirname, 'cases')).filter(function (i) {
