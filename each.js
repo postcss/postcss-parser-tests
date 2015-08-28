@@ -14,6 +14,6 @@ module.exports = function (callback) {
         var name = path.basename(i, '.json');
         var css  = extra[name];
         if ( !css ) css = read(name + '.css').toString().trim();
-        callback(i, css, json);
+        callback(name, css, json);
     });
 };

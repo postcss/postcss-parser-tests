@@ -12,7 +12,7 @@ gulp.task('cases', function () {
         var name = path.basename(i, '.json');
         var css  = extra[name];
         if ( !css ) css = fs.readFileSync(path.join(cases, name + '.css'));
-        var root = postcss.parse(css, { from: '/' + name + '.css' });
+        var root = postcss.parse(css, { from: '/' + name });
         fs.writeFileSync(path.join(cases, i), jsonify(root) + '\n');
     });
 });
