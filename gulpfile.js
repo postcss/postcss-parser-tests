@@ -25,13 +25,6 @@ gulp.task('lint', function () {
         .pipe(eslint.failAfterError());
 });
 
-gulp.task('integration', function (done) {
-    var real = require('./real');
-    real(done, [['Browserhacks', 'http://browserhacks.com/']], function (css) {
-        return { css: css };
-    });
-});
-
 gulp.task('test', function () {
     var mocha = require('gulp-mocha');
     return gulp.src('test/*.js', { read: false }).pipe(mocha());
