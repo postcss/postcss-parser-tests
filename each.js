@@ -5,11 +5,14 @@ function read(file) {
     return fs.readFileSync(path.join(__dirname, 'cases', file));
 }
 
+let extra = require('./extra-cases');
+
 module.exports = function (callback) {
     fs.readdirSync(path.join(__dirname, 'cases')).filter(function (i) {
-        if ( path.extname(i) !== '.css' ) return;
-        var css  = read(i).toString();
-        var json = read(i.replace(/\.css$/, '.json')).toString().trim();
+        if ( path.extname(i) !== '.json' ) return;
+        var json = read(i).toString();
+        var css  = extra[i.replace(/.js$/, '')];
+        if ( !css ) css = read(i.replace(/\.js$/, '.css')).toString().trim();
         callback(i, css, json);
     });
 };

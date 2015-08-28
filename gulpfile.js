@@ -6,12 +6,14 @@ gulp.task('cases', function () {
     var jsonify = require('./jsonify');
     var postcss = require('postcss');
     var cases   = path.join(__dirname, 'cases');
-    fs.readdirSync(cases).forEach(function (name) {
-        if ( !name.match(/\.css$/) ) return;
-        var css  = fs.readFileSync(path.join(cases, name));
-        var root = postcss.parse(css, { from: '/' + name });
-        var file = path.join(cases, name.replace(/\.css$/, '.json'));
-        fs.writeFileSync(file, jsonify(root) + '\n');
+    var extra   = require('./extra-cases');
+    fs.readdirSync(cases).forEach(function (i) {
+        if ( path.extname(i) !== '.json' ) return;
+        var name = path.basename(i, '.json');
+        var css  = extra[name];
+        if ( !css ) css = fs.readFileSync(path.join(cases, name + '.css'));
+        var root = postcss.parse(css, { from: '/' + name + '.css' });
+        fs.writeFileSync(path.join(cases, i), jsonify(root) + '\n');
     });
 });
 

@@ -1,12 +1,12 @@
 {
   "raws": {
-    "after": ""
+    "after": " \n"
   },
   "type": "root",
   "nodes": [],
   "source": {
     "input": {
-      "file": "empty.css"
+      "file": "spaces.css"
     },
     "start": {
       "line": 0,
