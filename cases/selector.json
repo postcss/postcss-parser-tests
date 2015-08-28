@@ -1,13 +1,13 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n"
+    "after": ""
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "\n",
+        "before": "",
         "between": " ",
         "selector": {
           "value": "a b",
@@ -19,14 +19,14 @@
       "nodes": [],
       "source": {
         "start": {
-          "line": 2,
+          "line": 1,
           "column": 1
         },
         "input": {
           "file": "selector.css"
         },
         "end": {
-          "line": 2,
+          "line": 1,
           "column": 15
         }
       },

@@ -1,13 +1,13 @@
 {
   "raws": {
     "semicolon": false,
-    "after": "\n\n"
+    "after": ""
   },
   "type": "root",
   "nodes": [
     {
       "raws": {
-        "before": "\n",
+        "before": "",
         "between": "",
         "afterName": " "
       },
@@ -15,14 +15,14 @@
       "name": "charset",
       "source": {
         "start": {
-          "line": 2,
+          "line": 1,
           "column": 1
         },
         "input": {
           "file": "atrule-no-semicolon.css"
         },
         "end": {
-          "line": 2,
+          "line": 1,
           "column": 16
         }
       },
