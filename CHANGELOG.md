@@ -1,3 +1,6 @@
+## 5.0.2
+* Fix `Root` start source.
+
 ## 5.0.1
 * Better test with `url()`.
 * Add tests with empty files.
