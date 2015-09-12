@@ -1,3 +1,6 @@
+## 5.0.3
+* Add multi-tokens property test.
+
 ## 5.0.2
 * Fix `Root` start source.
 
