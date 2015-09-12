@@ -26,7 +26,7 @@
               "column": 5
             },
             "input": {
-              "file": "prop-hacks.css"
+              "file": "prop.css"
             },
             "end": {
               "line": 2,
@@ -48,7 +48,7 @@
               "column": 5
             },
             "input": {
-              "file": "prop-hacks.css"
+              "file": "prop.css"
             },
             "end": {
               "line": 3,
@@ -70,7 +70,7 @@
               "column": 5
             },
             "input": {
-              "file": "prop-hacks.css"
+              "file": "prop.css"
             },
             "end": {
               "line": 4,
@@ -79,6 +79,28 @@
           },
           "prop": "font-size",
           "value": "big"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 5,
+              "column": 5
+            },
+            "input": {
+              "file": "prop.css"
+            },
+            "end": {
+              "line": 5,
+              "column": 22
+            }
+          },
+          "prop": "$(var)-size",
+          "value": "100%"
         }
       ],
       "source": {
@@ -87,10 +109,10 @@
           "column": 1
         },
         "input": {
-          "file": "prop-hacks.css"
+          "file": "prop.css"
         },
         "end": {
-          "line": 5,
+          "line": 6,
           "column": 1
         }
       },
@@ -99,7 +121,7 @@
   ],
   "source": {
     "input": {
-      "file": "prop-hacks.css"
+      "file": "prop.css"
     },
     "start": {
       "line": 1,
