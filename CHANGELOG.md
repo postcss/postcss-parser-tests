@@ -1,3 +1,7 @@
+## 5.0.4
+* Add value trimming test.
+* Add nested at-rule without semicolon test.
+
 ## 5.0.3
 * Add multi-tokens property test.
 
