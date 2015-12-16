@@ -228,6 +228,30 @@
           },
           "prop": "height",
           "value": "100px  important"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": ",
+            "important": "! important"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 13,
+              "column": 5
+            },
+            "input": {
+              "file": "important.css"
+            },
+            "end": {
+              "line": 13,
+              "column": 29
+            }
+          },
+          "prop": "z-index",
+          "important": true,
+          "value": "1 \"\""
         }
       ],
       "source": {
@@ -239,7 +263,7 @@
           "file": "important.css"
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 1
         }
       },
