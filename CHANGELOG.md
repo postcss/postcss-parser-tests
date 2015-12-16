@@ -1,3 +1,6 @@
+## 5.0.5
+* Add more tests for `!important`.
+
 ## 5.0.4
 * Add value trimming test.
 * Add nested at-rule without semicolon test.
