@@ -1,13 +1,8 @@
-var cases = require('../');
+import cases from '../';
 
-var expect = require('chai').expect;
-var path   = require('path');
+import path from 'path';
+import test from 'ava';
 
-describe('path', function () {
-
-    it('returns path', function () {
-        expect(cases.path('tab.css'))
-            .to.eql(path.join(__dirname, '..', 'cases', 'tab.css'));
-    });
-
+test('returns path', t => {
+    t.same(cases.path('tab.css'), path.join(__dirname, '../cases/tab.css'));
 });

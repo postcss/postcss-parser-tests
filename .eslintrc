@@ -119,11 +119,11 @@
     "semi":                        [2, "always"],
     "yoda":                        [2, "never"]
   },
-  "env": {
-    "mocha": true,
-    "node":  true
+  "ecmaFeatures": {
+    "modules": true
   },
-  "scripts": {
-    "test": "eslint index.js"
+  "env": {
+    "node": true,
+    "es6":  true
   }
 }

@@ -1,68 +1,63 @@
-var jsonify = require('../jsonify');
+import jsonify from '../jsonify';
 
-var postcss = require('postcss');
-var expect  = require('chai').expect;
+import postcss from 'postcss';
+import test    from 'ava';
 
-describe('jsonify', function () {
-
-    it('converts to JSON string', function () {
-        var node = postcss.rule();
-        expect(jsonify(node)).to.eql('{\n' +
-            '  "raw": {},\n' +
-            '  "nodes": [],\n' +
-            '  "type": "rule"\n' +
-        '}');
-    });
-
-    it('converts source.input', function () {
-        var node = postcss.rule({
-            source: {
-                input: {
-                    css: 'test',
-                    file: '/a.css'
-                }
+test('converts to JSON string', t => {
+    let node = postcss.rule();
+    t.same(jsonify(node), '{\n' +
+        '  "raws": {},\n' +
+        '  "type": "rule",\n' +
+        '  "nodes": []\n' +
+    '}');
+});
+test('converts source.input', t => {
+    let node = postcss.rule({
+        source: {
+            input: {
+                css: 'test',
+                file: '/a.css'
             }
-        });
-        expect(jsonify(node)).to.eql('{\n' +
-            '  "raw": {},\n' +
-            '  "source": {\n' +
-            '    "input": {\n' +
-            '      "file": "a.css"\n' +
-            '    }\n' +
-            '  },\n' +
-            '  "nodes": [],\n' +
-            '  "type": "rule"\n' +
-        '}');
+        }
     });
+    t.same(jsonify(node), '{\n' +
+        '  "raws": {},\n' +
+        '  "source": {\n' +
+        '    "input": {\n' +
+        '      "file": "a.css"\n' +
+        '    }\n' +
+        '  },\n' +
+        '  "type": "rule",\n' +
+        '  "nodes": []\n' +
+    '}');
+});
 
-    it('converts source.input recursively', function () {
-        var rule = postcss.rule({
-            source: {
-                input: {
-                    css: 'test',
-                    file: '/a.css'
-                }
+test('converts source.input recursively', t => {
+    let rule = postcss.rule({
+        source: {
+            input: {
+                css: 'test',
+                file: '/a.css'
             }
-        });
-        var root = postcss.root();
-        root.append(rule);
-
-        expect(jsonify(root)).to.eql('{\n' +
-            '  "raw": {},\n' +
-            '  "nodes": [\n' +
-            '    {\n' +
-            '      "raw": {},\n' +
-            '      "source": {\n' +
-            '        "input": {\n' +
-            '          "file": "a.css"\n' +
-            '        }\n' +
-            '      },\n' +
-            '      "nodes": [],\n' +
-            '      "type": "rule"\n' +
-            '    }\n' +
-            '  ],\n' +
-            '  "type": "root"\n' +
-        '}');
+        }
     });
+    let root = postcss.root();
+    root.append(rule);
 
+    t.same(jsonify(root), '{\n' +
+        '  "raws": {},\n' +
+        '  "type": "root",\n' +
+        '  "nodes": [\n' +
+        '    {\n' +
+        '      "raws": {},\n' +
+        '      "source": {\n' +
+        '        "input": {\n' +
+        '          "file": "a.css"\n' +
+        '        }\n' +
+        '      },\n' +
+        '      "type": "rule",\n' +
+        '      "nodes": []\n' +
+        '    }\n' +
+        '  ]\n' +
+    '}');
 });
