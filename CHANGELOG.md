@@ -1,3 +1,6 @@
+## 5.0.6
+* Remove cache properties from node in `jsonify`.
+
 ## 5.0.5
 * Add more tests for `!important`.
 
