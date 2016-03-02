@@ -20,6 +20,7 @@ test('converts source.input', t => {
             }
         }
     });
+    node.each(function () { });
     t.same(jsonify(node), '{\n' +
         '  "raws": {},\n' +
         '  "source": {\n' +

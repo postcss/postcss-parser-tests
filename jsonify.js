@@ -5,7 +5,13 @@ function clean(node) {
         delete node.source.input.css;
         node.source.input.file = path.basename(node.source.input.file);
     }
+
+    delete node.indexes;
+    delete node.lastEach;
+    delete node.rawCache;
+
     if ( node.nodes ) node.nodes = node.nodes.map(clean);
+
     return node;
 }
 
