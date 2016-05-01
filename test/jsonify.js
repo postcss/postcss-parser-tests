@@ -5,7 +5,7 @@ import test    from 'ava';
 
 test('converts to JSON string', t => {
     let node = postcss.rule();
-    t.same(jsonify(node), '{\n' +
+    t.deepEqual(jsonify(node), '{\n' +
         '  "raws": {},\n' +
         '  "type": "rule",\n' +
         '  "nodes": []\n' +
@@ -21,7 +21,7 @@ test('converts source.input', t => {
         }
     });
     node.each(function () { });
-    t.same(jsonify(node), '{\n' +
+    t.deepEqual(jsonify(node), '{\n' +
         '  "raws": {},\n' +
         '  "source": {\n' +
         '    "input": {\n' +
@@ -45,7 +45,7 @@ test('converts source.input recursively', t => {
     let root = postcss.root();
     root.append(rule);
 
-    t.same(jsonify(root), '{\n' +
+    t.deepEqual(jsonify(root), '{\n' +
         '  "raws": {},\n' +
         '  "type": "root",\n' +
         '  "nodes": [\n' +

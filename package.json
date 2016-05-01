@@ -19,10 +19,10 @@
     "gulp-util":      "^3.0.7"
   },
   "devDependencies": {
-    "eslint-config-postcss": "2.0.0",
-    "postcss":               "5.0.18",
-    "eslint":                "2.2.0",
-    "ava":                   "0.12.0"
+    "eslint-config-postcss": "2.0.2",
+    "postcss":               "5.0.19",
+    "eslint":                "2.9.0",
+    "ava":                   "0.14.0"
   },
   "scripts": {
     "test": "ava && eslint *.js update"
