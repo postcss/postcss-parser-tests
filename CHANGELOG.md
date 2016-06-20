@@ -1,3 +1,6 @@
+## 5.0.8
+* Remove unique `node.id` too (by Ivan Serniaev).
+
 ## 5.0.7
 * Add test for correct `between`.
 
