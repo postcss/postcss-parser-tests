@@ -10,10 +10,7 @@
   ],
   "author": "Andrey Sitnik <andrey@sitnik.ru>",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url":  "https://github.com/postcss/postcss-parser-tests.git"
-  },
+  "repository": "postcss/postcss-parser-tests",
   "dependencies": {
     "load-resources": "^0.1.1",
     "gulp-util":      "^3.0.7"
