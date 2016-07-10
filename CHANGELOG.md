@@ -1,3 +1,6 @@
+## 5.0.9
+* Remove `node.id` removing.
+
 ## 5.0.8
 * Remove unique `node.id` too (by Ivan Serniaev).
 
