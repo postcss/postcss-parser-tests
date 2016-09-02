@@ -352,6 +352,29 @@
         }
       },
       "selector": "h1\\\\"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "after": " "
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 22,
+          "column": 1
+        },
+        "input": {
+          "file": "escape.css"
+        },
+        "end": {
+          "line": 22,
+          "column": 12
+        }
+      },
+      "selector": "[attr=;]"
     }
   ],
   "source": {
