@@ -1,3 +1,6 @@
+## 5.0.10
+* Add `[attr=;]` case.
+
 ## 5.0.9
 * Remove `node.id` removing.
 
