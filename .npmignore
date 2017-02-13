@@ -1,11 +1,15 @@
+.editorconfig
 .gitignore
 .npmignore
 
 node_modules/
 npm-debug.log
+yarn-error.log
+yarn.lock
 
 test/
 .travis.yml
 .eslintrc
 
 gulpfile.js
+update

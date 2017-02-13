@@ -1,18 +1,18 @@
-import jsonify from '../jsonify';
+const postcss = require('postcss');
 
-import postcss from 'postcss';
-import test    from 'ava';
+const jsonify = require('../jsonify');
 
-test('converts to JSON string', t => {
-    let node = postcss.rule();
-    t.deepEqual(jsonify(node), '{\n' +
+it('converts to JSON string', () => {
+    const node = postcss.rule();
+    expect(jsonify(node)).toEqual('{\n' +
         '  "raws": {},\n' +
         '  "type": "rule",\n' +
         '  "nodes": []\n' +
     '}');
 });
-test('converts source.input', t => {
-    let node = postcss.rule({
+
+it('converts source.input', () => {
+    const node = postcss.rule({
         source: {
             input: {
                 css: 'test',
@@ -21,7 +21,7 @@ test('converts source.input', t => {
         }
     });
     node.each(function () { });
-    t.deepEqual(jsonify(node), '{\n' +
+    expect(jsonify(node)).toEqual('{\n' +
         '  "raws": {},\n' +
         '  "source": {\n' +
         '    "input": {\n' +
@@ -33,8 +33,8 @@ test('converts source.input', t => {
     '}');
 });
 
-test('converts source.input recursively', t => {
-    let rule = postcss.rule({
+it('converts source.input recursively', () => {
+    const rule = postcss.rule({
         source: {
             input: {
                 css: 'test',
@@ -45,7 +45,7 @@ test('converts source.input recursively', t => {
     let root = postcss.root();
     root.append(rule);
 
-    t.deepEqual(jsonify(root), '{\n' +
+    expect(jsonify(root)).toEqual('{\n' +
         '  "raws": {},\n' +
         '  "type": "root",\n' +
         '  "nodes": [\n' +

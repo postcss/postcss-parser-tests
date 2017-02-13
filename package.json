@@ -12,19 +12,22 @@
   "license": "MIT",
   "repository": "postcss/postcss-parser-tests",
   "dependencies": {
-    "load-resources": "^0.1.1",
-    "gulp-util":      "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "load-resources": "^0.1.1"
   },
   "devDependencies": {
-    "eslint-config-postcss": "2.0.2",
-    "postcss":               "5.2.0",
-    "eslint":                "3.4.0",
-    "ava":                   "0.16.0"
+    "eslint": "^3.4.0",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^18.1.0",
+    "postcss": "^5.2.0"
   },
   "scripts": {
-    "test": "ava && eslint *.js update"
+    "test": "jest && eslint *.js update"
   },
   "eslintConfig": {
-    "extends": "eslint-config-postcss/es5"
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
   }
 }
