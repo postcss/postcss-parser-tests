@@ -252,6 +252,34 @@
           "prop": "z-index",
           "important": true,
           "value": "1 \"\""
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": ",
+            "important": "!important",
+            "value": {
+              "value": "1px",
+              "raw": "1px/* sep */"
+            }
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 14,
+              "column": 5
+            },
+            "input": {
+              "file": "important.css"
+            },
+            "end": {
+              "line": 14,
+              "column": 36
+            }
+          },
+          "prop": "padding",
+          "important": true,
+          "value": "1px"
         }
       ],
       "source": {
@@ -263,7 +291,7 @@
           "file": "important.css"
         },
         "end": {
-          "line": 14,
+          "line": 15,
           "column": 1
         }
       },
