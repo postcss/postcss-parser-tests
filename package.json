@@ -1,6 +1,6 @@
 {
   "name": "postcss-parser-tests",
-  "version": "5.0.10",
+  "version": "5.0.11",
   "description": "Base tests for every PostCSS CSS parser",
   "keywords": [
     "postcss",
