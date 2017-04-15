@@ -8,6 +8,12 @@ var jsonify = require('./jsonify');
 var cases   = path.join(__dirname, 'cases');
 var extra   = require('./extra-cases');
 
+var dev = path.join(__dirname, '..', 'postcss', 'build', 'package.json');
+if ( fs.existsSync(dev) ) {
+    process.stdout.write('Using development version of PostCSS\n');
+    postcss = require('../postcss/build');
+}
+
 function read(file) {
     return fs.readFileSync(path.join(cases, file)).toString();
 }
@@ -19,4 +25,7 @@ fs.readdirSync(cases).forEach(function (i) {
     if ( !css ) css = read(name + '.css').trim();
     var root = postcss.parse(css, { from: '/' + name + '.css' });
     fs.writeFileSync(path.join(cases, i), jsonify(root) + '\n');
+    process.stdout.write('.');
 });
+
+process.stdout.write('\n');
