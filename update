@@ -19,12 +19,12 @@ function read(file) {
 }
 
 fs.readdirSync(cases).forEach(function (i) {
-    if ( path.extname(i) !== '.json' ) return;
-    var name = path.basename(i, '.json');
+    if ( path.extname(i) !== '.css' ) return;
+    var name = path.basename(i, '.css');
     var css  = extra[name];
     if ( !css ) css = read(name + '.css').trim();
     var root = postcss.parse(css, { from: '/' + name + '.css' });
-    fs.writeFileSync(path.join(cases, i), jsonify(root) + '\n');
+    fs.writeFileSync(path.join(cases, name + '.json'), jsonify(root) + '\n');
     process.stdout.write('.');
 });
 
