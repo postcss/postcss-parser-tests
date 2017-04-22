@@ -19,8 +19,8 @@ function read(file) {
 }
 
 fs.readdirSync(cases).forEach(function (i) {
-    if ( path.extname(i) !== '.css' ) return;
-    var name = path.basename(i, '.css');
+    if ( path.extname(i) !== '.json' ) return;
+    var name = path.basename(i, '.json');
     var css  = extra[name];
     if ( !css ) css = read(name + '.css').trim();
     var root = postcss.parse(css, { from: '/' + name + '.css' });
