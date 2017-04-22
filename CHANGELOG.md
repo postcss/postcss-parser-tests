@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.0
+* Add rule with semicolon case for PostCSS 6.0.
+
 ## 5.0.11
 * Add `/**/!important` case.
 * Clean up npm package from unnecessary files.
