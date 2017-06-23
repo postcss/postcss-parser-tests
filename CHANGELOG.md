@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.0.1
+* Add `\62 olor: red` case.
+
 ## 6.0
 * Add rule with semicolon case for PostCSS 6.0.
 
