@@ -16,10 +16,10 @@
     "load-resources": "^0.1.1"
   },
   "devDependencies": {
-    "eslint": "^4.0.0",
+    "eslint": "^4.1.1",
     "eslint-config-postcss": "^2.0.2",
     "jest": "^20.0.4",
-    "postcss": "^6.0.2"
+    "postcss": "^6.0.5"
   },
   "scripts": {
     "test": "jest && eslint *.js update"
