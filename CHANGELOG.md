@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.0.2
+* Fix `end` position in at-rule test (by Oleh Kuchuk).
+
 ## 6.0.1
 * Add `\62 olor: red` case.
 
