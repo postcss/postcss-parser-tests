@@ -280,6 +280,54 @@
           "prop": "padding",
           "important": true,
           "value": "1px"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": ",
+            "important": " !IMPORTANT"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 15,
+              "column": 5
+            },
+            "input": {
+              "file": "important.css"
+            },
+            "end": {
+              "line": 15,
+              "column": 24
+            }
+          },
+          "prop": "left",
+          "important": true,
+          "value": "10"
+        },
+        {
+          "raws": {
+            "before": "\n    ",
+            "between": ": ",
+            "important": " ! IMPORTANT"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 16,
+              "column": 5
+            },
+            "input": {
+              "file": "important.css"
+            },
+            "end": {
+              "line": 16,
+              "column": 26
+            }
+          },
+          "prop": "right",
+          "important": true,
+          "value": "10"
         }
       ],
       "source": {
@@ -291,7 +339,7 @@
           "file": "important.css"
         },
         "end": {
-          "line": 15,
+          "line": 17,
           "column": 1
         }
       },

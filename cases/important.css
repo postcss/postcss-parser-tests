@@ -12,4 +12,6 @@ p {
     height: 100px /*! test */ important;
     z-index: 1 ""! important;
     padding: 1px/* sep */!important;
+    left: 10 !IMPORTANT;
+    right: 10 ! IMPORTANT;
 }
