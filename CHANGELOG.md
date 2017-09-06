@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.1.0
+* Add `!IMPORTANT` case.
+
 ## 6.0.2
 * Fix `end` position in at-rule test (by Oleh Kuchuk).
 
