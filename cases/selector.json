@@ -31,6 +31,29 @@
         }
       },
       "selector": "a b"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [],
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "selector.css"
+        },
+        "end": {
+          "line": 3,
+          "column": 15
+        }
+      },
+      "selector": "a/* test */b"
     }
   ],
   "source": {
