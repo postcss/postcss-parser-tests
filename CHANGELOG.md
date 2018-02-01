@@ -1,6 +1,6 @@
 # Change Log
 
-## 6.1.0
+## 6.1
 * Add `!IMPORTANT` case.
 
 ## 6.0.2
