@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.2.1
+* Remove `gulp-util`.
+
 ## 6.2
 * Add case with comment between word tokens (by Oleh Kuchuk).
 
