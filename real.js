@@ -1,6 +1,8 @@
-var gutil = require('gulp-util');
-var load  = require('load-resources');
-var path  = require('path');
+var PluginError = require('plugin-error');
+var chalk       = require('chalk');
+var load        = require('load-resources');
+var path        = require('path');
+var log         = require('fancy-log');
 
 var createError = function (url, message, error) {
     if ( error ) {
@@ -10,7 +12,7 @@ var createError = function (url, message, error) {
             message += error.stack;
         }
     }
-    var err = new gutil.PluginError('integration', {
+    var err = new PluginError('integration', {
         showStack: false,
         message:   message
     });
@@ -64,9 +66,9 @@ module.exports = function (done, extra, callback) {
         if ( domain !== lastDomain ) {
             lastDomain = domain;
             caseIndex += 1;
-            gutil.log('Test ' + cases[caseIndex][0] + ' styles');
+            log('Test ' + cases[caseIndex][0] + ' styles');
         }
-        gutil.log('     ' + gutil.colors.green(path.basename(url)));
+        log('     ' + chalk.green(path.basename(url)));
 
         if ( last ) done();
     });
