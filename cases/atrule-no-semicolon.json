@@ -8,11 +8,13 @@
     {
       "raws": {
         "before": "",
-        "between": "",
-        "afterName": " "
+        "between": " ",
+        "afterName": " ",
+        "semicolon": false,
+        "after": ""
       },
       "type": "atrule",
-      "name": "charset",
+      "name": "media",
       "source": {
         "start": {
           "line": 1,
@@ -23,6 +25,50 @@
         },
         "end": {
           "line": 1,
+          "column": 24
+        }
+      },
+      "params": "screen",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": "",
+            "afterName": ""
+          },
+          "type": "atrule",
+          "name": "content",
+          "source": {
+            "start": {
+              "line": 1,
+              "column": 16
+            },
+            "input": {
+              "file": "atrule-no-semicolon.css"
+            }
+          },
+          "params": ""
+        }
+      ]
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "charset",
+      "source": {
+        "start": {
+          "line": 3,
+          "column": 1
+        },
+        "input": {
+          "file": "atrule-no-semicolon.css"
+        },
+        "end": {
+          "line": 3,
           "column": 16
         }
       },
