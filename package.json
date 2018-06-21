@@ -34,11 +34,5 @@
   },
   "scripts": {
     "test": "jest && eslint *.js update"
-  },
-  "eslintConfig": {
-    "extends": "eslint-config-postcss/es5",
-    "rules": {
-      "global-require": "off"
-    }
   }
 }
