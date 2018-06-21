@@ -1,6 +1,11 @@
+var jsonify = require('./jsonify')
+var path = require('./path')
+var each = require('./each')
+var real = require('./real')
+
 module.exports = {
-    jsonify: require('./jsonify'),
-    path:    require('./path'),
-    each:    require('./each'),
-    real:    require('./real')
-};
+  jsonify: jsonify,
+  path: path,
+  each: each,
+  real: real
+}
