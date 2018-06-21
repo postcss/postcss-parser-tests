@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.3
+* Add case with nested at-rule without semicolon, params, and spaces.
+
 ## 6.2.1
 * Remove `gulp-util`.
 
