@@ -3,6 +3,7 @@ var path = require('path')
 function clean (node) {
   if (node.source) {
     delete node.source.input.css
+    delete node.source.input.hasBOM
     node.source.input.file = path.basename(node.source.input.file)
   }
 
