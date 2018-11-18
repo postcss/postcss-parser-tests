@@ -35,5 +35,12 @@
   },
   "scripts": {
     "test": "jest && eslint *.js update"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "rules": {
+      "node/no-missing-require": "off",
+      "global-require": "off"
+    }
   }
 }
