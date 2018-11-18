@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.3.1
+* Fix compatibility with PostCSS 7.0.6.
+
 ## 6.3
 * Add case with nested at-rule without semicolon, params, and spaces.
 
