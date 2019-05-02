@@ -192,7 +192,7 @@
         },
         {
           "raws": {
-            "before": "\n  \n  ",
+            "before": "\n\n  ",
             "between": ": "
           },
           "type": "decl",
