@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.5
+* Parse `--a: {}` as `--a` declaration with `{}` value.
+
 ## 6.4
 * Add more cases for Custom Properties (by Ivan Solovev).
 
