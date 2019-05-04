@@ -1,5 +1,8 @@
 # Change Log
 
+## 6.4
+* Add more cases for Custom Properties (by Ivan Solovev).
+
 ## 6.3.1
 * Fix compatibility with PostCSS 7.0.6.
 
