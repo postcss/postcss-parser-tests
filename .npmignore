@@ -8,5 +8,4 @@ yarn.lock
 test/
 .travis.yml
 
-gulpfile.js
 update
