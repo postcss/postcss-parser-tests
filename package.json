@@ -37,6 +37,14 @@
     "postcss": "^7.0.27"
   },
   "eslintConfig": {
-    "extends": "@logux/eslint-config"
+    "extends": "@logux/eslint-config",
+    "overrides": [
+      {
+        "files": "test/update.js",
+        "rules": {
+          "node/no-missing-require": "off"
+        }
+      }
+    ]
   }
 }
