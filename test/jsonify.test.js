@@ -1,27 +1,27 @@
-const postcss = require('postcss');
+let postcss = require('postcss')
 
-const jsonify = require('../jsonify');
+let jsonify = require('../jsonify')
 
 it('converts to JSON string', () => {
-    const node = postcss.rule();
-    expect(jsonify(node)).toEqual('{\n' +
+  let node = postcss.rule()
+  expect(jsonify(node)).toEqual('{\n' +
         '  "raws": {},\n' +
         '  "type": "rule",\n' +
         '  "nodes": []\n' +
-    '}');
-});
+    '}')
+})
 
 it('converts source.input', () => {
-    const node = postcss.rule({
-        source: {
-            input: {
-                css: 'test',
-                file: '/a.css'
-            }
-        }
-    });
-    node.each(function () { });
-    expect(jsonify(node)).toEqual('{\n' +
+  let node = postcss.rule({
+    source: {
+      input: {
+        css: 'test',
+        file: '/a.css'
+      }
+    }
+  })
+  node.each(() => { })
+  expect(jsonify(node)).toEqual('{\n' +
         '  "raws": {},\n' +
         '  "source": {\n' +
         '    "input": {\n' +
@@ -30,22 +30,22 @@ it('converts source.input', () => {
         '  },\n' +
         '  "type": "rule",\n' +
         '  "nodes": []\n' +
-    '}');
-});
+    '}')
+})
 
 it('converts source.input recursively', () => {
-    const rule = postcss.rule({
-        source: {
-            input: {
-                css: 'test',
-                file: '/a.css'
-            }
-        }
-    });
-    let root = postcss.root();
-    root.append(rule);
+  let rule = postcss.rule({
+    source: {
+      input: {
+        css: 'test',
+        file: '/a.css'
+      }
+    }
+  })
+  let root = postcss.root()
+  root.append(rule)
 
-    expect(jsonify(root)).toEqual('{\n' +
+  expect(jsonify(root)).toEqual('{\n' +
         '  "raws": {},\n' +
         '  "type": "root",\n' +
         '  "nodes": [\n' +
@@ -60,5 +60,5 @@ it('converts source.input recursively', () => {
         '      "nodes": []\n' +
         '    }\n' +
         '  ]\n' +
-    '}');
-});
+    '}')
+})

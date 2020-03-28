@@ -1,8 +1,8 @@
-var PluginError = require('plugin-error')
-var chalk = require('chalk')
-var load = require('load-resources')
-var path = require('path')
-var log = require('fancy-log')
+let PluginError = require('plugin-error')
+let chalk = require('chalk')
+let load = require('load-resources')
+let path = require('path')
+let log = require('fancy-log')
 
 function createError (url, message, error) {
   if (error) {
@@ -12,42 +12,40 @@ function createError (url, message, error) {
       message += error.stack
     }
   }
-  var err = new PluginError('integration', {
+  let err = new PluginError('integration', {
     showStack: false,
-    message: message
+    message
   })
   err.url = url
   return err
 }
 
-var sites = [
+const SITES = [
   ['GitHub', 'https://github.com/'],
   ['Twitter', 'https://twitter.com/'],
   ['Bootstrap', 'github:twbs/bootstrap:dist/css/bootstrap.css'],
   ['Habrahabr', 'http://habrahabr.ru/']
 ]
 
-module.exports = function (done, extra, callback) {
+module.exports = function real (done, extra, callback) {
   if (!callback) {
     callback = extra
     extra = undefined
   }
 
-  var lastDomain = false
-  var caseIndex = -1
+  let lastDomain = false
+  let caseIndex = -1
 
-  var cases = sites
+  let cases = SITES
   if (extra) cases = cases.concat(extra)
 
-  var urls = cases.map(function (i) {
-    return i[1]
-  })
+  let urls = cases.map(i => i[1])
 
-  var finish = false
-  load(urls, '.css', function (css, url, last) {
+  let finish = false
+  load(urls, '.css', (css, url, last) => {
     if (finish) return
 
-    var result
+    let result
     try {
       result = callback(css).css
     } catch (e) {
@@ -62,7 +60,7 @@ module.exports = function (done, extra, callback) {
       return
     }
 
-    var domain = url.match(/https?:\/\/[^/]+/)[0]
+    let domain = url.match(/https?:\/\/[^/]+/)[0]
     if (domain !== lastDomain) {
       lastDomain = domain
       caseIndex += 1

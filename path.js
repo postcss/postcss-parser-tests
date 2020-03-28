@@ -1,5 +1,5 @@
-var path = require('path')
+let { join } = require('path')
 
-module.exports = function (name) {
-  return path.join(__dirname, 'cases', name)
+module.exports = function path (name) {
+  return join(__dirname, 'cases', name)
 }

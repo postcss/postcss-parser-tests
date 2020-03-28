@@ -1,8 +1,7 @@
-const path = require('path');
+let { join } = require('path')
 
-const cases = require('../');
+let cases = require('../')
 
 it('returns path', () => {
-    expect(cases.path('tab.css'))
-        .toEqual(path.join(__dirname, '../cases/tab.css'));
-});
+  expect(cases.path('tab.css')).toEqual(join(__dirname, '../cases/tab.css'))
+})

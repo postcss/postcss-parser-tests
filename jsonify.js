@@ -1,10 +1,10 @@
-var path = require('path')
+let { basename } = require('path')
 
 function clean (node) {
   if (node.source) {
     delete node.source.input.css
     delete node.source.input.hasBOM
-    node.source.input.file = path.basename(node.source.input.file)
+    node.source.input.file = basename(node.source.input.file)
   }
 
   delete node.indexes
@@ -17,6 +17,6 @@ function clean (node) {
 }
 
 module.exports = function jsonify (node) {
-  var cleaned = clean(node.toJSON())
+  let cleaned = clean(node.toJSON())
   return JSON.stringify(cleaned, null, 2)
 }
