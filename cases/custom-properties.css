@@ -14,6 +14,8 @@
   --round-block: (1, 2, 3);
 
   --bracket-block: {1, 2, 3};
-  --JSON: [1, "2", {"three": 3}, [4]];
+  --JSON: [1, "2", {"three": {"a":1}}, [4]];
   --javascript: function(rule) { console.log(rule) };
 }
+
+:root{--a:1}

@@ -272,11 +272,11 @@
             },
             "end": {
               "line": 17,
-              "column": 38
+              "column": 44
             }
           },
           "prop": "--JSON",
-          "value": "[1, \"2\", {\"three\": 3}, [4]]"
+          "value": "[1, \"2\", {\"three\": {\"a\":1}}, [4]]"
         },
         {
           "raws": {
@@ -312,6 +312,53 @@
         "end": {
           "line": 19,
           "column": 1
+        }
+      },
+      "selector": ":root"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 21,
+              "column": 7
+            },
+            "input": {
+              "file": "custom-properties.css"
+            },
+            "end": {
+              "line": 21,
+              "column": 11
+            }
+          },
+          "prop": "--a",
+          "value": "1"
+        }
+      ],
+      "source": {
+        "start": {
+          "line": 21,
+          "column": 1
+        },
+        "input": {
+          "file": "custom-properties.css"
+        },
+        "end": {
+          "line": 21,
+          "column": 12
         }
       },
       "selector": ":root"
