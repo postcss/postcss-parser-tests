@@ -13,7 +13,7 @@ const SITES = [
 
 function succeed (spinnies, url) {
   if (process.env.CI) {
-    process.stdout.write('✓ ' + url + '\n')
+    process.stdout.write('✔ ' + url + '\n')
   } else {
     spinnies.succeed(url)
   }
