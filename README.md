@@ -16,15 +16,15 @@ These tests are useful for any CSS parser, not just parsers within the PostCSS e
 You can iterate through all test cases using the `cases.each` method:
 
 ```js
-var cases = require('postcss-parser-tests');
+const cases = require('postcss-parser-tests')
 
-cases.each( (name, css, ideal) => {
-    it('parses ' + name, () => {
-        let root = parse(css, { from: name });
-        let json = cases.jsonify(root);
-        expect(json).to.eql(ideal);
-    });
-});
+cases.each((name, css, ideal) => {
+  it('parses ' + name, () => {
+    const root = parse(css, { from: name })
+    const json = cases.jsonify(root)
+    expect(json).toEquql(ideal)
+  })
+})
 ```
 
 This returns the case name, CSS string, and PostCSS AST JSON.
@@ -38,25 +38,24 @@ You can also get the path to some specific test cases using the `cases.path(name
 Integration tests are packed into a Gulp task:
 
 ```js
-gulp.task('integration', function (done) {
-    var cases  = require('postcss-parser-tests');
-    let parser = require('./');
-    cases.real(done, function (css) {
-        return parser(css).toResult({ map: { annotation: false } });
-    });
-});
+const cases = require('postcss-parser-tests')
+
+cases.real(css => {
+  return parser(css).toResult({ map: { annotation: false } })
+})
 ```
 
 Your callback must parse CSS and stringify it back. The plugin will then compare the input
 and output CSS.
 
-You can add extra sites using an optional second argument:
+You can add extra sites using an optional third argument:
 
 ```js
-cases.real(done, [['Browserhacks', 'http://browserhacks.com/']],
-    function (css) {
-
-    });
+cases.real(css => {
+  return parser(css).toResult({ map: { annotation: false } })
+}, [
+  'http://browserhacks.com/'
+])
 ```
 
 [PostCSS]: https://github.com/postcss/postcss
