@@ -28,7 +28,7 @@ function wait (spinnies, url) {
     } else {
       text = url.replace(/^https:\/\//, '').replace(/\/$/, '')
     }
-    spinnies.add(url, { text })
+    spinnies.add(url, { text, color: 'white', succeedColor: 'white' })
   }
 }
 
