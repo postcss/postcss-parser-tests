@@ -1,73 +1,68 @@
-let PluginError = require('plugin-error')
+let ciJobNumber = require('ci-job-number')
+let Spinnies = require('spinnies')
 let chalk = require('chalk')
-let load = require('load-resources')
-let path = require('path')
-let log = require('fancy-log')
 
-function createError (url, message, error) {
-  if (error) {
-    if (error.name === 'CssSyntaxError') {
-      message += error.message
-    } else {
-      message += error.stack
-    }
-  }
-  let err = new PluginError('integration', {
-    showStack: false,
-    message
-  })
-  err.url = url
-  return err
-}
+let load = require('./load')
 
 const SITES = [
-  ['GitHub', 'https://github.com/'],
-  ['Twitter', 'https://twitter.com/'],
-  ['Bootstrap', 'github:twbs/bootstrap:dist/css/bootstrap.css'],
-  ['Habrahabr', 'http://habrahabr.ru/']
+  'https://github.com/',
+  'https://habr.com/',
+  'https://raw.githubusercontent.com/twbs/bootstrap/master/' +
+    'dist/css/bootstrap.css'
 ]
 
-module.exports = function real (done, extra, callback) {
-  if (!callback) {
-    callback = extra
-    extra = undefined
+function succeed (spinnies, url) {
+  if (process.env.CI) {
+    process.stdout.write('✓ ' + url + '\n')
+  } else {
+    spinnies.succeed(url)
+  }
+}
+
+function fail (spinnies, url) {
+  if (!process.env.CI) {
+    spinnies.fail(url)
+  }
+}
+
+module.exports = async function real (callback, extra = []) {
+  if (ciJobNumber() !== 1) {
+    process.stderr.write(
+      chalk.yellow(
+        'Integration CSS tests run only on first CI job, to save CI resources\n'
+      )
+    )
+    return
   }
 
-  let lastDomain = false
-  let caseIndex = -1
+  let spinnies = new Spinnies()
 
-  let cases = SITES
-  if (extra) cases = cases.concat(extra)
-
-  let urls = cases.map(i => i[1])
-
-  let finish = false
-  load(urls, '.css', (css, url, last) => {
-    if (finish) return
-
+  await load(spinnies, succeed, SITES.concat(extra), (css, url) => {
     let result
     try {
       result = callback(css).css
     } catch (e) {
-      finish = true
-      done(createError(url, 'Parsing error: ', e))
-      return
+      fail(spinnies, url)
+      process.stderr.write(
+        '\n' + chalk.red(url) + '\n' + chalk.bgRed(' Parsing error ') + ' '
+      )
+      if (e.name === 'CssSyntaxError') {
+        process.stderr.write(chalk.red(e.message))
+      } else {
+        process.stderr.write(chalk.red(e.stack))
+      }
+      process.stderr.write('\n')
+      process.exit(1)
     }
 
     if (result !== css) {
-      finish = true
-      done(createError(url, 'Output is not equal input'))
-      return
+      fail(spinnies, url)
+      process.stderr.write(
+        '\n' + chalk.red(url) + '\n' + chalk.bgRed(' Different output ') + '\n'
+      )
+      process.exit(1)
     }
 
-    let domain = url.match(/https?:\/\/[^/]+/)[0]
-    if (domain !== lastDomain) {
-      lastDomain = domain
-      caseIndex += 1
-      log('Test ' + cases[caseIndex][0] + ' styles')
-    }
-    log('     ' + chalk.green(path.basename(url)))
-
-    if (last) done()
+    succeed(spinnies, url)
   })
 }
