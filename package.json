@@ -19,6 +19,13 @@
     "ci-job-number": "^1.2.1",
     "spinnies": "^0.5.1"
   },
+  "exports": {
+    ".": {
+      "require": "./index.js",
+      "import": "./index.mjs"
+    },
+    "./": "./"
+  },
   "devDependencies": {
     "@logux/eslint-config": "^36.1.2",
     "clean-publish": "^1.1.6",
