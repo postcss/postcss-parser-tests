@@ -1,13 +1,13 @@
 let https = require('https')
-let chalk = require('chalk')
+let kleur = require('kleur')
 let zlib = require('zlib')
 
 function showError (url, message) {
   process.stderr.write(
     '\n' +
-      chalk.red(url) +
+      kleur.red(url) +
       '\n' +
-      chalk.bgRed(' Request error ') +
+      kleur.bgRed(' Request error ') +
       ' ' +
       message +
       '\n'

@@ -1,6 +1,6 @@
 let ciJobNumber = require('ci-job-number')
 let Spinnies = require('spinnies')
-let chalk = require('chalk')
+let kleur = require('kleur')
 
 let load = require('./load')
 
@@ -27,7 +27,7 @@ function fail (spinnies, url) {
 module.exports = async function real (callback, extra = []) {
   if (ciJobNumber() !== 1) {
     process.stderr.write(
-      chalk.yellow(
+      kleur.yellow(
         'Integration CSS tests run only on first CI job, to save CI resources\n'
       )
     )
@@ -43,12 +43,12 @@ module.exports = async function real (callback, extra = []) {
     } catch (e) {
       fail(spinnies, url)
       process.stderr.write(
-        '\n' + chalk.red(url) + '\n' + chalk.bgRed(' Parsing error ') + ' '
+        '\n' + kleur.red(url) + '\n' + kleur.bgRed(' Parsing error ') + ' '
       )
       if (e.name === 'CssSyntaxError') {
-        process.stderr.write(chalk.red(e.message))
+        process.stderr.write(kleur.red(e.message))
       } else {
-        process.stderr.write(chalk.red(e.stack))
+        process.stderr.write(kleur.red(e.stack))
       }
       process.stderr.write('\n')
       process.exit(1)
@@ -57,7 +57,7 @@ module.exports = async function real (callback, extra = []) {
     if (result !== css) {
       fail(spinnies, url)
       process.stderr.write(
-        '\n' + chalk.red(url) + '\n' + chalk.bgRed(' Different output ') + '\n'
+        '\n' + kleur.red(url) + '\n' + kleur.bgRed(' Different output ') + '\n'
       )
       process.exit(1)
     }
