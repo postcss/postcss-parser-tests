@@ -7,8 +7,7 @@ let load = require('./load')
 const SITES = [
   'https://github.com/',
   'https://habr.com/',
-  'https://raw.githubusercontent.com/twbs/bootstrap/master/' +
-    'dist/css/bootstrap.css'
+  'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css'
 ]
 
 function succeed (spinnies, url) {
