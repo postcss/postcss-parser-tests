@@ -10,10 +10,16 @@ function read (file) {
 module.exports = function each (callback) {
   readdirSync(join(__dirname, 'cases')).filter(i => {
     if (extname(i) !== '.json') return
-    let json = read(i).toString().trim()
+    let json = read(i)
+      .toString()
+      .trim()
     let name = basename(i, '.json')
     let css = extra[name]
-    if (!css) css = read(name + '.css').toString().trim()
+    if (!css) {
+      css = read(name + '.css')
+        .toString()
+        .trim()
+    }
     callback(name + '.css', css, json)
   })
 }

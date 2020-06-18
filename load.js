@@ -5,7 +5,7 @@ let get = require('./get')
 function findLinks (html, url) {
   let files = html.match(/[^"]+\.css"|[^']\.css'/g)
   if (!files) {
-    throw new Error('Can\'t find CSS links at ' + url)
+    throw new Error("Can't find CSS links at " + url)
   }
 
   return files.map(i => {
@@ -33,17 +33,21 @@ function wait (spinnies, url) {
 }
 
 module.exports = async function load (spinnies, succeed, urls, callback) {
-  await Promise.all(urls.map(async url => {
-    wait(spinnies, url)
-    if (url.endsWith('.css')) {
-      callback(await get(url), url)
-    } else {
-      let files = findLinks(await get(url), url)
-      succeed(spinnies, url)
-      await Promise.all(files.map(async file => {
-        wait(spinnies, file)
-        callback(await get(file), file)
-      }))
-    }
-  }))
+  await Promise.all(
+    urls.map(async url => {
+      wait(spinnies, url)
+      if (url.endsWith('.css')) {
+        callback(await get(url), url)
+      } else {
+        let files = findLinks(await get(url), url)
+        succeed(spinnies, url)
+        await Promise.all(
+          files.map(async file => {
+            wait(spinnies, file)
+            callback(await get(file), file)
+          })
+        )
+      }
+    })
+  )
 }

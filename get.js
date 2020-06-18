@@ -5,8 +5,12 @@ let zlib = require('zlib')
 function showError (url, message) {
   process.stderr.write(
     '\n' +
-    chalk.red(url) + '\n' +
-    chalk.bgRed(' Request error ') + ' ' + message + '\n'
+      chalk.red(url) +
+      '\n' +
+      chalk.bgRed(' Request error ') +
+      ' ' +
+      message +
+      '\n'
   )
   process.exit(1)
 }
@@ -17,18 +21,24 @@ function download (url, callback, errors = 0) {
     console.error(e.toString())
     download(url, callback, errors + 1)
   }
-  https.get(url, {
-    headers: { 'accept-encoding': 'gzip,deflate' }
-  }, res => {
-    if (res.statusCode >= 300 && res.statusCode <= 399) {
-      download(res.headers.location, callback, 0)
-    } else if (res.statusCode >= 200 && res.statusCode <= 299) {
-      callback(res)
-    } else {
-      showError(url, res.statusCode)
-    }
-    res.on('error', onError)
-  }).on('error', onError)
+  https
+    .get(
+      url,
+      {
+        headers: { 'accept-encoding': 'gzip,deflate' }
+      },
+      res => {
+        if (res.statusCode >= 300 && res.statusCode <= 399) {
+          download(res.headers.location, callback, 0)
+        } else if (res.statusCode >= 200 && res.statusCode <= 299) {
+          callback(res)
+        } else {
+          showError(url, res.statusCode)
+        }
+        res.on('error', onError)
+      }
+    )
+    .on('error', onError)
 }
 
 module.exports = async function get (url) {

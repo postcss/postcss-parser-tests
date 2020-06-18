@@ -4,11 +4,9 @@ let jsonify = require('../jsonify')
 
 it('converts to JSON string', () => {
   let node = postcss.rule()
-  expect(jsonify(node)).toEqual('{\n' +
-        '  "raws": {},\n' +
-        '  "type": "rule",\n' +
-        '  "nodes": []\n' +
-    '}')
+  expect(jsonify(node)).toEqual(
+    '{\n' + '  "raws": {},\n' + '  "type": "rule",\n' + '  "nodes": []\n' + '}'
+  )
 })
 
 it('converts source.input', () => {
@@ -20,17 +18,19 @@ it('converts source.input', () => {
       }
     }
   })
-  node.each(() => { })
-  expect(jsonify(node)).toEqual('{\n' +
-        '  "raws": {},\n' +
-        '  "source": {\n' +
-        '    "input": {\n' +
-        '      "file": "a.css"\n' +
-        '    }\n' +
-        '  },\n' +
-        '  "type": "rule",\n' +
-        '  "nodes": []\n' +
-    '}')
+  node.each(() => {})
+  expect(jsonify(node)).toEqual(
+    '{\n' +
+      '  "raws": {},\n' +
+      '  "source": {\n' +
+      '    "input": {\n' +
+      '      "file": "a.css"\n' +
+      '    }\n' +
+      '  },\n' +
+      '  "type": "rule",\n' +
+      '  "nodes": []\n' +
+      '}'
+  )
 })
 
 it('converts source.input recursively', () => {
@@ -45,20 +45,22 @@ it('converts source.input recursively', () => {
   let root = postcss.root()
   root.append(rule)
 
-  expect(jsonify(root)).toEqual('{\n' +
-        '  "raws": {},\n' +
-        '  "type": "root",\n' +
-        '  "nodes": [\n' +
-        '    {\n' +
-        '      "raws": {},\n' +
-        '      "source": {\n' +
-        '        "input": {\n' +
-        '          "file": "a.css"\n' +
-        '        }\n' +
-        '      },\n' +
-        '      "type": "rule",\n' +
-        '      "nodes": []\n' +
-        '    }\n' +
-        '  ]\n' +
-    '}')
+  expect(jsonify(root)).toEqual(
+    '{\n' +
+      '  "raws": {},\n' +
+      '  "type": "root",\n' +
+      '  "nodes": [\n' +
+      '    {\n' +
+      '      "raws": {},\n' +
+      '      "source": {\n' +
+      '        "input": {\n' +
+      '          "file": "a.css"\n' +
+      '        }\n' +
+      '      },\n' +
+      '      "type": "rule",\n' +
+      '      "nodes": []\n' +
+      '    }\n' +
+      '  ]\n' +
+      '}'
+  )
 })
