@@ -1,16 +1,10 @@
+let { red, bgRed } = require('colorette')
 let https = require('https')
-let kleur = require('kleur')
 let zlib = require('zlib')
 
 function showError (url, message) {
   process.stderr.write(
-    '\n' +
-      kleur.red(url) +
-      '\n' +
-      kleur.bgRed(' Request error ') +
-      ' ' +
-      message +
-      '\n'
+    '\n' + red(url) + '\n' + bgRed(' Request error ') + ' ' + message + '\n'
   )
   process.exit(1)
 }

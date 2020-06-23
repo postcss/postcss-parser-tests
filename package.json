@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "ci-job-number": "^1.2.2",
-    "kleur": "^4.0.1",
+    "colorette": "^1.2.0",
     "spinnies": "^0.5.1"
   },
   "exports": {

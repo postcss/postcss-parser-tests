@@ -1,6 +1,6 @@
+let { red, bgRed, yellow } = require('colorette')
 let ciJobNumber = require('ci-job-number')
 let Spinnies = require('spinnies')
-let kleur = require('kleur')
 
 let load = require('./load')
 
@@ -27,7 +27,7 @@ function fail (spinnies, url) {
 module.exports = async function real (callback, extra = []) {
   if (ciJobNumber() !== 1) {
     process.stderr.write(
-      kleur.yellow(
+      yellow(
         'Integration CSS tests run only on first CI job, to save CI resources\n'
       )
     )
@@ -43,12 +43,12 @@ module.exports = async function real (callback, extra = []) {
     } catch (e) {
       fail(spinnies, url)
       process.stderr.write(
-        '\n' + kleur.red(url) + '\n' + kleur.bgRed(' Parsing error ') + ' '
+        '\n' + red(url) + '\n' + bgRed(' Parsing error ') + ' '
       )
       if (e.name === 'CssSyntaxError') {
-        process.stderr.write(kleur.red(e.message))
+        process.stderr.write(red(e.message))
       } else {
-        process.stderr.write(kleur.red(e.stack))
+        process.stderr.write(red(e.stack))
       }
       process.stderr.write('\n')
       process.exit(1)
@@ -57,7 +57,7 @@ module.exports = async function real (callback, extra = []) {
     if (result !== css) {
       fail(spinnies, url)
       process.stderr.write(
-        '\n' + kleur.red(url) + '\n' + kleur.bgRed(' Different output ') + '\n'
+        '\n' + red(url) + '\n' + bgRed(' Different output ') + '\n'
       )
       process.exit(1)
     }
