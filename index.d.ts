@@ -7,5 +7,6 @@ export function each (
 ): void
 
 export function real (
-  callback: (css: string) => { css: string }, extra: string[]
+  callback: (css: string) => { css: string },
+  extra: string[]
 ): void
