@@ -1,6 +1,4 @@
-import Node from 'postcss/lib/node.js'
-
-export function jsonify (node: Node): string
+export function jsonify (node: object): string
 
 export function testPath (name: string): string
 

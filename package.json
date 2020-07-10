@@ -17,7 +17,6 @@
   "dependencies": {
     "ci-job-number": "^1.2.2",
     "colorette": "^1.2.1",
-    "postcss": "postcss/postcss#ose",
     "spinnies": "^0.5.1"
   },
   "exports": {
@@ -44,6 +43,7 @@
     "eslint-plugin-standard": "^4.0.1",
     "eslint-plugin-unicorn": "^20.1.0",
     "jest": "^26.1.0",
+    "postcss": "^7.0.32",
     "typescript": "^3.9.6"
   },
   "eslintConfig": {
