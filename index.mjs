@@ -1,6 +1,6 @@
-import jsonify from './jsonify'
-import path from './path'
-import each from './each'
-import real from './real'
+import testOnReal from './real-on-real.js'
+import eachTest from './each-test.js'
+import testPath from './test-path.js'
+import jsonify from './jsonify.js'
 
-export { jsonify, path, each, real }
+export { jsonify, path, each, testOnReal }

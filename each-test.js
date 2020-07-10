@@ -7,7 +7,7 @@ function read (file) {
   return readFileSync(join(__dirname, 'cases', file))
 }
 
-module.exports = function each (callback) {
+module.exports = function eachTest (callback) {
   readdirSync(join(__dirname, 'cases')).filter(i => {
     if (extname(i) !== '.json') return
     let json = read(i)

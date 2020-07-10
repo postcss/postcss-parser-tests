@@ -1,6 +1,6 @@
+let testOnReal = require('./real-on-real')
+let eachTest = require('./each-test')
+let testPath = require('./test-path')
 let jsonify = require('./jsonify')
-let path = require('./path')
-let each = require('./each')
-let real = require('./real')
 
-module.exports = { jsonify, path, each, real }
+module.exports = { jsonify, testPath, eachTest, testOnReal }

@@ -24,7 +24,7 @@ function fail (spinnies, url) {
   }
 }
 
-module.exports = async function real (callback, extra = []) {
+module.exports = async function testOnReal (callback, extra = []) {
   if (ciJobNumber() !== 1) {
     process.stderr.write(
       yellow(
