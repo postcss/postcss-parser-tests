@@ -45,7 +45,7 @@
     "typescript": "^3.9.6"
   },
   "eslintConfig": {
-    "extends": "@logux/eslint-config",
+    "extends": "@logux/eslint-config/ts",
     "overrides": [
       {
         "files": "test/update.js",
