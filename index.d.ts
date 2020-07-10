@@ -1,12 +1,12 @@
 export function jsonify (node: Node): string
 
-export function path (name: string): string
+export function testPath (name: string): string
 
-export function each (
+export function eachTest (
   callback: (name: string, css: string, json: string) => void
 ): void
 
-export function real (
+export function testOnReal (
   callback: (css: string) => { css: string },
   extra: string[]
 ): void
