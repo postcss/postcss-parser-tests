@@ -33,8 +33,10 @@ function wait (spinnies, url) {
 }
 
 module.exports = async function load (spinnies, succeed, urls, callback) {
+  let used = new Set()
   await Promise.all(
     urls.map(async url => {
+      used.add(url)
       wait(spinnies, url)
       if (url.endsWith('.css')) {
         callback(await get(url), url)
@@ -43,6 +45,8 @@ module.exports = async function load (spinnies, succeed, urls, callback) {
         succeed(spinnies, url)
         await Promise.all(
           files.map(async file => {
+            if (used.has(file)) return
+            used.add(file)
             wait(spinnies, file)
             callback(await get(file), file)
           })
