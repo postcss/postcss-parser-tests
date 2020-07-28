@@ -27,24 +27,24 @@
     "./": "./"
   },
   "devDependencies": {
-    "@logux/eslint-config": "^40.0.0",
-    "@typescript-eslint/eslint-plugin": "^3.6.0",
-    "@typescript-eslint/parser": "^3.6.0",
-    "clean-publish": "^1.1.7",
-    "eslint": "^7.4.0",
+    "@logux/eslint-config": "^40.0.1",
+    "@typescript-eslint/eslint-plugin": "^3.7.1",
+    "@typescript-eslint/parser": "^3.7.1",
+    "clean-publish": "^1.1.8",
+    "eslint": "^7.5.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jest": "^23.18.0",
+    "eslint-plugin-jest": "^23.19.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-let": "^1.0.2",
     "eslint-plugin-prettierx": "^0.12.1",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-unicorn": "^20.1.0",
+    "eslint-plugin-unicorn": "^21.0.0",
     "jest": "^26.1.0",
     "postcss": "^7.0.32",
-    "typescript": "^3.9.6"
+    "typescript": "^3.9.7"
   },
   "eslintConfig": {
     "extends": "@logux/eslint-config/ts",
