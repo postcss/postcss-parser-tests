@@ -10,6 +10,8 @@ function clean (node) {
   delete node.indexes
   delete node.lastEach
   delete node.rawCache
+  delete node.listeners
+  delete node.hasListener
 
   if (node.nodes) node.nodes = node.nodes.map(clean)
 
