@@ -1,4 +1,6 @@
 # Change Log
+This project uses major version number for PostCSS,
+minor for adding/removing tests, and patch for fixes.
 
 ## 6.5
 * Parse `--a: {}` as `--a` declaration with `{}` value.
