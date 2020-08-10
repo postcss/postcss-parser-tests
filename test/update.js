@@ -18,7 +18,13 @@ fs.readdirSync(cases).forEach(i => {
   let name = path.basename(i, '.json')
   let css = extra[name]
   if (!css) css = read(name + '.css').trim()
-  let root = postcss.parse(css, { from: '/' + name + '.css' })
+  let root
+  try {
+    root = postcss.parse(css, { from: '/' + name + '.css' })
+  } catch (e) {
+    process.stderr.write(e.toString())
+    process.exit(1)
+  }
   fs.writeFileSync(path.join(cases, name + '.json'), jsonify(root) + '\n')
   process.stdout.write('.')
 })
