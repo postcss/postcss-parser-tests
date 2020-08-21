@@ -2,6 +2,13 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.0
+* Added Custom Properties with `{}` case for PostCSS 8.
+* Added at-rule with `{}` in params case for PostCSS 8.
+* Added ESM support.
+* Added TypeScript types.
+* Replace `chalk` to `colorette`.
+
 ## 6.5
 * Parse `--a: {}` as `--a` declaration with `{}` value.
 
