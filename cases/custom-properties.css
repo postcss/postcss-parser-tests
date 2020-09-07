@@ -13,6 +13,8 @@
   --square-block: [1, 2, 3];
   --round-block: (1, 2, 3);
 
+  --empty: ;
+
   --bracket-block: {1, 2, 3};
   --JSON: [1, "2", {"three": {"a":1}}, [4]];
   --javascript: function(rule) { console.log(rule) };

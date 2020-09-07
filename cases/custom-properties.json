@@ -17,7 +17,7 @@
         {
           "raws": {
             "before": "\n  ",
-            "between": ": "
+            "between": ":"
           },
           "type": "decl",
           "source": {
@@ -34,7 +34,7 @@
             }
           },
           "prop": "--empty",
-          "value": ""
+          "value": " "
         },
         {
           "raws": {
@@ -237,7 +237,7 @@
         {
           "raws": {
             "before": "\n\n  ",
-            "between": ": "
+            "between": ":"
           },
           "type": "decl",
           "source": {
@@ -250,6 +250,28 @@
             },
             "end": {
               "line": 16,
+              "column": 12
+            }
+          },
+          "prop": "--empty",
+          "value": " "
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 18,
+              "column": 3
+            },
+            "input": {
+              "file": "custom-properties.css"
+            },
+            "end": {
+              "line": 18,
               "column": 29
             }
           },
@@ -264,14 +286,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 17,
+              "line": 19,
               "column": 3
             },
             "input": {
               "file": "custom-properties.css"
             },
             "end": {
-              "line": 17,
+              "line": 19,
               "column": 44
             }
           },
@@ -286,14 +308,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 18,
+              "line": 20,
               "column": 3
             },
             "input": {
               "file": "custom-properties.css"
             },
             "end": {
-              "line": 18,
+              "line": 20,
               "column": 53
             }
           },
@@ -310,7 +332,7 @@
           "file": "custom-properties.css"
         },
         "end": {
-          "line": 19,
+          "line": 21,
           "column": 1
         }
       },
@@ -333,14 +355,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 21,
+              "line": 23,
               "column": 7
             },
             "input": {
               "file": "custom-properties.css"
             },
             "end": {
-              "line": 21,
+              "line": 23,
               "column": 11
             }
           },
@@ -350,14 +372,14 @@
       ],
       "source": {
         "start": {
-          "line": 21,
+          "line": 23,
           "column": 1
         },
         "input": {
           "file": "custom-properties.css"
         },
         "end": {
-          "line": 21,
+          "line": 23,
           "column": 12
         }
       },
