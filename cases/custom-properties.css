@@ -14,6 +14,9 @@
   --round-block: (1, 2, 3);
 
   --empty: ;
+  --empty2: /**/;
+  --empty3: !important;
+  --empty4:/**/ !important;
 
   --bracket-block: {1, 2, 3};
   --JSON: [1, "2", {"three": {"a":1}}, [4]];

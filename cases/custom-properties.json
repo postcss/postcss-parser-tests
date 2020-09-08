@@ -258,8 +258,31 @@
         },
         {
           "raws": {
-            "before": "\n\n  ",
-            "between": ": "
+            "before": "\n  ",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 17,
+              "column": 3
+            },
+            "input": {
+              "file": "custom-properties.css"
+            },
+            "end": {
+              "line": 17,
+              "column": 17
+            }
+          },
+          "prop": "--empty2",
+          "value": " /**/"
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":",
+            "important": "!important"
           },
           "type": "decl",
           "source": {
@@ -272,6 +295,53 @@
             },
             "end": {
               "line": 18,
+              "column": 23
+            }
+          },
+          "prop": "--empty3",
+          "important": true,
+          "value": " "
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":",
+            "important": "!important"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 19,
+              "column": 3
+            },
+            "input": {
+              "file": "custom-properties.css"
+            },
+            "end": {
+              "line": 19,
+              "column": 27
+            }
+          },
+          "prop": "--empty4",
+          "important": true,
+          "value": "/**/ "
+        },
+        {
+          "raws": {
+            "before": "\n\n  ",
+            "between": ": "
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "line": 21,
+              "column": 3
+            },
+            "input": {
+              "file": "custom-properties.css"
+            },
+            "end": {
+              "line": 21,
               "column": 29
             }
           },
@@ -286,14 +356,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 19,
+              "line": 22,
               "column": 3
             },
             "input": {
               "file": "custom-properties.css"
             },
             "end": {
-              "line": 19,
+              "line": 22,
               "column": 44
             }
           },
@@ -308,14 +378,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 20,
+              "line": 23,
               "column": 3
             },
             "input": {
               "file": "custom-properties.css"
             },
             "end": {
-              "line": 20,
+              "line": 23,
               "column": 53
             }
           },
@@ -332,7 +402,7 @@
           "file": "custom-properties.css"
         },
         "end": {
-          "line": 21,
+          "line": 24,
           "column": 1
         }
       },
@@ -355,14 +425,14 @@
           "type": "decl",
           "source": {
             "start": {
-              "line": 23,
+              "line": 26,
               "column": 7
             },
             "input": {
               "file": "custom-properties.css"
             },
             "end": {
-              "line": 23,
+              "line": 26,
               "column": 11
             }
           },
@@ -372,14 +442,14 @@
       ],
       "source": {
         "start": {
-          "line": 23,
+          "line": 26,
           "column": 1
         },
         "input": {
           "file": "custom-properties.css"
         },
         "end": {
-          "line": 23,
+          "line": 26,
           "column": 12
         }
       },
