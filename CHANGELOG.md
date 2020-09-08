@@ -2,8 +2,11 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.2
+* Added empty Custom Properties case with comments and `!important`.
+
 ## 8.1
-* Add empty Custom Properties case.
+* Added empty Custom Properties case.
 
 ## 8.0
 * Added Custom Properties with `{}` case for PostCSS 8.
