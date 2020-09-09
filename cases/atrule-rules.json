@@ -17,6 +17,7 @@
       "name": "supports",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -24,6 +25,7 @@
           "file": "atrule-rules.css"
         },
         "end": {
+          "offset": 169,
           "line": 10,
           "column": 1
         }
@@ -42,6 +44,7 @@
           "name": "-custom-keyframe",
           "source": {
             "start": {
+              "offset": 39,
               "line": 2,
               "column": 5
             },
@@ -49,6 +52,7 @@
               "file": "atrule-rules.css"
             },
             "end": {
+              "offset": 167,
               "line": 9,
               "column": 5
             }
@@ -72,6 +76,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 91,
                       "line": 4,
                       "column": 13
                     },
@@ -79,6 +84,7 @@
                       "file": "atrule-rules.css"
                     },
                     "end": {
+                      "offset": 103,
                       "line": 4,
                       "column": 25
                     }
@@ -89,6 +95,7 @@
               ],
               "source": {
                 "start": {
+                  "offset": 72,
                   "line": 3,
                   "column": 9
                 },
@@ -96,6 +103,7 @@
                   "file": "atrule-rules.css"
                 },
                 "end": {
+                  "offset": 113,
                   "line": 5,
                   "column": 9
                 }
@@ -119,6 +127,7 @@
                   "type": "decl",
                   "source": {
                     "start": {
+                      "offset": 140,
                       "line": 7,
                       "column": 13
                     },
@@ -126,6 +135,7 @@
                       "file": "atrule-rules.css"
                     },
                     "end": {
+                      "offset": 151,
                       "line": 7,
                       "column": 24
                     }
@@ -136,6 +146,7 @@
               ],
               "source": {
                 "start": {
+                  "offset": 123,
                   "line": 6,
                   "column": 9
                 },
@@ -143,6 +154,7 @@
                   "file": "atrule-rules.css"
                 },
                 "end": {
+                  "offset": 161,
                   "line": 8,
                   "column": 9
                 }
@@ -159,6 +171,7 @@
       "file": "atrule-rules.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

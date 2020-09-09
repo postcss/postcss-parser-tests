@@ -22,6 +22,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 8,
               "line": 2,
               "column": 5
             },
@@ -29,6 +30,7 @@
               "file": "escape.css"
             },
             "end": {
+              "offset": 33,
               "line": 2,
               "column": 30
             }
@@ -44,6 +46,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 39,
               "line": 3,
               "column": 5
             },
@@ -51,6 +54,7 @@
               "file": "escape.css"
             },
             "end": {
+              "offset": 59,
               "line": 3,
               "column": 25
             }
@@ -66,6 +70,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 65,
               "line": 4,
               "column": 5
             },
@@ -73,6 +78,7 @@
               "file": "escape.css"
             },
             "end": {
+              "offset": 85,
               "line": 4,
               "column": 25
             }
@@ -88,6 +94,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 91,
               "line": 5,
               "column": 5
             },
@@ -95,6 +102,7 @@
               "file": "escape.css"
             },
             "end": {
+              "offset": 106,
               "line": 5,
               "column": 20
             }
@@ -105,6 +113,7 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -112,6 +121,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 108,
           "line": 6,
           "column": 1
         }
@@ -128,6 +138,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 111,
           "line": 8,
           "column": 1
         },
@@ -135,6 +146,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 129,
           "line": 8,
           "column": 19
         }
@@ -155,6 +167,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 131,
           "line": 9,
           "column": 1
         },
@@ -162,6 +175,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 148,
           "line": 9,
           "column": 18
         }
@@ -178,6 +192,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 150,
           "line": 10,
           "column": 1
         },
@@ -185,6 +200,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 186,
           "line": 10,
           "column": 37
         }
@@ -201,6 +217,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 188,
           "line": 11,
           "column": 1
         },
@@ -208,6 +225,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 199,
           "line": 11,
           "column": 12
         }
@@ -224,6 +242,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 201,
           "line": 12,
           "column": 1
         },
@@ -231,6 +250,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 212,
           "line": 12,
           "column": 12
         }
@@ -247,6 +267,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 214,
           "line": 13,
           "column": 1
         },
@@ -254,6 +275,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 225,
           "line": 13,
           "column": 12
         }
@@ -270,6 +292,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 227,
           "line": 14,
           "column": 1
         },
@@ -277,6 +300,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 256,
           "line": 14,
           "column": 30
         }
@@ -293,6 +317,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 259,
           "line": 16,
           "column": 1
         },
@@ -300,6 +325,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 268,
           "line": 16,
           "column": 10
         }
@@ -323,6 +349,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 281,
               "line": 19,
               "column": 5
             },
@@ -330,6 +357,7 @@
               "file": "escape.css"
             },
             "end": {
+              "offset": 290,
               "line": 19,
               "column": 14
             }
@@ -340,6 +368,7 @@
       ],
       "source": {
         "start": {
+          "offset": 271,
           "line": 18,
           "column": 1
         },
@@ -347,6 +376,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 292,
           "line": 20,
           "column": 1
         }
@@ -363,6 +393,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 295,
           "line": 22,
           "column": 1
         },
@@ -370,6 +401,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 306,
           "line": 22,
           "column": 12
         }
@@ -393,6 +425,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 321,
               "line": 25,
               "column": 5
             },
@@ -400,6 +433,7 @@
               "file": "escape.css"
             },
             "end": {
+              "offset": 333,
               "line": 25,
               "column": 17
             }
@@ -410,6 +444,7 @@
       ],
       "source": {
         "start": {
+          "offset": 309,
           "line": 24,
           "column": 1
         },
@@ -417,6 +452,7 @@
           "file": "escape.css"
         },
         "end": {
+          "offset": 335,
           "line": 26,
           "column": 1
         }
@@ -429,6 +465,7 @@
       "file": "escape.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

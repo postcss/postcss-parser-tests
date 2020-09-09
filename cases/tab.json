@@ -22,6 +22,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 5,
               "line": 2,
               "column": 2
             },
@@ -29,6 +30,7 @@
               "file": "tab.css"
             },
             "end": {
+              "offset": 16,
               "line": 2,
               "column": 13
             }
@@ -39,6 +41,7 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -46,6 +49,7 @@
           "file": "tab.css"
         },
         "end": {
+          "offset": 18,
           "line": 3,
           "column": 1
         }
@@ -58,6 +62,7 @@
       "file": "tab.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

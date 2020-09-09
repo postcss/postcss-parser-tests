@@ -17,6 +17,7 @@
       "name": "media",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -24,6 +25,7 @@
           "file": "atrule-no-semicolon.css"
         },
         "end": {
+          "offset": 23,
           "line": 1,
           "column": 24
         }
@@ -40,6 +42,7 @@
           "name": "content",
           "source": {
             "start": {
+              "offset": 15,
               "line": 1,
               "column": 16
             },
@@ -61,6 +64,7 @@
       "name": "charset",
       "source": {
         "start": {
+          "offset": 26,
           "line": 3,
           "column": 1
         },
@@ -68,6 +72,7 @@
           "file": "atrule-no-semicolon.css"
         },
         "end": {
+          "offset": 41,
           "line": 3,
           "column": 16
         }
@@ -80,6 +85,7 @@
       "file": "atrule-no-semicolon.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

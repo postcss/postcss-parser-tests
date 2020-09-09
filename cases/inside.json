@@ -24,6 +24,7 @@
           "name": "import",
           "source": {
             "start": {
+              "offset": 4,
               "line": 1,
               "column": 5
             },
@@ -31,6 +32,7 @@
               "file": "inside.css"
             },
             "end": {
+              "offset": 18,
               "line": 1,
               "column": 19
             }
@@ -40,6 +42,7 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -47,6 +50,7 @@
           "file": "inside.css"
         },
         "end": {
+          "offset": 20,
           "line": 1,
           "column": 21
         }
@@ -59,6 +63,7 @@
       "file": "inside.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

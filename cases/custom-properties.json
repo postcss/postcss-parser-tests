@@ -22,6 +22,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 10,
               "line": 2,
               "column": 3
             },
@@ -29,6 +30,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 19,
               "line": 2,
               "column": 12
             }
@@ -44,6 +46,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 23,
               "line": 3,
               "column": 3
             },
@@ -51,6 +54,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 34,
               "line": 3,
               "column": 14
             }
@@ -66,6 +70,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 38,
               "line": 4,
               "column": 3
             },
@@ -73,6 +78,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 51,
               "line": 4,
               "column": 16
             }
@@ -88,6 +94,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 55,
               "line": 5,
               "column": 3
             },
@@ -95,6 +102,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 68,
               "line": 5,
               "column": 16
             }
@@ -110,6 +118,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 73,
               "line": 7,
               "column": 3
             },
@@ -117,6 +126,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 96,
               "line": 7,
               "column": 26
             }
@@ -132,6 +142,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 100,
               "line": 8,
               "column": 3
             },
@@ -139,6 +150,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 123,
               "line": 8,
               "column": 26
             }
@@ -154,6 +166,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 128,
               "line": 10,
               "column": 3
             },
@@ -161,6 +174,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 160,
               "line": 10,
               "column": 35
             }
@@ -176,6 +190,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 164,
               "line": 11,
               "column": 3
             },
@@ -183,6 +198,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 196,
               "line": 11,
               "column": 35
             }
@@ -198,6 +214,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 201,
               "line": 13,
               "column": 3
             },
@@ -205,6 +222,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 226,
               "line": 13,
               "column": 28
             }
@@ -220,6 +238,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 230,
               "line": 14,
               "column": 3
             },
@@ -227,6 +246,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 254,
               "line": 14,
               "column": 27
             }
@@ -242,6 +262,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 259,
               "line": 16,
               "column": 3
             },
@@ -249,6 +270,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 268,
               "line": 16,
               "column": 12
             }
@@ -264,6 +286,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 272,
               "line": 17,
               "column": 3
             },
@@ -271,6 +294,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 286,
               "line": 17,
               "column": 17
             }
@@ -287,6 +311,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 290,
               "line": 18,
               "column": 3
             },
@@ -294,6 +319,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 310,
               "line": 18,
               "column": 23
             }
@@ -311,6 +337,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 314,
               "line": 19,
               "column": 3
             },
@@ -318,6 +345,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 338,
               "line": 19,
               "column": 27
             }
@@ -334,6 +362,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 343,
               "line": 21,
               "column": 3
             },
@@ -341,6 +370,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 369,
               "line": 21,
               "column": 29
             }
@@ -356,6 +386,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 373,
               "line": 22,
               "column": 3
             },
@@ -363,6 +394,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 414,
               "line": 22,
               "column": 44
             }
@@ -378,6 +410,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 418,
               "line": 23,
               "column": 3
             },
@@ -385,6 +418,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 468,
               "line": 23,
               "column": 53
             }
@@ -395,6 +429,7 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -402,6 +437,7 @@
           "file": "custom-properties.css"
         },
         "end": {
+          "offset": 470,
           "line": 24,
           "column": 1
         }
@@ -425,6 +461,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 479,
               "line": 26,
               "column": 7
             },
@@ -432,6 +469,7 @@
               "file": "custom-properties.css"
             },
             "end": {
+              "offset": 483,
               "line": 26,
               "column": 11
             }
@@ -442,6 +480,7 @@
       ],
       "source": {
         "start": {
+          "offset": 473,
           "line": 26,
           "column": 1
         },
@@ -449,6 +488,7 @@
           "file": "custom-properties.css"
         },
         "end": {
+          "offset": 484,
           "line": 26,
           "column": 12
         }
@@ -461,6 +501,7 @@
       "file": "custom-properties.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

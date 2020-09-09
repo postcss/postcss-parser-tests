@@ -16,6 +16,7 @@
       "name": "-moz-document",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -23,6 +24,7 @@
           "file": "atrule-params.css"
         },
         "end": {
+          "offset": 68,
           "line": 1,
           "column": 69
         }
@@ -36,6 +38,7 @@
       "file": "atrule-params.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

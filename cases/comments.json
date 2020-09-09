@@ -14,6 +14,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -21,6 +22,7 @@
           "file": "comments.css"
         },
         "end": {
+          "offset": 23,
           "line": 1,
           "column": 24
         }
@@ -36,6 +38,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 25,
           "line": 2,
           "column": 1
         },
@@ -43,6 +46,7 @@
           "file": "comments.css"
         },
         "end": {
+          "offset": 28,
           "line": 2,
           "column": 4
         }
@@ -58,6 +62,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 30,
           "line": 3,
           "column": 1
         },
@@ -65,6 +70,7 @@
           "file": "comments.css"
         },
         "end": {
+          "offset": 34,
           "line": 3,
           "column": 5
         }
@@ -89,6 +95,7 @@
           "type": "comment",
           "source": {
             "start": {
+              "offset": 46,
               "line": 5,
               "column": 5
             },
@@ -96,6 +103,7 @@
               "file": "comments.css"
             },
             "end": {
+              "offset": 57,
               "line": 5,
               "column": 16
             }
@@ -110,6 +118,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 63,
               "line": 6,
               "column": 5
             },
@@ -117,6 +126,7 @@
               "file": "comments.css"
             },
             "end": {
+              "offset": 75,
               "line": 6,
               "column": 17
             }
@@ -133,6 +143,7 @@
           "type": "comment",
           "source": {
             "start": {
+              "offset": 81,
               "line": 7,
               "column": 5
             },
@@ -140,6 +151,7 @@
               "file": "comments.css"
             },
             "end": {
+              "offset": 93,
               "line": 7,
               "column": 17
             }
@@ -154,6 +166,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 99,
               "line": 8,
               "column": 5
             },
@@ -161,6 +174,7 @@
               "file": "comments.css"
             },
             "end": {
+              "offset": 122,
               "line": 8,
               "column": 28
             }
@@ -177,6 +191,7 @@
           "type": "comment",
           "source": {
             "start": {
+              "offset": 128,
               "line": 9,
               "column": 5
             },
@@ -184,6 +199,7 @@
               "file": "comments.css"
             },
             "end": {
+              "offset": 136,
               "line": 9,
               "column": 13
             }
@@ -193,6 +209,7 @@
       ],
       "source": {
         "start": {
+          "offset": 36,
           "line": 4,
           "column": 1
         },
@@ -200,6 +217,7 @@
           "file": "comments.css"
         },
         "end": {
+          "offset": 138,
           "line": 10,
           "column": 1
         }
@@ -215,6 +233,7 @@
       "type": "comment",
       "source": {
         "start": {
+          "offset": 140,
           "line": 11,
           "column": 1
         },
@@ -222,6 +241,7 @@
           "file": "comments.css"
         },
         "end": {
+          "offset": 146,
           "line": 11,
           "column": 7
         }
@@ -245,6 +265,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 157,
               "line": 14,
               "column": 5
             },
@@ -252,6 +273,7 @@
               "file": "comments.css"
             },
             "end": {
+              "offset": 169,
               "line": 14,
               "column": 17
             }
@@ -268,6 +290,7 @@
           "type": "comment",
           "source": {
             "start": {
+              "offset": 175,
               "line": 15,
               "column": 5
             },
@@ -275,6 +298,7 @@
               "file": "comments.css"
             },
             "end": {
+              "offset": 181,
               "line": 15,
               "column": 11
             }
@@ -284,6 +308,7 @@
       ],
       "source": {
         "start": {
+          "offset": 149,
           "line": 13,
           "column": 1
         },
@@ -291,6 +316,7 @@
           "file": "comments.css"
         },
         "end": {
+          "offset": 183,
           "line": 16,
           "column": 1
         }
@@ -303,6 +329,7 @@
       "file": "comments.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

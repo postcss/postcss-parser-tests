@@ -17,6 +17,7 @@
       "name": "page",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -24,6 +25,7 @@
           "file": "atrule-decls.css"
         },
         "end": {
+          "offset": 36,
           "line": 3,
           "column": 1
         }
@@ -38,6 +40,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 18,
               "line": 2,
               "column": 5
             },
@@ -45,6 +48,7 @@
               "file": "atrule-decls.css"
             },
             "end": {
+              "offset": 34,
               "line": 2,
               "column": 21
             }
@@ -66,6 +70,7 @@
       "name": "media",
       "source": {
         "start": {
+          "offset": 39,
           "line": 5,
           "column": 1
         },
@@ -73,6 +78,7 @@
           "file": "atrule-decls.css"
         },
         "end": {
+          "offset": 84,
           "line": 7,
           "column": 1
         }
@@ -87,6 +93,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 66,
               "line": 6,
               "column": 5
             },
@@ -94,6 +101,7 @@
               "file": "atrule-decls.css"
             },
             "end": {
+              "offset": 82,
               "line": 6,
               "column": 21
             }
@@ -115,6 +123,7 @@
       "name": "font-face",
       "source": {
         "start": {
+          "offset": 87,
           "line": 9,
           "column": 1
         },
@@ -122,6 +131,7 @@
           "file": "atrule-decls.css"
         },
         "end": {
+          "offset": 129,
           "line": 11,
           "column": 1
         }
@@ -136,6 +146,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 104,
               "line": 10,
               "column": 5
             },
@@ -143,6 +154,7 @@
               "file": "atrule-decls.css"
             },
             "end": {
+              "offset": 127,
               "line": 10,
               "column": 28
             }
@@ -164,6 +176,7 @@
       "name": "viewport",
       "source": {
         "start": {
+          "offset": 132,
           "line": 13,
           "column": 1
         },
@@ -171,6 +184,7 @@
           "file": "atrule-decls.css"
         },
         "end": {
+          "offset": 162,
           "line": 15,
           "column": 1
         }
@@ -185,6 +199,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 148,
               "line": 14,
               "column": 5
             },
@@ -192,6 +207,7 @@
               "file": "atrule-decls.css"
             },
             "end": {
+              "offset": 160,
               "line": 14,
               "column": 17
             }
@@ -213,6 +229,7 @@
       "name": "-ms-viewport",
       "source": {
         "start": {
+          "offset": 165,
           "line": 17,
           "column": 1
         },
@@ -220,6 +237,7 @@
           "file": "atrule-decls.css"
         },
         "end": {
+          "offset": 199,
           "line": 19,
           "column": 1
         }
@@ -234,6 +252,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 185,
               "line": 18,
               "column": 5
             },
@@ -241,6 +260,7 @@
               "file": "atrule-decls.css"
             },
             "end": {
+              "offset": 197,
               "line": 18,
               "column": 17
             }
@@ -256,6 +276,7 @@
       "file": "atrule-decls.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

@@ -26,6 +26,7 @@
           "type": "decl",
           "source": {
             "start": {
+              "offset": 4,
               "line": 1,
               "column": 5
             },
@@ -33,6 +34,7 @@
               "file": "raw-decl.css"
             },
             "end": {
+              "offset": 23,
               "line": 1,
               "column": 24
             }
@@ -43,6 +45,7 @@
       ],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -50,6 +53,7 @@
           "file": "raw-decl.css"
         },
         "end": {
+          "offset": 25,
           "line": 1,
           "column": 26
         }
@@ -62,6 +66,7 @@
       "file": "raw-decl.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

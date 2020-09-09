@@ -9,6 +9,7 @@
       "file": "spaces.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

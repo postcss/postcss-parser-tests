@@ -15,6 +15,7 @@
       "nodes": [],
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -22,6 +23,7 @@
           "file": "colon-selector.css"
         },
         "end": {
+          "offset": 13,
           "line": 1,
           "column": 14
         }
@@ -34,6 +36,7 @@
       "file": "colon-selector.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

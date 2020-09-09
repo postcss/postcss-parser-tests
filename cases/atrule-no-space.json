@@ -15,6 +15,7 @@
       "name": "import",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -22,6 +23,7 @@
           "file": "atrule-no-space.css"
         },
         "end": {
+          "offset": 16,
           "line": 1,
           "column": 17
         }
@@ -34,6 +36,7 @@
       "file": "atrule-no-space.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }

@@ -15,6 +15,7 @@
       "name": "charset",
       "source": {
         "start": {
+          "offset": 0,
           "line": 1,
           "column": 1
         },
@@ -22,6 +23,7 @@
           "file": "atrule-empty.css"
         },
         "end": {
+          "offset": 16,
           "line": 1,
           "column": 17
         }
@@ -34,6 +36,7 @@
       "file": "atrule-empty.css"
     },
     "start": {
+      "offset": 0,
       "line": 1,
       "column": 1
     }
