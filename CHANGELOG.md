@@ -2,6 +2,9 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.3
+* Added `Node#source.offset` to test cases.
+
 ## 8.2
 * Added empty Custom Properties case with comments and `!important`.
 
