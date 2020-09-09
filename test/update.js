@@ -22,7 +22,7 @@ fs.readdirSync(cases).forEach(i => {
   try {
     root = postcss.parse(css, { from: '/' + name + '.css' })
   } catch (e) {
-    process.stderr.write(e.toString())
+    process.stderr.write('\n' + e.stack + '\n')
     process.exit(1)
   }
   fs.writeFileSync(path.join(cases, name + '.json'), jsonify(root) + '\n')
