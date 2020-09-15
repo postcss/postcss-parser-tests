@@ -10,7 +10,6 @@ function clean (node) {
   delete node.indexes
   delete node.lastEach
   delete node.rawCache
-  delete node.source.input.offsetIndex
 
   if (node.nodes) node.nodes = node.nodes.map(clean)
 
