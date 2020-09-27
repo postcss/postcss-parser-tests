@@ -14,6 +14,10 @@
   "scripts": {
     "test": "jest && eslint ."
   },
+  "funding": {
+    "type": "opencollective",
+    "url": "https://opencollective.com/postcss/"
+  },
   "dependencies": {
     "ci-job-number": "^1.2.2",
     "colorette": "^1.2.1",
