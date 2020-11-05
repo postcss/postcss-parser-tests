@@ -2,6 +2,9 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.3.2
+* Fix Node.js 15 warning.
+
 ## 8.3.1
 * Added funding links.
 
