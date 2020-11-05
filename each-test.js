@@ -8,7 +8,7 @@ function read (file) {
 }
 
 module.exports = function eachTest (callback) {
-  readdirSync(join(__dirname, 'cases')).filter(i => {
+  readdirSync(join(__dirname, 'cases')).forEach(i => {
     if (extname(i) !== '.json') return
     let json = read(i).toString().trim()
     let name = basename(i, '.json')
