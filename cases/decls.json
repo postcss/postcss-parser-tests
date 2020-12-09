@@ -26,9 +26,6 @@
               "line": 2,
               "column": 5
             },
-            "input": {
-              "file": "decls.css"
-            },
             "end": {
               "offset": 20,
               "line": 2,
@@ -50,9 +47,6 @@
               "line": 3,
               "column": 5
             },
-            "input": {
-              "file": "decls.css"
-            },
             "end": {
               "offset": 43,
               "line": 3,
@@ -69,9 +63,6 @@
           "line": 1,
           "column": 1
         },
-        "input": {
-          "file": "decls.css"
-        },
         "end": {
           "offset": 45,
           "line": 4,
@@ -82,9 +73,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "decls.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

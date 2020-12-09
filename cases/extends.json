@@ -17,9 +17,6 @@
           "line": 1,
           "column": 1
         },
-        "input": {
-          "file": "extends.css"
-        },
         "end": {
           "offset": 6,
           "line": 1,
@@ -49,9 +46,6 @@
               "offset": 17,
               "line": 4,
               "column": 5
-            },
-            "input": {
-              "file": "extends.css"
             },
             "end": {
               "offset": 23,
@@ -83,9 +77,6 @@
                   "line": 6,
                   "column": 9
                 },
-                "input": {
-                  "file": "extends.css"
-                },
                 "end": {
                   "offset": 49,
                   "line": 6,
@@ -102,9 +93,6 @@
               "line": 5,
               "column": 5
             },
-            "input": {
-              "file": "extends.css"
-            },
             "end": {
               "offset": 55,
               "line": 7,
@@ -120,9 +108,6 @@
           "line": 3,
           "column": 1
         },
-        "input": {
-          "file": "extends.css"
-        },
         "end": {
           "offset": 57,
           "line": 8,
@@ -133,9 +118,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "extends.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

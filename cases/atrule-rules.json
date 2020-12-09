@@ -21,9 +21,6 @@
           "line": 1,
           "column": 1
         },
-        "input": {
-          "file": "atrule-rules.css"
-        },
         "end": {
           "offset": 169,
           "line": 10,
@@ -47,9 +44,6 @@
               "offset": 39,
               "line": 2,
               "column": 5
-            },
-            "input": {
-              "file": "atrule-rules.css"
             },
             "end": {
               "offset": 167,
@@ -80,9 +74,6 @@
                       "line": 4,
                       "column": 13
                     },
-                    "input": {
-                      "file": "atrule-rules.css"
-                    },
                     "end": {
                       "offset": 103,
                       "line": 4,
@@ -98,9 +89,6 @@
                   "offset": 72,
                   "line": 3,
                   "column": 9
-                },
-                "input": {
-                  "file": "atrule-rules.css"
                 },
                 "end": {
                   "offset": 113,
@@ -131,9 +119,6 @@
                       "line": 7,
                       "column": 13
                     },
-                    "input": {
-                      "file": "atrule-rules.css"
-                    },
                     "end": {
                       "offset": 151,
                       "line": 7,
@@ -150,9 +135,6 @@
                   "line": 6,
                   "column": 9
                 },
-                "input": {
-                  "file": "atrule-rules.css"
-                },
                 "end": {
                   "offset": 161,
                   "line": 8,
@@ -167,9 +149,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "atrule-rules.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

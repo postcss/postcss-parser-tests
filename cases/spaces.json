@@ -5,9 +5,6 @@
   "type": "root",
   "nodes": [],
   "source": {
-    "input": {
-      "file": "spaces.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

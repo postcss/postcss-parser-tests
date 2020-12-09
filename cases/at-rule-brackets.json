@@ -21,9 +21,6 @@
           "line": 1,
           "column": 1
         },
-        "input": {
-          "file": "at-rule-brackets.css"
-        },
         "end": {
           "offset": 104,
           "line": 5,
@@ -53,9 +50,6 @@
                   "line": 3,
                   "column": 5
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 98,
                   "line": 3,
@@ -71,9 +65,6 @@
               "offset": 60,
               "line": 2,
               "column": 3
-            },
-            "input": {
-              "file": "at-rule-brackets.css"
             },
             "end": {
               "offset": 102,
@@ -100,9 +91,6 @@
           "offset": 107,
           "line": 7,
           "column": 1
-        },
-        "input": {
-          "file": "at-rule-brackets.css"
         },
         "end": {
           "offset": 161,
@@ -133,9 +121,6 @@
                   "line": 8,
                   "column": 7
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 157,
                   "line": 8,
@@ -151,9 +136,6 @@
               "offset": 138,
               "line": 8,
               "column": 3
-            },
-            "input": {
-              "file": "at-rule-brackets.css"
             },
             "end": {
               "offset": 159,
@@ -180,9 +162,6 @@
           "offset": 164,
           "line": 11,
           "column": 1
-        },
-        "input": {
-          "file": "at-rule-brackets.css"
         },
         "end": {
           "offset": 218,
@@ -213,9 +192,6 @@
                   "line": 12,
                   "column": 7
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 214,
                   "line": 12,
@@ -231,9 +207,6 @@
               "offset": 195,
               "line": 12,
               "column": 3
-            },
-            "input": {
-              "file": "at-rule-brackets.css"
             },
             "end": {
               "offset": 216,
@@ -260,9 +233,6 @@
           "offset": 221,
           "line": 15,
           "column": 1
-        },
-        "input": {
-          "file": "at-rule-brackets.css"
         },
         "end": {
           "offset": 279,
@@ -293,9 +263,6 @@
                   "line": 16,
                   "column": 7
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 275,
                   "line": 16,
@@ -311,9 +278,6 @@
               "offset": 256,
               "line": 16,
               "column": 3
-            },
-            "input": {
-              "file": "at-rule-brackets.css"
             },
             "end": {
               "offset": 277,
@@ -340,9 +304,6 @@
           "offset": 282,
           "line": 19,
           "column": 1
-        },
-        "input": {
-          "file": "at-rule-brackets.css"
         },
         "end": {
           "offset": 327,
@@ -373,9 +334,6 @@
                   "line": 20,
                   "column": 7
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 323,
                   "line": 20,
@@ -391,9 +349,6 @@
               "offset": 304,
               "line": 20,
               "column": 3
-            },
-            "input": {
-              "file": "at-rule-brackets.css"
             },
             "end": {
               "offset": 325,
@@ -420,9 +375,6 @@
           "offset": 330,
           "line": 23,
           "column": 1
-        },
-        "input": {
-          "file": "at-rule-brackets.css"
         },
         "end": {
           "offset": 372,
@@ -453,9 +405,6 @@
                   "line": 24,
                   "column": 7
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 368,
                   "line": 24,
@@ -471,9 +420,6 @@
               "offset": 349,
               "line": 24,
               "column": 3
-            },
-            "input": {
-              "file": "at-rule-brackets.css"
             },
             "end": {
               "offset": 370,
@@ -500,9 +446,6 @@
           "offset": 375,
           "line": 27,
           "column": 1
-        },
-        "input": {
-          "file": "at-rule-brackets.css"
         },
         "end": {
           "offset": 427,
@@ -533,9 +476,6 @@
                   "line": 28,
                   "column": 7
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 423,
                   "line": 28,
@@ -551,9 +491,6 @@
               "offset": 404,
               "line": 28,
               "column": 3
-            },
-            "input": {
-              "file": "at-rule-brackets.css"
             },
             "end": {
               "offset": 425,
@@ -580,9 +517,6 @@
           "offset": 430,
           "line": 31,
           "column": 1
-        },
-        "input": {
-          "file": "at-rule-brackets.css"
         },
         "end": {
           "offset": 506,
@@ -613,9 +547,6 @@
                   "line": 32,
                   "column": 7
                 },
-                "input": {
-                  "file": "at-rule-brackets.css"
-                },
                 "end": {
                   "offset": 502,
                   "line": 32,
@@ -632,9 +563,6 @@
               "line": 32,
               "column": 3
             },
-            "input": {
-              "file": "at-rule-brackets.css"
-            },
             "end": {
               "offset": 504,
               "line": 32,
@@ -647,9 +575,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "at-rule-brackets.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

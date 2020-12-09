@@ -22,11 +22,7 @@ it('converts source.input', () => {
   expect(jsonify(node)).toEqual(
     '{\n' +
       '  "raws": {},\n' +
-      '  "source": {\n' +
-      '    "input": {\n' +
-      '      "file": "a.css"\n' +
-      '    }\n' +
-      '  },\n' +
+      '  "source": {},\n' +
       '  "type": "rule",\n' +
       '  "nodes": []\n' +
       '}'
@@ -36,6 +32,16 @@ it('converts source.input', () => {
 it('converts source.input recursively', () => {
   let rule = postcss.rule({
     source: {
+      start: {
+        offset: 0,
+        line: 1,
+        column: 1
+      },
+      end: {
+        offset: 14,
+        line: 1,
+        column: 15
+      },
       input: {
         css: 'test',
         file: '/a.css'
@@ -53,8 +59,15 @@ it('converts source.input recursively', () => {
       '    {\n' +
       '      "raws": {},\n' +
       '      "source": {\n' +
-      '        "input": {\n' +
-      '          "file": "a.css"\n' +
+      '        "start": {\n' +
+      '          "offset": 0,\n' +
+      '          "line": 1,\n' +
+      '          "column": 1\n' +
+      '        },\n' +
+      '        "end": {\n' +
+      '          "offset": 14,\n' +
+      '          "line": 1,\n' +
+      '          "column": 15\n' +
       '        }\n' +
       '      },\n' +
       '      "type": "rule",\n' +

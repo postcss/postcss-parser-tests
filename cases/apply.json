@@ -26,9 +26,6 @@
               "line": 2,
               "column": 3
             },
-            "input": {
-              "file": "apply.css"
-            },
             "end": {
               "offset": 57,
               "line": 5,
@@ -54,9 +51,6 @@
               "line": 6,
               "column": 3
             },
-            "input": {
-              "file": "apply.css"
-            },
             "end": {
               "offset": 118,
               "line": 10,
@@ -73,9 +67,6 @@
           "line": 1,
           "column": 1
         },
-        "input": {
-          "file": "apply.css"
-        },
         "end": {
           "offset": 120,
           "line": 11,
@@ -86,9 +77,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "apply.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

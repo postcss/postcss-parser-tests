@@ -23,9 +23,6 @@
           "line": 1,
           "column": 1
         },
-        "input": {
-          "file": "selector.css"
-        },
         "end": {
           "offset": 14,
           "line": 1,
@@ -48,9 +45,6 @@
           "line": 3,
           "column": 1
         },
-        "input": {
-          "file": "selector.css"
-        },
         "end": {
           "offset": 31,
           "line": 3,
@@ -61,9 +55,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "selector.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

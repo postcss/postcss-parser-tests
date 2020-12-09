@@ -26,9 +26,6 @@
               "line": 2,
               "column": 5
             },
-            "input": {
-              "file": "rule-at.css"
-            },
             "end": {
               "offset": 19,
               "line": 2,
@@ -49,9 +46,6 @@
               "offset": 25,
               "line": 3,
               "column": 5
-            },
-            "input": {
-              "file": "rule-at.css"
             },
             "end": {
               "offset": 41,
@@ -78,9 +72,6 @@
               "line": 4,
               "column": 5
             },
-            "input": {
-              "file": "rule-at.css"
-            },
             "end": {
               "offset": 90,
               "line": 6,
@@ -101,9 +92,6 @@
                   "line": 5,
                   "column": 9
                 },
-                "input": {
-                  "file": "rule-at.css"
-                },
                 "end": {
                   "offset": 84,
                   "line": 5,
@@ -122,9 +110,6 @@
           "line": 1,
           "column": 1
         },
-        "input": {
-          "file": "rule-at.css"
-        },
         "end": {
           "offset": 92,
           "line": 7,
@@ -135,9 +120,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "rule-at.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

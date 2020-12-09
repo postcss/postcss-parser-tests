@@ -27,9 +27,6 @@
               "line": 2,
               "column": 5
             },
-            "input": {
-              "file": "important.css"
-            },
             "end": {
               "offset": 28,
               "line": 2,
@@ -53,9 +50,6 @@
               "line": 3,
               "column": 5
             },
-            "input": {
-              "file": "important.css"
-            },
             "end": {
               "offset": 59,
               "line": 3,
@@ -72,9 +66,6 @@
           "offset": 0,
           "line": 1,
           "column": 1
-        },
-        "input": {
-          "file": "important.css"
         },
         "end": {
           "offset": 61,
@@ -105,9 +96,6 @@
               "line": 7,
               "column": 5
             },
-            "input": {
-              "file": "important.css"
-            },
             "end": {
               "offset": 87,
               "line": 7,
@@ -128,9 +116,6 @@
               "offset": 93,
               "line": 8,
               "column": 5
-            },
-            "input": {
-              "file": "important.css"
             },
             "end": {
               "offset": 113,
@@ -153,9 +138,6 @@
               "offset": 119,
               "line": 9,
               "column": 5
-            },
-            "input": {
-              "file": "important.css"
             },
             "end": {
               "offset": 153,
@@ -180,9 +162,6 @@
               "line": 10,
               "column": 5
             },
-            "input": {
-              "file": "important.css"
-            },
             "end": {
               "offset": 202,
               "line": 10,
@@ -205,9 +184,6 @@
               "offset": 208,
               "line": 11,
               "column": 5
-            },
-            "input": {
-              "file": "important.css"
             },
             "end": {
               "offset": 244,
@@ -235,9 +211,6 @@
               "line": 12,
               "column": 5
             },
-            "input": {
-              "file": "important.css"
-            },
             "end": {
               "offset": 285,
               "line": 12,
@@ -259,9 +232,6 @@
               "offset": 291,
               "line": 13,
               "column": 5
-            },
-            "input": {
-              "file": "important.css"
             },
             "end": {
               "offset": 315,
@@ -290,9 +260,6 @@
               "line": 14,
               "column": 5
             },
-            "input": {
-              "file": "important.css"
-            },
             "end": {
               "offset": 352,
               "line": 14,
@@ -315,9 +282,6 @@
               "offset": 358,
               "line": 15,
               "column": 5
-            },
-            "input": {
-              "file": "important.css"
             },
             "end": {
               "offset": 377,
@@ -342,9 +306,6 @@
               "line": 16,
               "column": 5
             },
-            "input": {
-              "file": "important.css"
-            },
             "end": {
               "offset": 404,
               "line": 16,
@@ -362,9 +323,6 @@
           "line": 6,
           "column": 1
         },
-        "input": {
-          "file": "important.css"
-        },
         "end": {
           "offset": 406,
           "line": 17,
@@ -375,9 +333,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "important.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

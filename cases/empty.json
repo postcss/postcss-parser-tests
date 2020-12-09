@@ -5,9 +5,6 @@
   "type": "root",
   "nodes": [],
   "source": {
-    "input": {
-      "file": "empty.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,

@@ -26,9 +26,6 @@
               "line": 2,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 19,
               "line": 2,
@@ -49,9 +46,6 @@
               "offset": 23,
               "line": 3,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 34,
@@ -74,9 +68,6 @@
               "line": 4,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 51,
               "line": 4,
@@ -97,9 +88,6 @@
               "offset": 55,
               "line": 5,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 68,
@@ -122,9 +110,6 @@
               "line": 7,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 96,
               "line": 7,
@@ -145,9 +130,6 @@
               "offset": 100,
               "line": 8,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 123,
@@ -170,9 +152,6 @@
               "line": 10,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 160,
               "line": 10,
@@ -193,9 +172,6 @@
               "offset": 164,
               "line": 11,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 196,
@@ -218,9 +194,6 @@
               "line": 13,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 226,
               "line": 13,
@@ -241,9 +214,6 @@
               "offset": 230,
               "line": 14,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 254,
@@ -266,9 +236,6 @@
               "line": 16,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 268,
               "line": 16,
@@ -289,9 +256,6 @@
               "offset": 272,
               "line": 17,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 286,
@@ -314,9 +278,6 @@
               "offset": 290,
               "line": 18,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 310,
@@ -341,9 +302,6 @@
               "line": 19,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 338,
               "line": 19,
@@ -366,9 +324,6 @@
               "line": 21,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 369,
               "line": 21,
@@ -389,9 +344,6 @@
               "offset": 373,
               "line": 22,
               "column": 3
-            },
-            "input": {
-              "file": "custom-properties.css"
             },
             "end": {
               "offset": 414,
@@ -414,9 +366,6 @@
               "line": 23,
               "column": 3
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 468,
               "line": 23,
@@ -432,9 +381,6 @@
           "offset": 0,
           "line": 1,
           "column": 1
-        },
-        "input": {
-          "file": "custom-properties.css"
         },
         "end": {
           "offset": 470,
@@ -465,9 +411,6 @@
               "line": 26,
               "column": 7
             },
-            "input": {
-              "file": "custom-properties.css"
-            },
             "end": {
               "offset": 483,
               "line": 26,
@@ -484,9 +427,6 @@
           "line": 26,
           "column": 1
         },
-        "input": {
-          "file": "custom-properties.css"
-        },
         "end": {
           "offset": 484,
           "line": 26,
@@ -497,9 +437,6 @@
     }
   ],
   "source": {
-    "input": {
-      "file": "custom-properties.css"
-    },
     "start": {
       "offset": 0,
       "line": 1,
