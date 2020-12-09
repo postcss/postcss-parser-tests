@@ -1,5 +1,6 @@
 function clean (node) {
-  if (node.source) delete node.source.input
+  delete node.inputs;
+  if (node.source) delete node.source.inputId
   delete node.indexes
   delete node.lastEach
   delete node.rawCache
