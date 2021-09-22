@@ -2,6 +2,9 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.3.6
+* Replaced `coloretter` with `nanocolors`.
+
 ## 8.3.5
 * Removed `Nodeinputs` and `Node#source.inputId` (by Niklas Mischkulnig).
 
