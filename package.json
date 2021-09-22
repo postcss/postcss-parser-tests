@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "ci-job-number": "^1.2.2",
-    "colorette": "^1.2.1",
+    "nanocolors": "^0.1.5",
     "spinnies": "^0.5.1"
   },
   "exports": {

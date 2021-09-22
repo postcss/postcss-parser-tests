@@ -1,4 +1,4 @@
-let { red, bgRed, yellow } = require('colorette')
+let { red, bgRed, yellow } = require('nanocolors')
 let ciJobNumber = require('ci-job-number')
 let Spinnies = require('spinnies')
 

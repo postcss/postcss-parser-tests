@@ -1,4 +1,4 @@
-let { red, bgRed } = require('colorette')
+let { red, bgRed } = require('nanocolors')
 let https = require('https')
 let zlib = require('zlib')
 
