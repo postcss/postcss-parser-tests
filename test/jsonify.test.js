@@ -12,10 +12,7 @@ it('converts to JSON string', () => {
 it('converts source.input', () => {
   let node = postcss.rule({
     source: {
-      input: {
-        css: 'test',
-        file: '/a.css'
-      }
+      input: new postcss.Input('test', { from: '/a.css' })
     }
   })
   node.each(() => {})
@@ -42,10 +39,7 @@ it('converts source.input recursively', () => {
         line: 1,
         column: 15
       },
-      input: {
-        css: 'test',
-        file: '/a.css'
-      }
+      input: new postcss.Input('test', { from: '/a.css' })
     }
   })
   let root = postcss.root()
