@@ -31,26 +31,25 @@
     "./": "./"
   },
   "devDependencies": {
-    "@logux/eslint-config": "^42.3.0",
-    "@typescript-eslint/eslint-plugin": "^4.9.1",
-    "@typescript-eslint/parser": "^4.9.1",
-    "clean-publish": "^1.1.8",
-    "eslint": "^7.15.0",
-    "eslint-config-standard": "^16.0.2",
-    "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jest": "^24.1.3",
+    "@logux/eslint-config": "^45.4.8",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "clean-publish": "^2.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prefer-let": "^1.1.0",
-    "eslint-plugin-prettierx": "^0.14.0",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^5.0.0",
-    "eslint-plugin-unicorn": "^23.0.0",
-    "jest": "^26.6.3",
-    "lint-staged": "^10.5.3",
-    "postcss": "^8.2.0",
+    "eslint-plugin-unicorn": "^36.0.0",
+    "jest": "^27.2.1",
+    "lint-staged": "^11.1.2",
+    "postcss": "^8.3.6",
+    "prettier": "^2.4.1",
     "simple-git-hooks": "^2.6.1",
-    "typescript": "^4.1.2"
+    "typescript": "^4.4.3"
   },
   "eslintConfig": {
     "extends": "@logux/eslint-config/ts",
@@ -64,9 +63,20 @@
     ]
   },
   "simple-git-hooks": {
-    "pre-commit": "lint-staged"
+    "pre-commit": "npx lint-staged"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "jsxSingleQuote": false,
+    "quoteProps": "consistent",
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "none"
   },
   "lint-staged": {
-    "*.js": "eslint --fix"
+    "*.js": [
+      "prettier --write",
+      "eslint --fix"
+    ]
   }
 }

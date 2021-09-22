@@ -3,11 +3,11 @@ let { join, extname, basename } = require('path')
 
 let extra = require('./extra-cases')
 
-function read (file) {
+function read(file) {
   return readFileSync(join(__dirname, 'cases', file))
 }
 
-module.exports = function eachTest (callback) {
+module.exports = function eachTest(callback) {
   readdirSync(join(__dirname, 'cases')).forEach(i => {
     if (extname(i) !== '.json') return
     let json = read(i).toString().trim()

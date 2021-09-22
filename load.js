@@ -2,7 +2,7 @@ let { basename } = require('path')
 
 let get = require('./get')
 
-function findLinks (html, url) {
+function findLinks(html, url) {
   let files = html.match(/[^"]+\.css"|[^']\.css'/g)
   if (!files) {
     throw new Error("Can't find CSS links at " + url)
@@ -20,7 +20,7 @@ function findLinks (html, url) {
   })
 }
 
-function wait (spinnies, url) {
+function wait(spinnies, url) {
   if (!process.env.CI) {
     let text
     if (url.endsWith('.css')) {
@@ -32,7 +32,7 @@ function wait (spinnies, url) {
   }
 }
 
-module.exports = async function load (spinnies, succeed, urls, callback) {
+module.exports = async function load(spinnies, succeed, urls, callback) {
   let used = new Set()
   await Promise.all(
     urls.map(async url => {

@@ -2,17 +2,17 @@ let { red, bgRed } = require('nanocolors')
 let https = require('https')
 let zlib = require('zlib')
 
-function showError (url, message) {
+function showError(url, message) {
   process.stderr.write(
     '\n' + red(url) + '\n' + bgRed(' Request error ') + ' ' + message + '\n'
   )
   process.exit(1)
 }
 
-function download (url, callback, errors = 0) {
-  function onError (e) {
+function download(url, callback, errors = 0) {
+  function onError(e) {
     if (errors > 2) showError(url, e.toString())
-    console.error(e.toString())
+    process.stderr.write(e.toString() + '\n')
     download(url, callback, errors + 1)
   }
   https
@@ -35,7 +35,7 @@ function download (url, callback, errors = 0) {
     .on('error', onError)
 }
 
-module.exports = async function get (url) {
+module.exports = async function get(url) {
   return new Promise(resolve => {
     download(url, res => {
       let chunks = []

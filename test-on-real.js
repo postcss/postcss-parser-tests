@@ -10,7 +10,7 @@ const SITES = [
   'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css'
 ]
 
-function succeed (spinnies, url) {
+function succeed(spinnies, url) {
   if (process.env.CI) {
     process.stdout.write('✔ ' + url + '\n')
   } else {
@@ -18,13 +18,13 @@ function succeed (spinnies, url) {
   }
 }
 
-function fail (spinnies, url) {
+function fail(spinnies, url) {
   if (!process.env.CI) {
     spinnies.fail(url)
   }
 }
 
-module.exports = async function testOnReal (callback, extra = []) {
+module.exports = async function testOnReal(callback, extra = []) {
   if (ciJobNumber() !== 1) {
     process.stderr.write(
       yellow(

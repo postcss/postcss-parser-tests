@@ -1,4 +1,4 @@
-function clean (node) {
+function clean(node) {
   if (node.source) {
     delete node.source.input
     delete node.source.inputId
@@ -13,7 +13,7 @@ function clean (node) {
   return node
 }
 
-module.exports = function jsonify (node) {
+module.exports = function jsonify(node) {
   let cleaned = clean(node.toJSON())
   return JSON.stringify(cleaned, null, 2)
 }

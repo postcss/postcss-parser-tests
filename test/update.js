@@ -9,7 +9,7 @@ let extra = require('../extra-cases')
 
 let cases = path.join(__dirname, '..', 'cases')
 
-function read (file) {
+function read(file) {
   return fs.readFileSync(path.join(cases, file)).toString()
 }
 
