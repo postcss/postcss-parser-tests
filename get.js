@@ -1,10 +1,16 @@
-let { red, bgRed } = require('nanocolors')
 let https = require('https')
+let pico = require('picocolors')
 let zlib = require('zlib')
 
 function showError(url, message) {
   process.stderr.write(
-    '\n' + red(url) + '\n' + bgRed(' Request error ') + ' ' + message + '\n'
+    '\n' +
+      pico.red(url) +
+      '\n' +
+      pico.bgRed(' Request error ') +
+      ' ' +
+      message +
+      '\n'
   )
   process.exit(1)
 }

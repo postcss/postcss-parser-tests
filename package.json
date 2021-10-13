@@ -19,8 +19,7 @@
     "url": "https://opencollective.com/postcss/"
   },
   "dependencies": {
-    "ci-job-number": "^1.2.2",
-    "nanocolors": "^0.1.5",
+    "picocolors": "^1.0.0",
     "spinnies": "^0.5.1"
   },
   "exports": {

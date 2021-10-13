@@ -1,5 +1,4 @@
-let { red, bgRed, yellow } = require('nanocolors')
-let ciJobNumber = require('ci-job-number')
+let pico = require('picocolors')
 let Spinnies = require('spinnies')
 
 let load = require('./load')
@@ -25,15 +24,6 @@ function fail(spinnies, url) {
 }
 
 module.exports = async function testOnReal(callback, extra = []) {
-  if (ciJobNumber() !== 1) {
-    process.stderr.write(
-      yellow(
-        'Integration CSS tests run only on first CI job, to save CI resources\n'
-      )
-    )
-    return
-  }
-
   let spinnies = new Spinnies()
 
   await load(spinnies, succeed, SITES.concat(extra), (css, url) => {
@@ -43,12 +33,12 @@ module.exports = async function testOnReal(callback, extra = []) {
     } catch (e) {
       fail(spinnies, url)
       process.stderr.write(
-        '\n' + red(url) + '\n' + bgRed(' Parsing error ') + ' '
+        '\n' + pico.red(url) + '\n' + pico.bgRed(' Parsing error ') + ' '
       )
       if (e.name === 'CssSyntaxError') {
-        process.stderr.write(red(e.message))
+        process.stderr.write(pico.red(e.message))
       } else {
-        process.stderr.write(red(e.stack))
+        process.stderr.write(pico.red(e.stack))
       }
       process.stderr.write('\n')
       process.exit(1)
@@ -57,7 +47,7 @@ module.exports = async function testOnReal(callback, extra = []) {
     if (result !== css) {
       fail(spinnies, url)
       process.stderr.write(
-        '\n' + red(url) + '\n' + bgRed(' Different output ') + '\n'
+        '\n' + pico.red(url) + '\n' + pico.bgRed(' Different output ') + '\n'
       )
       process.exit(1)
     }
