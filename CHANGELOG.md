@@ -2,6 +2,10 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.3.7
+* Replaced `nanocolors` with `picocolors`.
+* Removed `ci-job-number`.
+
 ## 8.3.6
 * Replaced `coloretter` with `nanocolors`.
 
