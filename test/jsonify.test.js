@@ -1,22 +1,26 @@
+let { equal } = require('uvu/assert')
+let { test } = require('uvu')
 let postcss = require('postcss')
 
 let jsonify = require('../jsonify')
 
-it('converts to JSON string', () => {
+test('converts to JSON string', () => {
   let node = postcss.rule()
-  expect(jsonify(node)).toEqual(
+  equal(
+    jsonify(node),
     '{\n' + '  "raws": {},\n' + '  "type": "rule",\n' + '  "nodes": []\n' + '}'
   )
 })
 
-it('converts source.input', () => {
+test('converts source.input', () => {
   let node = postcss.rule({
     source: {
       input: new postcss.Input('test', { from: '/a.css' })
     }
   })
   node.each(() => {})
-  expect(jsonify(node)).toEqual(
+  equal(
+    jsonify(node),
     '{\n' +
       '  "raws": {},\n' +
       '  "source": {},\n' +
@@ -26,7 +30,7 @@ it('converts source.input', () => {
   )
 })
 
-it('converts source.input recursively', () => {
+test('converts source.input recursively', () => {
   let rule = postcss.rule({
     source: {
       start: {
@@ -45,7 +49,8 @@ it('converts source.input recursively', () => {
   let root = postcss.root()
   root.append(rule)
 
-  expect(jsonify(root)).toEqual(
+  equal(
+    jsonify(root),
     '{\n' +
       '  "raws": {},\n' +
       '  "type": "root",\n' +
@@ -71,3 +76,5 @@ it('converts source.input recursively', () => {
       '}'
   )
 })
+
+test.run()

@@ -1,7 +1,11 @@
+let { equal } = require('uvu/assert')
 let { join } = require('path')
+let { test } = require('uvu')
 
 let { testPath } = require('../')
 
-it('returns path', () => {
-  expect(testPath('tab.css')).toEqual(join(__dirname, '../cases/tab.css'))
+test('returns path', () => {
+  equal(testPath('tab.css'), join(__dirname, '../cases/tab.css'))
 })
+
+test.run()
