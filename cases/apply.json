@@ -38,11 +38,7 @@
         {
           "raws": {
             "before": "\n  ",
-            "between": ": ",
-            "value": {
-              "value": "{\n    width: 16px;\n    height: 16px;\n  }",
-              "raw": "{\n    width: 16px;\n    height: 16px;\n  }\n  "
-            }
+            "between": ": "
           },
           "type": "decl",
           "source": {
@@ -58,7 +54,7 @@
             }
           },
           "prop": "--small-icon",
-          "value": "{\n    width: 16px;\n    height: 16px;\n  }"
+          "value": "{\n    width: 16px;\n    height: 16px;\n  }\n  "
         }
       ],
       "source": {

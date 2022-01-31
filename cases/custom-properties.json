@@ -248,7 +248,11 @@
         {
           "raws": {
             "before": "\n  ",
-            "between": ":"
+            "between": ":",
+            "value": {
+              "value": " ",
+              "raw": " /**/"
+            }
           },
           "type": "decl",
           "source": {
@@ -264,7 +268,7 @@
             }
           },
           "prop": "--empty2",
-          "value": " /**/"
+          "value": " "
         },
         {
           "raws": {
@@ -293,7 +297,11 @@
           "raws": {
             "before": "\n  ",
             "between": ":",
-            "important": "!important"
+            "important": "!important",
+            "value": {
+              "value": " ",
+              "raw": "/**/ "
+            }
           },
           "type": "decl",
           "source": {
@@ -310,7 +318,32 @@
           },
           "prop": "--empty4",
           "important": true,
-          "value": "/**/ "
+          "value": " "
+        },
+        {
+          "raws": {
+            "before": "\n  ",
+            "between": ":",
+            "value": {
+              "value": " ",
+              "raw": "/**/ "
+            }
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "offset": 342,
+              "line": 20,
+              "column": 3
+            },
+            "end": {
+              "offset": 356,
+              "line": 20,
+              "column": 17
+            }
+          },
+          "prop": "--empty5",
+          "value": " "
         },
         {
           "raws": {
@@ -320,13 +353,13 @@
           "type": "decl",
           "source": {
             "start": {
-              "offset": 343,
-              "line": 21,
+              "offset": 361,
+              "line": 22,
               "column": 3
             },
             "end": {
-              "offset": 369,
-              "line": 21,
+              "offset": 387,
+              "line": 22,
               "column": 29
             }
           },
@@ -341,13 +374,13 @@
           "type": "decl",
           "source": {
             "start": {
-              "offset": 373,
-              "line": 22,
+              "offset": 391,
+              "line": 23,
               "column": 3
             },
             "end": {
-              "offset": 414,
-              "line": 22,
+              "offset": 432,
+              "line": 23,
               "column": 44
             }
           },
@@ -362,13 +395,13 @@
           "type": "decl",
           "source": {
             "start": {
-              "offset": 418,
-              "line": 23,
+              "offset": 436,
+              "line": 24,
               "column": 3
             },
             "end": {
-              "offset": 468,
-              "line": 23,
+              "offset": 486,
+              "line": 24,
               "column": 53
             }
           },
@@ -383,8 +416,8 @@
           "column": 1
         },
         "end": {
-          "offset": 470,
-          "line": 24,
+          "offset": 488,
+          "line": 25,
           "column": 1
         }
       },
@@ -407,13 +440,13 @@
           "type": "decl",
           "source": {
             "start": {
-              "offset": 479,
-              "line": 26,
+              "offset": 497,
+              "line": 27,
               "column": 7
             },
             "end": {
-              "offset": 483,
-              "line": 26,
+              "offset": 501,
+              "line": 27,
               "column": 11
             }
           },
@@ -423,17 +456,65 @@
       ],
       "source": {
         "start": {
-          "offset": 473,
-          "line": 26,
+          "offset": 491,
+          "line": 27,
           "column": 1
         },
         "end": {
-          "offset": 484,
-          "line": 26,
+          "offset": 502,
+          "line": 27,
           "column": 12
         }
       },
       "selector": ":root"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": " ",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":",
+            "value": {
+              "value": " ",
+              "raw": "/**/ "
+            }
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "offset": 513,
+              "line": 29,
+              "column": 9
+            },
+            "end": {
+              "line": 14,
+              "column": null
+            }
+          },
+          "prop": "--c",
+          "value": " "
+        }
+      ],
+      "source": {
+        "start": {
+          "offset": 505,
+          "line": 29,
+          "column": 1
+        },
+        "end": {
+          "offset": 522,
+          "line": 29,
+          "column": 18
+        }
+      },
+      "selector": ".empty"
     }
   ],
   "source": {

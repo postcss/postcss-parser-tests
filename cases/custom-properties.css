@@ -17,6 +17,7 @@
   --empty2: /**/;
   --empty3: !important;
   --empty4:/**/ !important;
+  --empty5:/**/ ;
 
   --bracket-block: {1, 2, 3};
   --JSON: [1, "2", {"three": {"a":1}}, [4]];
@@ -24,3 +25,5 @@
 }
 
 :root{--a:1}
+
+.empty {--c:/**/ }
