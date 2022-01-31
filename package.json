@@ -27,7 +27,7 @@
       "require": "./index.js",
       "import": "./index.mjs"
     },
-    "./": "./"
+    "./package.json": "./package.json"
   },
   "devDependencies": {
     "@logux/eslint-config": "^46.1.1",
