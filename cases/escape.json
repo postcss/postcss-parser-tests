@@ -139,10 +139,6 @@
       "raws": {
         "before": "\n",
         "between": " ",
-        "selector": {
-          "value": ":not(div)",
-          "raw": ":not(div/*)*/)"
-        },
         "after": " "
       },
       "type": "rule",
@@ -159,7 +155,7 @@
           "column": 18
         }
       },
-      "selector": ":not(div)"
+      "selector": ":not(div/*)*/)"
     },
     {
       "raws": {
