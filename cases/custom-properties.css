@@ -1,5 +1,4 @@
 :root {
-  --empty: ;
   --number: 1;
   --unit: 100vw;
   --color: #06c;
@@ -13,7 +12,7 @@
   --square-block: [1, 2, 3];
   --round-block: (1, 2, 3);
 
-  --empty: ;
+  --empty1: ;
   --empty2: /**/;
   --empty3: !important;
   --empty4:/**/ !important;
@@ -26,4 +25,4 @@
 
 :root{--a:1}
 
-.empty {--c:/**/ }
+.semicolon-less {--empty-end:/**/ }
