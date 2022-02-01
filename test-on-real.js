@@ -9,7 +9,8 @@ const SITES = [
 ]
 
 function succeed(url) {
-  process.stdout.write(pico.green('✔ ') + url + '\n')
+  let text = url.replace(/^https?:\/\//, '')
+  process.stdout.write(pico.green('✔ ') + text + '\n')
 }
 
 module.exports = async function testOnReal(callback, extra = []) {
