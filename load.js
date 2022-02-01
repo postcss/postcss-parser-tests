@@ -1,5 +1,3 @@
-let { basename } = require('path')
-
 let get = require('./get')
 
 function findLinks(html, url) {
@@ -20,34 +18,20 @@ function findLinks(html, url) {
   })
 }
 
-function wait(spinnies, url) {
-  if (!process.env.CI) {
-    let text
-    if (url.endsWith('.css')) {
-      text = basename(url)
-    } else {
-      text = url.replace(/^https:\/\//, '').replace(/\/$/, '')
-    }
-    spinnies.add(url, { text, color: 'white', succeedColor: 'white' })
-  }
-}
-
-module.exports = async function load(spinnies, succeed, urls, callback) {
+module.exports = async function load(succeed, urls, callback) {
   let used = new Set()
   await Promise.all(
     urls.map(async url => {
       used.add(url)
-      wait(spinnies, url)
       if (url.endsWith('.css')) {
         callback(await get(url), url)
       } else {
         let files = findLinks(await get(url), url)
-        succeed(spinnies, url)
+        succeed(url)
         await Promise.all(
           files.map(async file => {
             if (used.has(file)) return
             used.add(file)
-            wait(spinnies, file)
             callback(await get(file), file)
           })
         )

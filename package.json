@@ -19,8 +19,7 @@
     "url": "https://opencollective.com/postcss/"
   },
   "dependencies": {
-    "picocolors": "^1.0.0",
-    "spinnies": "^0.5.1"
+    "picocolors": "^1.0.0"
   },
   "exports": {
     ".": {
