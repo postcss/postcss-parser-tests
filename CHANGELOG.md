@@ -2,6 +2,11 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.4
+* Added more CSS Custom Properties tests.
+* Added more dangerous comments tests.
+* Reduced dependencies.
+
 ## 8.3.7
 * Replaced `nanocolors` with `picocolors`.
 * Removed `ci-job-number`.
