@@ -8,3 +8,9 @@
         }
     }
 }
+
+@support selector(:focus-visible) {
+  a:focus-visible {
+    background: yellow;
+  }
+}
