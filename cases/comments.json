@@ -338,31 +338,6 @@
           },
           "prop": "font-family",
           "value": "sans-serif,serif"
-        },
-        {
-          "raws": {
-            "before": "\n  ",
-            "between": ": ",
-            "value": {
-              "value": "\"Droid Sans\",serif",
-              "raw": "\"Droid Sans\"/**/,serif"
-            }
-          },
-          "type": "decl",
-          "source": {
-            "start": {
-              "offset": 267,
-              "line": 21,
-              "column": 3
-            },
-            "end": {
-              "offset": 302,
-              "line": 21,
-              "column": 38
-            }
-          },
-          "prop": "font-family",
-          "value": "\"Droid Sans\",serif"
         }
       ],
       "source": {
@@ -372,8 +347,8 @@
           "column": 1
         },
         "end": {
-          "offset": 304,
-          "line": 22,
+          "offset": 265,
+          "line": 21,
           "column": 1
         }
       },
