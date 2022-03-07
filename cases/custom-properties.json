@@ -473,8 +473,9 @@
               "column": 18
             },
             "end": {
-              "line": 14,
-              "column": null
+              "offset": 525,
+              "line": 28,
+              "column": 33
             }
           },
           "prop": "--empty-end",
@@ -494,6 +495,51 @@
         }
       },
       "selector": ".semicolon-less"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": false,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "start": {
+              "offset": 537,
+              "line": 30,
+              "column": 8
+            },
+            "end": {
+              "offset": 540,
+              "line": 30,
+              "column": 11
+            }
+          },
+          "prop": "--a",
+          "value": " "
+        }
+      ],
+      "source": {
+        "start": {
+          "offset": 530,
+          "line": 30,
+          "column": 1
+        },
+        "end": {
+          "offset": 542,
+          "line": 30,
+          "column": 13
+        }
+      },
+      "selector": ".empty"
     }
   ],
   "source": {

@@ -26,3 +26,5 @@
 :root{--a:1}
 
 .semicolon-less {--empty-end:/**/ }
+
+.empty{--a: }
