@@ -47,7 +47,7 @@
       {
         "files": "test/update.js",
         "rules": {
-          "node/no-missing-require": "off"
+          "n/no-missing-require": "off"
         }
       }
     ]
