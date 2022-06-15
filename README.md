@@ -59,5 +59,5 @@ cases.real(css => {
 ```
 
 [PostCSS]: https://github.com/postcss/postcss
-[ci-img]:  https://img.shields.io/travis/postcss/postcss-parser-tests.svg
-[ci]:      https://travis-ci.org/postcss/postcss-parser-tests
+[ci-img]:  https://github.com/postcss/postcss-parser-tests/actions/workflows/test.yml/badge.svg?branch=main
+[ci]:      https://github.com/postcss/postcss-parser-tests/actions/workflows/test.yml?query=branch%3Amain+
