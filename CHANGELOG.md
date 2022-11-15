@@ -2,6 +2,9 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.5.2
+* Fixed ESM support.
+
 ## 8.5.1
 * Fixed empty Custom Properties position.
 
