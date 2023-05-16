@@ -2,6 +2,9 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.6
+* Removed Habr.com real tests because of often 404 error.
+
 ## 8.5.2
 * Fixed ESM support.
 
