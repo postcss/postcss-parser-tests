@@ -14,10 +14,16 @@
   "scripts": {
     "test": "uvu . '\\.test\\.(ts|js)$' && eslint ."
   },
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/postcss/"
-  },
+  "funding": [
+    {
+      "type": "opencollective",
+      "url": "https://opencollective.com/postcss/"
+    },
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/ai"
+    }
+  ],
   "dependencies": {
     "picocolors": "^1.0.0"
   },
