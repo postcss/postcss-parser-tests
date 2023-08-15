@@ -15,5 +15,5 @@ function clean(node) {
 
 module.exports = function jsonify(node) {
   let cleaned = clean(node.toJSON())
-  return JSON.stringify(cleaned, null, 2)
+  return JSON.parse(JSON.stringify(cleaned, null, 2))
 }

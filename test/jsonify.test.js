@@ -6,10 +6,7 @@ let jsonify = require('../jsonify')
 
 test('converts to JSON string', () => {
   let node = postcss.rule()
-  equal(
-    jsonify(node),
-    '{\n' + '  "raws": {},\n' + '  "type": "rule",\n' + '  "nodes": []\n' + '}'
-  )
+  equal(jsonify(node), { nodes: [], raws: {}, type: 'rule' })
 })
 
 test('converts source.input', () => {
@@ -19,62 +16,56 @@ test('converts source.input', () => {
     }
   })
   node.each(() => {})
-  equal(
-    jsonify(node),
-    '{\n' +
-      '  "raws": {},\n' +
-      '  "source": {},\n' +
-      '  "type": "rule",\n' +
-      '  "nodes": []\n' +
-      '}'
-  )
+  equal(jsonify(node), {
+    nodes: [],
+    raws: {},
+    source: {},
+    type: 'rule'
+  })
 })
 
 test('converts source.input recursively', () => {
   let rule = postcss.rule({
     source: {
-      start: {
-        offset: 0,
-        line: 1,
-        column: 1
-      },
       end: {
-        offset: 14,
+        column: 15,
         line: 1,
-        column: 15
+        offset: 14
       },
-      input: new postcss.Input('test', { from: '/a.css' })
+      input: new postcss.Input('test', { from: '/a.css' }),
+      start: {
+        column: 1,
+        line: 1,
+        offset: 0
+      }
     }
   })
   let root = postcss.root()
   root.append(rule)
 
-  equal(
-    jsonify(root),
-    '{\n' +
-      '  "raws": {},\n' +
-      '  "type": "root",\n' +
-      '  "nodes": [\n' +
-      '    {\n' +
-      '      "raws": {},\n' +
-      '      "source": {\n' +
-      '        "start": {\n' +
-      '          "offset": 0,\n' +
-      '          "line": 1,\n' +
-      '          "column": 1\n' +
-      '        },\n' +
-      '        "end": {\n' +
-      '          "offset": 14,\n' +
-      '          "line": 1,\n' +
-      '          "column": 15\n' +
-      '        }\n' +
-      '      },\n' +
-      '      "type": "rule",\n' +
-      '      "nodes": []\n' +
-      '    }\n' +
-      '  ]\n' +
-      '}'
-  )
+  equal(jsonify(root), {
+    nodes: [
+      {
+        nodes: [],
+        raws: {},
+        source: {
+          end: {
+            column: 15,
+            line: 1,
+            offset: 14
+          },
+          start: {
+            column: 1,
+            line: 1,
+            offset: 0
+          }
+        },
+        type: 'rule'
+      }
+    ],
+    raws: {},
+    type: 'root'
+  })
 })
 
 test.run()
