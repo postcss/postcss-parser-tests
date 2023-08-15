@@ -12,7 +12,9 @@
   "license": "MIT",
   "repository": "postcss/postcss-parser-tests",
   "scripts": {
-    "test": "uvu . '\\.test\\.(ts|js)$' && eslint ."
+    "test:lint": "eslint .",
+    "test:unit": "uvu . '\\.test\\.(ts|js)$'",
+    "test": "pnpm run /^test:/"
   },
   "funding": [
     {
