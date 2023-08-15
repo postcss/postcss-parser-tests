@@ -60,6 +60,11 @@
       "offset": 0,
       "line": 1,
       "column": 1
+    },
+    "end": {
+      "column": 27,
+      "line": 1,
+      "offset": 26
     }
   }
 }

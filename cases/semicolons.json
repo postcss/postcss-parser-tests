@@ -56,6 +56,11 @@
       "offset": 0,
       "line": 1,
       "column": 1
+    },
+    "end": {
+      "column": 2,
+      "line": 4,
+      "offset": 33
     }
   }
 }

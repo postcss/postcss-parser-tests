@@ -547,6 +547,11 @@
       "offset": 0,
       "line": 1,
       "column": 1
+    },
+    "end": {
+      "column": 14,
+      "line": 30,
+      "offset": 543
     }
   }
 }
