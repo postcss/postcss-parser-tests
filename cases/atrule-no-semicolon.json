@@ -16,15 +16,15 @@
       "type": "atrule",
       "name": "media",
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 23,
+          "column": 24,
           "line": 1,
-          "column": 24
+          "offset": 23
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "params": "screen",
@@ -39,9 +39,9 @@
           "name": "content",
           "source": {
             "start": {
-              "offset": 15,
+              "column": 16,
               "line": 1,
-              "column": 16
+              "offset": 15
             }
           },
           "params": ""
@@ -57,30 +57,30 @@
       "type": "atrule",
       "name": "charset",
       "source": {
-        "start": {
-          "offset": 26,
-          "line": 3,
-          "column": 1
-        },
         "end": {
-          "offset": 41,
+          "column": 16,
           "line": 3,
-          "column": 16
+          "offset": 41
+        },
+        "start": {
+          "column": 1,
+          "line": 3,
+          "offset": 26
         }
       },
       "params": "\"UTF-8\""
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 17,
       "line": 3,
       "offset": 42
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

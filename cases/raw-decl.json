@@ -19,21 +19,21 @@
             "before": " ",
             "between": ": ",
             "value": {
-              "value": "a b",
-              "raw": "a/* ; */ b  "
+              "raw": "a/* ; */ b  ",
+              "value": "a b"
             }
           },
           "type": "decl",
           "source": {
-            "start": {
-              "offset": 4,
-              "line": 1,
-              "column": 5
-            },
             "end": {
-              "offset": 23,
+              "column": 24,
               "line": 1,
-              "column": 24
+              "offset": 23
+            },
+            "start": {
+              "column": 5,
+              "line": 1,
+              "offset": 4
             }
           },
           "prop": "color",
@@ -41,30 +41,30 @@
         }
       ],
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 25,
+          "column": 26,
           "line": 1,
-          "column": 26
+          "offset": 25
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "selector": "a"
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 27,
       "line": 1,
       "offset": 26
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

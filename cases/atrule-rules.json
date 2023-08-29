@@ -16,15 +16,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 169,
+          "column": 1,
           "line": 10,
-          "column": 1
+          "offset": 169
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "params": "(animation-name: test)",
@@ -40,15 +40,15 @@
           "type": "atrule",
           "name": "-custom-keyframe",
           "source": {
-            "start": {
-              "offset": 39,
-              "line": 2,
-              "column": 5
-            },
             "end": {
-              "offset": 167,
+              "column": 5,
               "line": 9,
-              "column": 5
+              "offset": 167
+            },
+            "start": {
+              "column": 5,
+              "line": 2,
+              "offset": 39
             }
           },
           "params": "anim",
@@ -69,15 +69,15 @@
                   },
                   "type": "decl",
                   "source": {
-                    "start": {
-                      "offset": 91,
-                      "line": 4,
-                      "column": 13
-                    },
                     "end": {
-                      "offset": 103,
+                      "column": 25,
                       "line": 4,
-                      "column": 25
+                      "offset": 103
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 4,
+                      "offset": 91
                     }
                   },
                   "prop": "color",
@@ -85,15 +85,15 @@
                 }
               ],
               "source": {
-                "start": {
-                  "offset": 72,
-                  "line": 3,
-                  "column": 9
-                },
                 "end": {
-                  "offset": 113,
+                  "column": 9,
                   "line": 5,
-                  "column": 9
+                  "offset": 113
+                },
+                "start": {
+                  "column": 9,
+                  "line": 3,
+                  "offset": 72
                 }
               },
               "selector": "from"
@@ -114,15 +114,15 @@
                   },
                   "type": "decl",
                   "source": {
-                    "start": {
-                      "offset": 140,
-                      "line": 7,
-                      "column": 13
-                    },
                     "end": {
-                      "offset": 151,
+                      "column": 24,
                       "line": 7,
-                      "column": 24
+                      "offset": 151
+                    },
+                    "start": {
+                      "column": 13,
+                      "line": 7,
+                      "offset": 140
                     }
                   },
                   "prop": "color",
@@ -130,15 +130,15 @@
                 }
               ],
               "source": {
-                "start": {
-                  "offset": 123,
-                  "line": 6,
-                  "column": 9
-                },
                 "end": {
-                  "offset": 161,
+                  "column": 9,
                   "line": 8,
-                  "column": 9
+                  "offset": 161
+                },
+                "start": {
+                  "column": 9,
+                  "line": 6,
+                  "offset": 123
                 }
               },
               "selector": "to"
@@ -158,15 +158,15 @@
       "type": "atrule",
       "name": "support",
       "source": {
-        "start": {
-          "offset": 172,
-          "line": 12,
-          "column": 1
-        },
         "end": {
-          "offset": 256,
+          "column": 1,
           "line": 16,
-          "column": 1
+          "offset": 256
+        },
+        "start": {
+          "column": 1,
+          "line": 12,
+          "offset": 172
         }
       },
       "params": "selector(:focus-visible)",
@@ -187,15 +187,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 232,
-                  "line": 14,
-                  "column": 5
-                },
                 "end": {
-                  "offset": 250,
+                  "column": 23,
                   "line": 14,
-                  "column": 23
+                  "offset": 250
+                },
+                "start": {
+                  "column": 5,
+                  "line": 14,
+                  "offset": 232
                 }
               },
               "prop": "background",
@@ -203,15 +203,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 210,
-              "line": 13,
-              "column": 3
-            },
             "end": {
-              "offset": 254,
+              "column": 3,
               "line": 15,
-              "column": 3
+              "offset": 254
+            },
+            "start": {
+              "column": 3,
+              "line": 13,
+              "offset": 210
             }
           },
           "selector": "a:focus-visible"
@@ -220,15 +220,15 @@
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 2,
       "line": 16,
       "offset": 257
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

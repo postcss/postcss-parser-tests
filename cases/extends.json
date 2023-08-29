@@ -12,15 +12,15 @@
       },
       "type": "decl",
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 6,
+          "column": 7,
           "line": 1,
-          "column": 7
+          "offset": 6
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "prop": "one",
@@ -42,15 +42,15 @@
           },
           "type": "decl",
           "source": {
-            "start": {
-              "offset": 17,
-              "line": 4,
-              "column": 5
-            },
             "end": {
-              "offset": 23,
+              "column": 11,
               "line": 4,
-              "column": 11
+              "offset": 23
+            },
+            "start": {
+              "column": 5,
+              "line": 4,
+              "offset": 17
             }
           },
           "prop": "two",
@@ -72,15 +72,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 41,
-                  "line": 6,
-                  "column": 9
-                },
                 "end": {
-                  "offset": 49,
+                  "column": 17,
                   "line": 6,
-                  "column": 17
+                  "offset": 49
+                },
+                "start": {
+                  "column": 9,
+                  "line": 6,
+                  "offset": 41
                 }
               },
               "prop": "three",
@@ -88,45 +88,45 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 29,
-              "line": 5,
-              "column": 5
-            },
             "end": {
-              "offset": 55,
+              "column": 5,
               "line": 7,
-              "column": 5
+              "offset": 55
+            },
+            "start": {
+              "column": 5,
+              "line": 5,
+              "offset": 29
             }
           },
           "selector": "b"
         }
       ],
       "source": {
-        "start": {
-          "offset": 9,
-          "line": 3,
-          "column": 1
-        },
         "end": {
-          "offset": 57,
+          "column": 1,
           "line": 8,
-          "column": 1
+          "offset": 57
+        },
+        "start": {
+          "column": 1,
+          "line": 3,
+          "offset": 9
         }
       },
       "selector": "a"
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 2,
       "line": 8,
       "offset": 58
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

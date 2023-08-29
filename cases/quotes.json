@@ -21,15 +21,15 @@
           },
           "type": "decl",
           "source": {
-            "start": {
-              "offset": 16,
-              "line": 2,
-              "column": 5
-            },
             "end": {
-              "offset": 37,
+              "column": 26,
               "line": 2,
-              "column": 26
+              "offset": 37
+            },
+            "start": {
+              "column": 5,
+              "line": 2,
+              "offset": 16
             }
           },
           "prop": "content",
@@ -42,15 +42,15 @@
           },
           "type": "decl",
           "source": {
-            "start": {
-              "offset": 43,
-              "line": 3,
-              "column": 5
-            },
             "end": {
-              "offset": 59,
+              "column": 21,
               "line": 3,
-              "column": 21
+              "offset": 59
+            },
+            "start": {
+              "column": 5,
+              "line": 3,
+              "offset": 43
             }
           },
           "prop": "content",
@@ -58,30 +58,30 @@
         }
       ],
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 61,
+          "column": 1,
           "line": 4,
-          "column": 1
+          "offset": 61
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "selector": "a::before"
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 2,
       "line": 4,
       "offset": 62
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

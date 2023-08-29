@@ -21,15 +21,15 @@
           },
           "type": "decl",
           "source": {
-            "start": {
-              "offset": 5,
-              "line": 2,
-              "column": 2
-            },
             "end": {
-              "offset": 16,
+              "column": 13,
               "line": 2,
-              "column": 13
+              "offset": 16
+            },
+            "start": {
+              "column": 2,
+              "line": 2,
+              "offset": 5
             }
           },
           "prop": "color",
@@ -37,30 +37,30 @@
         }
       ],
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 18,
+          "column": 1,
           "line": 3,
-          "column": 1
+          "offset": 18
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "selector": "a"
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 2,
       "line": 3,
       "offset": 19
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

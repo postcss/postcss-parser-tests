@@ -21,15 +21,15 @@
           },
           "type": "decl",
           "source": {
-            "start": {
-              "offset": 8,
-              "line": 2,
-              "column": 5
-            },
             "end": {
-              "offset": 19,
+              "column": 16,
               "line": 2,
-              "column": 16
+              "offset": 19
+            },
+            "start": {
+              "column": 5,
+              "line": 2,
+              "offset": 8
             }
           },
           "prop": "width",
@@ -42,15 +42,15 @@
           },
           "type": "decl",
           "source": {
-            "start": {
-              "offset": 25,
-              "line": 3,
-              "column": 5
-            },
             "end": {
-              "offset": 41,
+              "column": 21,
               "line": 3,
-              "column": 21
+              "offset": 41
+            },
+            "start": {
+              "column": 5,
+              "line": 3,
+              "offset": 25
             }
           },
           "prop": "margin",
@@ -67,15 +67,15 @@
           "type": "atrule",
           "name": "mixin",
           "source": {
-            "start": {
-              "offset": 47,
-              "line": 4,
-              "column": 5
-            },
             "end": {
-              "offset": 90,
+              "column": 5,
               "line": 6,
-              "column": 5
+              "offset": 90
+            },
+            "start": {
+              "column": 5,
+              "line": 4,
+              "offset": 47
             }
           },
           "params": "mobile",
@@ -87,15 +87,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 71,
-                  "line": 5,
-                  "column": 9
-                },
                 "end": {
-                  "offset": 84,
+                  "column": 22,
                   "line": 5,
-                  "column": 22
+                  "offset": 84
+                },
+                "start": {
+                  "column": 9,
+                  "line": 5,
+                  "offset": 71
                 }
               },
               "prop": "height",
@@ -105,30 +105,30 @@
         }
       ],
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 92,
+          "column": 1,
           "line": 7,
-          "column": 1
+          "offset": 92
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "selector": "a"
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 2,
       "line": 7,
       "offset": 93
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

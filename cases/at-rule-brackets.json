@@ -16,15 +16,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 104,
+          "column": 1,
           "line": 5,
-          "column": 1
+          "offset": 104
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "params": "(--element(\".minwidth\", { \"minWidth\": 300 }))",
@@ -45,15 +45,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 75,
-                  "line": 3,
-                  "column": 5
-                },
                 "end": {
-                  "offset": 98,
+                  "column": 28,
                   "line": 3,
-                  "column": 28
+                  "offset": 98
+                },
+                "start": {
+                  "column": 5,
+                  "line": 3,
+                  "offset": 75
                 }
               },
               "prop": "background",
@@ -61,15 +61,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 60,
-              "line": 2,
-              "column": 3
-            },
             "end": {
-              "offset": 102,
+              "column": 3,
               "line": 4,
-              "column": 3
+              "offset": 102
+            },
+            "start": {
+              "column": 3,
+              "line": 2,
+              "offset": 60
             }
           },
           "selector": "[--self]"
@@ -87,15 +87,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 107,
-          "line": 7,
-          "column": 1
-        },
         "end": {
-          "offset": 161,
+          "column": 1,
           "line": 9,
-          "column": 1
+          "offset": 161
+        },
+        "start": {
+          "column": 1,
+          "line": 7,
+          "offset": 107
         }
       },
       "params": "({\"example\": 1})",
@@ -116,15 +116,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 142,
-                  "line": 8,
-                  "column": 7
-                },
                 "end": {
-                  "offset": 157,
+                  "column": 22,
                   "line": 8,
-                  "column": 22
+                  "offset": 157
+                },
+                "start": {
+                  "column": 7,
+                  "line": 8,
+                  "offset": 142
                 }
               },
               "prop": "background",
@@ -132,15 +132,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 138,
-              "line": 8,
-              "column": 3
-            },
             "end": {
-              "offset": 159,
+              "column": 24,
               "line": 8,
-              "column": 24
+              "offset": 159
+            },
+            "start": {
+              "column": 3,
+              "line": 8,
+              "offset": 138
             }
           },
           "selector": "*"
@@ -158,15 +158,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 164,
-          "line": 11,
-          "column": 1
-        },
         "end": {
-          "offset": 218,
+          "column": 1,
           "line": 13,
-          "column": 1
+          "offset": 218
+        },
+        "start": {
+          "column": 1,
+          "line": 11,
+          "offset": 164
         }
       },
       "params": "((\"example\": 1))",
@@ -187,15 +187,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 199,
-                  "line": 12,
-                  "column": 7
-                },
                 "end": {
-                  "offset": 214,
+                  "column": 22,
                   "line": 12,
-                  "column": 22
+                  "offset": 214
+                },
+                "start": {
+                  "column": 7,
+                  "line": 12,
+                  "offset": 199
                 }
               },
               "prop": "background",
@@ -203,15 +203,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 195,
-              "line": 12,
-              "column": 3
-            },
             "end": {
-              "offset": 216,
+              "column": 24,
               "line": 12,
-              "column": 24
+              "offset": 216
+            },
+            "start": {
+              "column": 3,
+              "line": 12,
+              "offset": 195
             }
           },
           "selector": "*"
@@ -229,15 +229,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 221,
-          "line": 15,
-          "column": 1
-        },
         "end": {
-          "offset": 279,
+          "column": 1,
           "line": 17,
-          "column": 1
+          "offset": 279
+        },
+        "start": {
+          "column": 1,
+          "line": 15,
+          "offset": 221
         }
       },
       "params": "(func(\"example\": 1))",
@@ -258,15 +258,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 260,
-                  "line": 16,
-                  "column": 7
-                },
                 "end": {
-                  "offset": 275,
+                  "column": 22,
                   "line": 16,
-                  "column": 22
+                  "offset": 275
+                },
+                "start": {
+                  "column": 7,
+                  "line": 16,
+                  "offset": 260
                 }
               },
               "prop": "background",
@@ -274,15 +274,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 256,
-              "line": 16,
-              "column": 3
-            },
             "end": {
-              "offset": 277,
+              "column": 24,
               "line": 16,
-              "column": 24
+              "offset": 277
+            },
+            "start": {
+              "column": 3,
+              "line": 16,
+              "offset": 256
             }
           },
           "selector": "*"
@@ -300,15 +300,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 282,
-          "line": 19,
-          "column": 1
-        },
         "end": {
-          "offset": 327,
+          "column": 1,
           "line": 21,
-          "column": 1
+          "offset": 327
+        },
+        "start": {
+          "column": 1,
+          "line": 19,
+          "offset": 282
         }
       },
       "params": "(--var)",
@@ -329,15 +329,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 308,
-                  "line": 20,
-                  "column": 7
-                },
                 "end": {
-                  "offset": 323,
+                  "column": 22,
                   "line": 20,
-                  "column": 22
+                  "offset": 323
+                },
+                "start": {
+                  "column": 7,
+                  "line": 20,
+                  "offset": 308
                 }
               },
               "prop": "background",
@@ -345,15 +345,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 304,
-              "line": 20,
-              "column": 3
-            },
             "end": {
-              "offset": 325,
+              "column": 24,
               "line": 20,
-              "column": 24
+              "offset": 325
+            },
+            "start": {
+              "column": 3,
+              "line": 20,
+              "offset": 304
             }
           },
           "selector": "*"
@@ -371,15 +371,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 330,
-          "line": 23,
-          "column": 1
-        },
         "end": {
-          "offset": 372,
+          "column": 1,
           "line": 25,
-          "column": 1
+          "offset": 372
+        },
+        "start": {
+          "column": 1,
+          "line": 23,
+          "offset": 330
         }
       },
       "params": "([])",
@@ -400,15 +400,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 353,
-                  "line": 24,
-                  "column": 7
-                },
                 "end": {
-                  "offset": 368,
+                  "column": 22,
                   "line": 24,
-                  "column": 22
+                  "offset": 368
+                },
+                "start": {
+                  "column": 7,
+                  "line": 24,
+                  "offset": 353
                 }
               },
               "prop": "background",
@@ -416,15 +416,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 349,
-              "line": 24,
-              "column": 3
-            },
             "end": {
-              "offset": 370,
+              "column": 24,
               "line": 24,
-              "column": 24
+              "offset": 370
+            },
+            "start": {
+              "column": 3,
+              "line": 24,
+              "offset": 349
             }
           },
           "selector": "*"
@@ -442,15 +442,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 375,
-          "line": 27,
-          "column": 1
-        },
         "end": {
-          "offset": 427,
+          "column": 1,
           "line": 29,
-          "column": 1
+          "offset": 427
+        },
+        "start": {
+          "column": 1,
+          "line": 27,
+          "offset": 375
         }
       },
       "params": "([color: red])",
@@ -471,15 +471,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 408,
-                  "line": 28,
-                  "column": 7
-                },
                 "end": {
-                  "offset": 423,
+                  "column": 22,
                   "line": 28,
-                  "column": 22
+                  "offset": 423
+                },
+                "start": {
+                  "column": 7,
+                  "line": 28,
+                  "offset": 408
                 }
               },
               "prop": "background",
@@ -487,15 +487,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 404,
-              "line": 28,
-              "column": 3
-            },
             "end": {
-              "offset": 425,
+              "column": 24,
               "line": 28,
-              "column": 24
+              "offset": 425
+            },
+            "start": {
+              "column": 3,
+              "line": 28,
+              "offset": 404
             }
           },
           "selector": "*"
@@ -513,15 +513,15 @@
       "type": "atrule",
       "name": "supports",
       "source": {
-        "start": {
-          "offset": 430,
-          "line": 31,
-          "column": 1
-        },
         "end": {
-          "offset": 506,
+          "column": 1,
           "line": 33,
-          "column": 1
+          "offset": 506
+        },
+        "start": {
+          "column": 1,
+          "line": 31,
+          "offset": 430
         }
       },
       "params": "([[[[[{ --func(color: { red }) }]]]]])",
@@ -542,15 +542,15 @@
               },
               "type": "decl",
               "source": {
-                "start": {
-                  "offset": 487,
-                  "line": 32,
-                  "column": 7
-                },
                 "end": {
-                  "offset": 502,
+                  "column": 22,
                   "line": 32,
-                  "column": 22
+                  "offset": 502
+                },
+                "start": {
+                  "column": 7,
+                  "line": 32,
+                  "offset": 487
                 }
               },
               "prop": "background",
@@ -558,15 +558,15 @@
             }
           ],
           "source": {
-            "start": {
-              "offset": 483,
-              "line": 32,
-              "column": 3
-            },
             "end": {
-              "offset": 504,
+              "column": 24,
               "line": 32,
-              "column": 24
+              "offset": 504
+            },
+            "start": {
+              "column": 3,
+              "line": 32,
+              "offset": 483
             }
           },
           "selector": "*"
@@ -575,15 +575,15 @@
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 2,
       "line": 33,
       "offset": 507
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

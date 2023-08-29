@@ -14,30 +14,30 @@
       "type": "atrule",
       "name": "charset",
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 16,
+          "column": 17,
           "line": 1,
-          "column": 17
+          "offset": 16
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "params": "\"UTF-8\""
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 18,
       "line": 1,
       "offset": 17
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

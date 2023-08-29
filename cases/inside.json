@@ -23,45 +23,45 @@
           "type": "atrule",
           "name": "import",
           "source": {
-            "start": {
-              "offset": 4,
-              "line": 1,
-              "column": 5
-            },
             "end": {
-              "offset": 18,
+              "column": 19,
               "line": 1,
-              "column": 19
+              "offset": 18
+            },
+            "start": {
+              "column": 5,
+              "line": 1,
+              "offset": 4
             }
           },
           "params": "\"a.css\""
         }
       ],
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 20,
+          "column": 21,
           "line": 1,
-          "column": 21
+          "offset": 20
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "selector": "a"
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 22,
       "line": 1,
       "offset": 21
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }

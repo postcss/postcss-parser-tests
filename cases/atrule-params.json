@@ -15,15 +15,15 @@
       "type": "atrule",
       "name": "-moz-document",
       "source": {
-        "start": {
-          "offset": 0,
-          "line": 1,
-          "column": 1
-        },
         "end": {
-          "offset": 68,
+          "column": 69,
           "line": 1,
-          "column": 69
+          "offset": 68
+        },
+        "start": {
+          "column": 1,
+          "line": 1,
+          "offset": 0
         }
       },
       "params": "url(\"example.com/{\")",
@@ -31,15 +31,15 @@
     }
   ],
   "source": {
-    "start": {
-      "offset": 0,
-      "line": 1,
-      "column": 1
-    },
     "end": {
       "column": 70,
       "line": 1,
       "offset": 69
+    },
+    "start": {
+      "column": 1,
+      "line": 1,
+      "offset": 0
     }
   }
 }
