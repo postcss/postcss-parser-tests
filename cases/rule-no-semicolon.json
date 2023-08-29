@@ -24,7 +24,7 @@
             "end": {
               "column": 13,
               "line": 1,
-              "offset": 12
+              "offset": 13
             },
             "start": {
               "column": 3,
@@ -40,7 +40,7 @@
         "end": {
           "column": 14,
           "line": 1,
-          "offset": 13
+          "offset": 14
         },
         "start": {
           "column": 1,

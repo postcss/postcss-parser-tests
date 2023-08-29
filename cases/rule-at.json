@@ -24,7 +24,7 @@
             "end": {
               "column": 16,
               "line": 2,
-              "offset": 19
+              "offset": 20
             },
             "start": {
               "column": 5,
@@ -45,7 +45,7 @@
             "end": {
               "column": 21,
               "line": 3,
-              "offset": 41
+              "offset": 42
             },
             "start": {
               "column": 5,
@@ -70,7 +70,7 @@
             "end": {
               "column": 5,
               "line": 6,
-              "offset": 90
+              "offset": 91
             },
             "start": {
               "column": 5,
@@ -90,7 +90,7 @@
                 "end": {
                   "column": 22,
                   "line": 5,
-                  "offset": 84
+                  "offset": 85
                 },
                 "start": {
                   "column": 9,
@@ -108,7 +108,7 @@
         "end": {
           "column": 1,
           "line": 7,
-          "offset": 92
+          "offset": 93
         },
         "start": {
           "column": 1,
