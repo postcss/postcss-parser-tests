@@ -2,6 +2,9 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.8
+* Update `offset` according to fix in `postcss` (by Ido Rosenthal).
+
 ## 8.7
 * Moved `jsonify()` from `string` to `object`.
 * Moved `eachTest()`from `string` to `object` in `json` argument.
