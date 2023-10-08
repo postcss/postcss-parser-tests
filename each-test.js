@@ -1,5 +1,5 @@
-let { readdirSync, readFileSync } = require('fs')
-let { basename, extname, join } = require('path')
+let { readdirSync, readFileSync } = require('node:fs')
+let { basename, extname, join } = require('node:path')
 
 let extra = require('./extra-cases')
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-let path = require('path')
-let fs = require('fs')
+let path = require('node:path')
+let fs = require('node:fs')
 
 let postcss = require('../../postcss/lib/postcss')
 let jsonify = require('../jsonify')

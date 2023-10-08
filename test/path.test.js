@@ -1,5 +1,5 @@
 let { equal } = require('uvu/assert')
-let { join } = require('path')
+let { join } = require('node:path')
 let { test } = require('uvu')
 
 let { testPath } = require('../')
