@@ -129,9 +129,9 @@
       ],
       "source": {
         "end": {
-          "column": 7,
+          "column": 8,
           "line": 7,
-          "offset": 52
+          "offset": 53
         },
         "start": {
           "column": 1,
