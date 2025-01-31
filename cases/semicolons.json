@@ -1,6 +1,6 @@
 {
   "raws": {
-    "semicolon": false,
+    "semicolon": true,
     "after": ""
   },
   "type": "root",
@@ -49,13 +49,147 @@
         }
       },
       "selector": "a"
+    },
+    {
+      "raws": {
+        "before": "\n\n",
+        "between": "",
+        "semicolon": true,
+        "after": ""
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "end": {
+              "column": 8,
+              "line": 6,
+              "offset": 43
+            },
+            "start": {
+              "column": 5,
+              "line": 6,
+              "offset": 39
+            }
+          },
+          "prop": "b",
+          "value": "c"
+        }
+      ],
+      "source": {
+        "end": {
+          "column": 9,
+          "line": 6,
+          "offset": 44
+        },
+        "start": {
+          "column": 1,
+          "line": 6,
+          "offset": 35
+        }
+      },
+      "selector": "aaa"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "semicolon": false,
+        "after": "",
+        "ownSemicolon": ";"
+      },
+      "type": "rule",
+      "nodes": [
+        {
+          "raws": {
+            "before": "",
+            "between": ":"
+          },
+          "type": "decl",
+          "source": {
+            "end": {
+              "column": 6,
+              "line": 7,
+              "offset": 51
+            },
+            "start": {
+              "column": 3,
+              "line": 7,
+              "offset": 47
+            }
+          },
+          "prop": "b",
+          "value": "cc"
+        }
+      ],
+      "source": {
+        "end": {
+          "column": 7,
+          "line": 7,
+          "offset": 52
+        },
+        "start": {
+          "column": 1,
+          "line": 7,
+          "offset": 45
+        }
+      },
+      "selector": "a"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "between": "",
+        "afterName": " "
+      },
+      "type": "atrule",
+      "name": "a",
+      "source": {
+        "end": {
+          "column": 8,
+          "line": 8,
+          "offset": 62
+        },
+        "start": {
+          "column": 1,
+          "line": 8,
+          "offset": 54
+        }
+      },
+      "params": "bbbb"
+    },
+    {
+      "raws": {
+        "before": "\n",
+        "left": "     ",
+        "right": " "
+      },
+      "type": "comment",
+      "source": {
+        "end": {
+          "column": 11,
+          "line": 9,
+          "offset": 74
+        },
+        "start": {
+          "column": 1,
+          "line": 9,
+          "offset": 63
+        }
+      },
+      "text": "^"
     }
   ],
   "source": {
     "end": {
-      "column": 2,
-      "line": 4,
-      "offset": 33
+      "column": 12,
+      "line": 9,
+      "offset": 74
     },
     "start": {
       "column": 1,

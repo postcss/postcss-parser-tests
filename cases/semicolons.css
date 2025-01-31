@@ -2,3 +2,8 @@ a {;;
     color: black;
     ; ;
 }
+
+aaa{b:c;}
+a{b:cc};
+@a bbbb;
+/*     ^ */
