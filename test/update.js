@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 
-let path = require('node:path')
 let fs = require('node:fs')
+let path = require('node:path')
 
 let postcss = require('../../postcss/lib/postcss')
-let jsonify = require('../jsonify')
 let extra = require('../extra-cases')
+let jsonify = require('../jsonify')
 
 let cases = path.join(__dirname, '..', 'cases')
 

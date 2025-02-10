@@ -1,6 +1,6 @@
 let https = require('node:https')
-let pico = require('picocolors')
 let zlib = require('node:zlib')
+let pico = require('picocolors')
 
 function showError(url, message) {
   process.stderr.write(
