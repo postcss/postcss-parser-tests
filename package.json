@@ -8,7 +8,7 @@
     "css",
     "tests"
   ],
-  "author": "Andrey Sitnik <andrey@sitnik.ru>",
+  "author": "Andrey Sitnik <andrey@sitnik.es>",
   "license": "MIT",
   "repository": "postcss/postcss-parser-tests",
   "scripts": {
