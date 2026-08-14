@@ -2,5 +2,5 @@ import loguxOxfmtConfig from '@logux/oxc-configs/fmt'
 
 export default {
   ...loguxOxfmtConfig,
-  ignorePatterns: ['cases/**/*']
+  ignorePatterns: ['cases/**/*.css']
 }

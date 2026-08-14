@@ -4,4 +4,3 @@ import { defineConfig } from 'oxlint'
 export default defineConfig({
   extends: [loguxOxlintConfig]
 })
-
