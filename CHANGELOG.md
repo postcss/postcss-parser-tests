@@ -3,6 +3,10 @@
 This project uses major version number for PostCSS,
 minor for adding/removing tests, and patch for fixes.
 
+## 8.10.0
+
+- Updated `offset` according to fix in `postcss` (by @maximilliangrand).
+
 ## 8.9.0
 
 - Added more rules with semicolon cases (by @romainmenke).
