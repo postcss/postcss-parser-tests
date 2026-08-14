@@ -1,12 +1,12 @@
+let { deepStrictEqual } = require('node:assert')
+let { test } = require('node:test')
 let postcss = require('postcss')
-let { test } = require('uvu')
-let { equal } = require('uvu/assert')
 
 let jsonify = require('../jsonify')
 
 test('converts to JSON string', () => {
   let node = postcss.rule()
-  equal(jsonify(node), { nodes: [], raws: {}, type: 'rule' })
+  deepStrictEqual(jsonify(node), { nodes: [], raws: {}, type: 'rule' })
 })
 
 test('converts source.input', () => {
@@ -16,7 +16,7 @@ test('converts source.input', () => {
     }
   })
   node.each(() => {})
-  equal(jsonify(node), {
+  deepStrictEqual(jsonify(node), {
     nodes: [],
     raws: {},
     source: {},
@@ -43,7 +43,7 @@ test('converts source.input recursively', () => {
   let root = postcss.root()
   root.append(rule)
 
-  equal(jsonify(root), {
+  deepStrictEqual(jsonify(root), {
     nodes: [
       {
         nodes: [],
@@ -67,5 +67,3 @@ test('converts source.input recursively', () => {
     type: 'root'
   })
 })
-
-test.run()

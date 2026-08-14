@@ -6,13 +6,12 @@
 
 This project contains base tests for every [PostCSS] CSS parser, including:
 
-* 24 CSS files to test extreme cases of the CSS specification.
-* Integration tests by popular website styles to test CSS from the wild.
+- 24 CSS files to test extreme cases of the CSS specification.
+- Integration tests by popular website styles to test CSS from the wild.
 
 These tests are useful for any CSS parser, not just parsers within the PostCSS ecosystem.
 
 [PostCSS]: https://github.com/postcss/postcss
-
 
 ## Cases
 
@@ -36,7 +35,6 @@ If you create a non-PostCSS parser, just compare if the input CSS is equal to th
 
 You can also get the path to some specific test cases using the `cases.path(name)` method.
 
-
 ## Integration
 
 Integration tests are packed into a Gulp task:
@@ -55,9 +53,10 @@ and output CSS.
 You can add extra sites using an optional third argument:
 
 ```js
-cases.real(css => {
-  return parser(css).toResult({ map: { annotation: false } })
-}, [
-  'http://browserhacks.com/'
-])
+cases.real(
+  css => {
+    return parser(css).toResult({ map: { annotation: false } })
+  },
+  ['http://browserhacks.com/']
+)
 ```

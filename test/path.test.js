@@ -1,11 +1,9 @@
+let { deepStrictEqual } = require('node:assert')
 let { join } = require('node:path')
-let { test } = require('uvu')
-let { equal } = require('uvu/assert')
+let { test } = require('node:test')
 
 let { testPath } = require('../')
 
 test('returns path', () => {
-  equal(testPath('tab.css'), join(__dirname, '../cases/tab.css'))
+  deepStrictEqual(testPath('tab.css'), join(__dirname, '../cases/tab.css'))
 })
-
-test.run()

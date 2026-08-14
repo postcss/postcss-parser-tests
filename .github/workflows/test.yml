@@ -12,17 +12,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
-        uses: actions/checkout@v4
-      - name: Install pnpm
-        uses: pnpm/action-setup@v4
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
-          version: 10
-      - name: Install Node.js
-        uses: actions/setup-node@v4
+          persist-credentials: false
+      - name: Install Node.js & pnpm
+        uses: pnpm/setup@c9883cc79df532ad1a7b81bf9ab944ceb090d65c # v2.0.0
         with:
-          node-version: 22
-          cache: pnpm
-      - name: Install all dependencies
-        run: pnpm install --frozen-lockfile --ignore-scripts
+          version: 11
+          runtime: node@26
+      - name: Install dependencies
+        run: pnpm ci
       - name: Run tests
         run: pnpm test

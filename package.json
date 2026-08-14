@@ -3,19 +3,14 @@
   "version": "8.9.0",
   "description": "Base tests for every PostCSS CSS parser",
   "keywords": [
-    "postcss",
-    "parser",
     "css",
+    "parser",
+    "postcss",
     "tests"
   ],
-  "author": "Andrey Sitnik <andrey@sitnik.es>",
   "license": "MIT",
+  "author": "Andrey Sitnik <andrey@sitnik.es>",
   "repository": "postcss/postcss-parser-tests",
-  "scripts": {
-    "test:lint": "eslint .",
-    "test:unit": "uvu . '\\.test\\.(ts|js)$'",
-    "test": "pnpm run /^test:/"
-  },
   "funding": [
     {
       "type": "opencollective",
@@ -26,9 +21,6 @@
       "url": "https://github.com/sponsors/ai"
     }
   ],
-  "dependencies": {
-    "picocolors": "^1.1.1"
-  },
   "exports": {
     ".": {
       "require": "./index.js",
@@ -36,20 +28,21 @@
     },
     "./package.json": "./package.json"
   },
-  "devDependencies": {
-    "@logux/eslint-config": "^53.5.1",
-    "clean-publish": "^5.1.0",
-    "eslint": "^9.20.0",
-    "postcss": "^8.5.1",
-    "typescript": "^5.7.3",
-    "uvu": "^0.5.6"
+  "scripts": {
+    "test:lint": "oxlint .",
+    "test:unit": "bnt",
+    "test": "pnpm run /^test:/"
   },
-  "prettier": {
-    "arrowParens": "avoid",
-    "jsxSingleQuote": false,
-    "quoteProps": "consistent",
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "none"
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  },
+  "devDependencies": {
+    "@logux/oxc-configs": "^1.1.0",
+    "better-node-test": "^1.0.0",
+    "eslint-plugin-prefer-let": "^4.2.2",
+    "oxlint": "^1.78.0",
+    "oxlint-tsgolint": "^7.0.2001",
+    "postcss": "^8.5.26",
+    "typescript": "^7.0.2"
   }
 }
