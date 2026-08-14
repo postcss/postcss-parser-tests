@@ -11,6 +11,12 @@ This project contains base tests for every [PostCSS] CSS parser, including:
 
 These tests are useful for any CSS parser, not just parsers within the PostCSS ecosystem.
 
+---
+
+<img src="https://cdn.evilmartians.com/badges/logo-no-label.svg" alt="" width="22" height="16" />  PostCSS Parser Tests is built by <b><a href="https://evilmartians.com/">Evil Martians</a></b>, an American design and engineering consultancy for <b>developer tools, AI, and cybersecurity startups</b>.
+
+---
+
 [PostCSS]: https://github.com/postcss/postcss
 
 ## Cases
