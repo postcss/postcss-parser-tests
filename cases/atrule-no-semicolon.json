@@ -38,6 +38,11 @@
           "type": "atrule",
           "name": "content",
           "source": {
+            "end": {
+              "column": 23,
+              "line": 1,
+              "offset": 23
+            },
             "start": {
               "column": 16,
               "line": 1,
